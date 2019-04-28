@@ -1,73 +1,73 @@
 {
     "indexs": [
-        "癌胚抗原CEA(发光)",
-        "甲胎蛋白AFP(发光)",
-        "糖类抗原125(CA125)(发光)",
-        "游离前列腺特异性抗原（F-PSA）",
-        "糖类抗原19-9(CA19-9)",
-        "总前列腺特异性抗原（T-PSA）",
+        "CEA",
+        "AFP",
+        "CA125",
+        "F-PSA",
+        "CA199",
+        "T-PSA",
         "F-PSA/T-PSA",
-        "糖类抗原15-3(CA15-3)",
-        "细胞角蛋白19片段(Cyfra 21-1)",
-        "鳞状细胞相关抗原(SCC)",
-        "糖类抗原242",
-        "糖类抗原72-4(CA72-4)",
-        "铁蛋白(FER)",
-        "胃泌素-17",
-        "胃蛋白酶原II测定",
-        "胃蛋白酶原I测定",
-        "胃蛋白酶原I/胃蛋白酶原II测定",
-        "糖类抗原50(CA50)",
-        "神经元特异性烯醇化酶(NSE)",
-        "前列腺特异性抗原",
-        "恶性肿瘤特异性生长因子",
-        "肿瘤坏死因子",
-        "干扰素",
-        "早期肿瘤筛查(液态芯片)",
-        "甲胎蛋白(AFP)(定性)",
-        "癌胚抗原(CEA)(定性)",
-        "血清α-L-岩藻糖苷酶",
-        "胃泌素释放钛前体[ProGRP]",
-        "血清人绒毛膜促性腺激素(β-HCG）",
-        "降钙素(CT)",
-        "血清铁离子",
-        "不饱和铁结合能力(UIBC)",
-        "膀胱瘤（NMP22）",
-        "附睾蛋白4",
-        "EB病毒抗体IgM"
+        "CA153",
+        "CYF211",
+        "SCC",
+        "CA242",
+        "CA724",
+        "FER",
+        "F17",
+        "PGII",
+        "PGI",
+        "PGI/PGII",
+        "CA50",
+        "NSE",
+        "PSA",
+        "TSGF",
+        "TNF",
+        "IFN",
+        "ECS",
+        "AFP-R",
+        "CEA-R",
+        "AFU",
+        "ProGRP",
+        "β-HCG",
+        "CT",
+        "FIO",
+        "UIBC",
+        "NMP22",
+        "HE4",
+        "EB-IgM"
     ],
     "mapping": [
         {
             "reportName": "癌胚抗原CEA(发光)",
-            "scientificName": "癌胚抗原CEA(发光)"
+            "scientificName": "CEA"
         },
         {
             "reportName": "甲胎蛋白AFP(发光)",
-            "scientificName": "甲胎蛋白AFP(发光)"
+            "scientificName": "AFP"
         },
         {
             "reportName": "糖类抗原125(CA125)(发光)",
-            "scientificName": "糖类抗原125(CA125)(发光)"
+            "scientificName": "CA125"
         },
         {
             "reportName": "癌胚抗原（CEA）",
-            "scientificName": "癌胚抗原CEA(发光)"
+            "scientificName": "CEA"
         },
         {
             "reportName": "游离前列腺特异性抗原（F-PSA）",
-            "scientificName": "游离前列腺特异性抗原（F-PSA）"
+            "scientificName": "F-PSA"
         },
         {
             "reportName": "糖类抗原19-9(CA19-9)",
-            "scientificName": "糖类抗原19-9(CA19-9)"
+            "scientificName": "CA199"
         },
         {
             "reportName": "甲胎蛋白(AFP)",
-            "scientificName": "甲胎蛋白AFP(发光)"
+            "scientificName": "AFP"
         },
         {
             "reportName": "总前列腺特异性抗原（T-PSA）",
-            "scientificName": "总前列腺特异性抗原（T-PSA）"
+            "scientificName": "T-PSA"
         },
         {
             "reportName": "F-PSA/T-PSA",
@@ -75,323 +75,323 @@
         },
         {
             "reportName": "糖类抗原15-3(CA15-3)",
-            "scientificName": "糖类抗原15-3(CA15-3)"
+            "scientificName": "CA153"
         },
         {
             "reportName": "糖类抗原12-5(CA125)",
-            "scientificName": "糖类抗原125(CA125)(发光)"
+            "scientificName": "CA125"
         },
         {
             "reportName": "细胞角蛋白19片段(Cyfra 21-1)",
-            "scientificName": "细胞角蛋白19片段(Cyfra 21-1)"
+            "scientificName": "CYF211"
         },
         {
             "reportName": "鳞状细胞相关抗原(SCC)",
-            "scientificName": "鳞状细胞相关抗原(SCC)"
+            "scientificName": "SCC"
         },
         {
             "reportName": "糖类抗原242",
-            "scientificName": "糖类抗原242"
+            "scientificName": "CA242"
         },
         {
             "reportName": "糖类抗原72-4(CA72-4)",
-            "scientificName": "糖类抗原72-4(CA72-4)"
+            "scientificName": "CA724"
         },
         {
             "reportName": "铁蛋白(FER)",
-            "scientificName": "铁蛋白(FER)"
+            "scientificName": "FER"
         },
         {
             "reportName": "游离前列腺特异性抗原(F-PSA)(发光)",
-            "scientificName": "游离前列腺特异性抗原（F-PSA）"
+            "scientificName": "F-PSA"
         },
         {
             "reportName": "胃泌素-17",
-            "scientificName": "胃泌素-17"
+            "scientificName": "G17"
         },
         {
             "reportName": "胃蛋白酶原II测定",
-            "scientificName": "胃蛋白酶原II测定"
+            "scientificName": "PGII"
         },
         {
             "reportName": "胃蛋白酶原I测定",
-            "scientificName": "胃蛋白酶原I测定"
+            "scientificName": "PGI"
         },
         {
             "reportName": "胃蛋白酶原I/胃蛋白酶原II测定",
-            "scientificName": "胃蛋白酶原I/胃蛋白酶原II测定"
+            "scientificName": "PGI/PGII"
         },
         {
             "reportName": "甲胎蛋白定量(AFP)",
-            "scientificName": "甲胎蛋白AFP(发光)"
+            "scientificName": "AFP"
         },
         {
             "reportName": "胃蛋白酶原I[PGI]",
-            "scientificName": "胃蛋白酶原I测定"
+            "scientificName": "PGI"
         },
         {
             "reportName": "胃蛋白酶原II[PGII]",
-            "scientificName": "胃蛋白酶原II测定"
+            "scientificName": "PGII"
         },
         {
             "reportName": "胃蛋白酶原I/胃蛋白酶原II[PGI/PGII]",
-            "scientificName": "胃蛋白酶原I/胃蛋白酶原II测定"
+            "scientificName": "PGI/PGII"
         },
         {
             "reportName": "铁蛋白",
-            "scientificName": "铁蛋白(FER)"
+            "scientificName": "FER"
         },
         {
             "reportName": "胃泌素(gastrin)",
-            "scientificName": "胃泌素-17"
+            "scientificName": "G17"
         },
         {
             "reportName": "糖类抗原50(CA50)",
-            "scientificName": "糖类抗原50(CA50)"
+            "scientificName": "CA50"
         },
         {
             "reportName": "鳞状细胞癌相关抗原(SCC)",
-            "scientificName": "鳞状细胞相关抗原(SCC)"
+            "scientificName": "SCC"
         },
         {
             "reportName": "胃泌素",
-            "scientificName": "胃泌素-17"
+            "scientificName": "G17"
         },
         {
             "reportName": "神经元特异性烯醇化酶(NSE)",
-            "scientificName": "神经元特异性烯醇化酶(NSE)"
+            "scientificName": "NSE"
         },
         {
             "reportName": "糖类抗原(CA15-3)(发光)",
-            "scientificName": "糖类抗原15-3(CA15-3)"
+            "scientificName": "CA153"
         },
         {
             "reportName": "前列腺特异性抗原(T-PSA)(发光)",
-            "scientificName": "总前列腺特异性抗原（T-PSA）"
+            "scientificName": "T-PSA"
         },
         {
             "reportName": "糖类抗原(CA125)(发光)",
-            "scientificName": "糖类抗原125(CA125)(发光)"
+            "scientificName": "CA125"
         },
         {
             "reportName": "糖类抗原(CA724)(发光)",
-            "scientificName": "糖类抗原72-4(CA72-4)"
+            "scientificName": "CA724"
         },
         {
             "reportName": "糖类抗原(CA19-9)(发光)",
-            "scientificName": "糖类抗原19-9(CA19-9)"
+            "scientificName": "CA199"
         },
         {
             "reportName": "细胞角蛋白片段(CYF21-1)(发光)",
-            "scientificName": "细胞角蛋白19片段(Cyfra 21-1)"
+            "scientificName": "CYF211"
         },
         {
             "reportName": "神经元特异性烯醇化酶(NSE)(发光)",
-            "scientificName": "神经元特异性烯醇化酶(NSE)"
+            "scientificName": "NSE"
         },
         {
             "reportName": "糖链抗原19-9",
-            "scientificName": "糖类抗原19-9(CA19-9)"
+            "scientificName": "CA199"
         },
         {
             "reportName": "癌胚抗原(CEA)",
-            "scientificName": "癌胚抗原CEA(发光)"
+            "scientificName": "CEA"
         },
         {
             "reportName": "糖链抗原125",
-            "scientificName": "糖类抗原125(CA125)(发光)"
+            "scientificName": "CA125"
         },
         {
             "reportName": "糖链抗原50",
-            "scientificName": "糖类抗原50(CA50)"
+            "scientificName": "CA50"
         },
         {
             "reportName": "糖链抗原242",
-            "scientificName": "糖类抗原242"
+            "scientificName": "CA242"
         },
         {
             "reportName": "糖链抗原724",
-            "scientificName": "糖类抗原72-4(CA72-4)"
+            "scientificName": "CA724"
         },
         {
             "reportName": "游离前列腺特异性抗原",
-            "scientificName": "游离前列腺特异性抗原（F-PSA）"
+            "scientificName": "F-PSA"
         },
         {
             "reportName": "总前列腺特异性抗原",
-            "scientificName": "总前列腺特异性抗原（T-PSA）"
+            "scientificName": "T-PSA"
         },
         {
             "reportName": "前列腺特异性抗原",
-            "scientificName": "前列腺特异性抗原"
+            "scientificName": "PSA"
         },
         {
             "reportName": "鳞状细胞癌相关抗原",
-            "scientificName": "鳞状细胞相关抗原(SCC)"
+            "scientificName": "SCC"
         },
         {
             "reportName": "CYFRA21-1",
-            "scientificName": "细胞角蛋白19片段(Cyfra 21-1)"
+            "scientificName": "CYF211"
         },
         {
             "reportName": "神经原特异性烯醇化酶",
-            "scientificName": "神经元特异性烯醇化酶(NSE)"
+            "scientificName": "NSE"
         },
         {
             "reportName": "恶性肿瘤特异性生长因子",
-            "scientificName": "恶性肿瘤特异性生长因子"
+            "scientificName": "TSGF"
         },
         {
             "reportName": "肿瘤坏死因子",
-            "scientificName": "肿瘤坏死因子"
+            "scientificName": "TNF"
         },
         {
             "reportName": "干扰素",
-            "scientificName": "干扰素"
+            "scientificName": "IFN"
         },
         {
             "reportName": "早期肿瘤筛查(液态芯片)",
-            "scientificName": "早期肿瘤筛查(液态芯片)"
+            "scientificName": "ECS"
         },
         {
             "reportName": "甲胎蛋白(AFP)(定性)",
-            "scientificName": "甲胎蛋白(AFP)(定性)"
+            "scientificName": "AFP-R"
         },
         {
             "reportName": "癌胚抗原(CEA)(定性)",
-            "scientificName": "癌胚抗原(CEA)(定性)"
+            "scientificName": "CEA-R"
         },
         {
             "reportName": "糖链抗原15-3",
-            "scientificName": "糖类抗原15-3(CA15-3)"
+            "scientificName": "CA153"
         },
         {
             "reportName": "肿瘤特异生长因子（TSGF）",
-            "scientificName": "恶性肿瘤特异性生长因子"
+            "scientificName": "TSGF"
         },
         {
             "reportName": "肿瘤特异生长因子(TSGF)",
-            "scientificName": "恶性肿瘤特异性生长因子"
+            "scientificName": "TSGF"
         },
         {
             "reportName": "糖类抗原(CA242)",
-            "scientificName": "糖类抗原242"
+            "scientificName": "CA242"
         },
         {
             "reportName": "胃蛋白酶原I(PG-I)",
-            "scientificName": "胃蛋白酶原I测定"
+            "scientificName": "PGI"
         },
         {
             "reportName": "PG-I/PG-Ⅱ",
-            "scientificName": "胃蛋白酶原I/胃蛋白酶原II测定"
+            "scientificName": "PGI/PGII"
         },
         {
             "reportName": "胃蛋白酶原II(PG-II)",
-            "scientificName": "胃蛋白酶原II测定"
+            "scientificName": "PGII"
         },
         {
             "reportName": "糖类抗原(CA50)",
-            "scientificName": "糖类抗原50(CA50)"
+            "scientificName": "CA50"
         },
         {
             "reportName": "胃蛋白酶原II（PG-II）",
-            "scientificName": "胃蛋白酶原II测定"
+            "scientificName": "PGII"
         },
         {
             "reportName": "血清α-L-岩藻糖苷酶",
-            "scientificName": "血清α-L-岩藻糖苷酶"
+            "scientificName": "AFU"
         },
         {
             "reportName": "胃泌素释放钛前体[ProGRP]",
-            "scientificName": "胃泌素释放钛前体[ProGRP]"
+            "scientificName": "ProGRP"
         },
         {
             "reportName": "甲胎蛋白[AFP]",
-            "scientificName": "甲胎蛋白AFP(发光)"
+            "scientificName": "AFP"
         },
         {
             "reportName": "血清人绒毛膜促性腺激素(β-HCG）",
-            "scientificName": "血清人绒毛膜促性腺激素(β-HCG）"
+            "scientificName": "β-HCG"
         },
         {
             "reportName": "人绒毛膜促性腺激素(β-HCG)",
-            "scientificName": "血清人绒毛膜促性腺激素(β-HCG）"
+            "scientificName": "β-HCG"
         },
         {
             "reportName": "降钙素(CT)",
-            "scientificName": "降钙素(CT)"
+            "scientificName": "CT"
         },
         {
             "reportName": "血清铁离子",
-            "scientificName": "血清铁离子"
+            "scientificName": "FIO"
         },
         {
             "reportName": "不饱和铁结合能力(UIBC)",
-            "scientificName": "不饱和铁结合能力(UIBC)"
+            "scientificName": "UIBC"
         },
         {
             "reportName": "膀胱瘤（NMP22）",
-            "scientificName": "膀胱瘤（NMP22）"
+            "scientificName": "NMP22"
         },
         {
             "reportName": "附睾蛋白4",
-            "scientificName": "附睾蛋白4"
+            "scientificName": "HE4"
         },
         {
             "reportName": "糖类抗原19-9",
-            "scientificName": "糖类抗原19-9(CA19-9)"
+            "scientificName": "CA199"
         },
         {
             "reportName": "神经元特异性烯醇化酶",
-            "scientificName": "神经元特异性烯醇化酶(NSE)"
+            "scientificName": "NSE"
         },
         {
             "reportName": "肿瘤相关抗原242(CA242)",
-            "scientificName": "糖类抗原242"
+            "scientificName": "CA242"
         },
         {
             "reportName": "肿瘤相关抗原724(CA724)(发光)",
-            "scientificName": "糖类抗原72-4(CA72-4)"
+            "scientificName": "CA724"
         },
         {
             "reportName": "a-岩藻糖苷酶(AFU)",
-            "scientificName": "血清α-L-岩藻糖苷酶"
+            "scientificName": "AFU"
         },
         {
             "reportName": "肿瘤相关抗原125(CA125)(发光)",
-            "scientificName": "糖类抗原125(CA125)(发光)"
+            "scientificName": "CA125"
         },
         {
             "reportName": "甲胎蛋白(发光)",
-            "scientificName": "甲胎蛋白AFP(发光)"
+            "scientificName": "AFP"
         },
         {
             "reportName": "癌胚抗原(发光)",
-            "scientificName": "癌胚抗原CEA(发光)"
+            "scientificName": "CEA"
         },
         {
             "reportName": "EB病毒抗体IgM",
-            "scientificName": "EB病毒抗体IgM"
+            "scientificName": "EB-IgM"
         },
         {
             "reportName": "糖类抗原CA50)",
-            "scientificName": "糖类抗原50(CA50)"
+            "scientificName": "CA50"
         },
         {
             "reportName": "肿瘤相关抗原19-9(CA19-9)(发光)",
-            "scientificName": "糖类抗原19-9(CA19-9)"
+            "scientificName": "CA199"
         },
         {
             "reportName": "肿瘤相关抗原15-3(CA15-3)(发光)",
-            "scientificName": "糖类抗原15-3(CA15-3)"
+            "scientificName": "CA153"
         },
         {
             "reportName": "肿瘤相关抗原50(CA50)(发光)",
-            "scientificName": "糖类抗原50(CA50)"
+            "scientificName": "CA50"
         },
         {
             "reportName": "降钙素原(CT)",
-            "scientificName": "降钙素(CT)"
+            "scientificName": "CT"
         }
     ]
 }

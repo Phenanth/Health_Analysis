@@ -1,150 +1,150 @@
 {
     "indexs": [
-        "脉搏",
-        "体重",
-        "身高",
-        "复测血压(收缩压)",
-        "体重指数",
-        "复测血压(舒张压)",
-        "体检血压(收缩压)",
-        "体检血压(舒张压)",
-        "复测血压2(舒张压)",
-        "复测血压2(收缩压)",
-        "腰围(男)",
-        "臀围",
-        "腰臀比",
-        "体温",
-        "呼吸",
-        "营养",
-        "发育",
-        "体脂肪量",
-        "体脂肪率",
-        "体水分率",
-        "基础代谢",
-        "腹壁脂肪测定",
-        "营养体脂测定",
-        "腰围(女)"
+        "PLS",
+        "WGT",
+        "HGT",
+        "SBP-R",
+        "BMI",
+        "DBP-R",
+        "DBP",
+        "SBP",
+        "DBP-R2",
+        "SBP-R2",
+        "WST-M",
+        "BUT",
+        "W/B",
+        "BT",
+        "BRT",
+        "NTR",
+        "DEV",
+        "BF",
+        "BFR",
+        "BWR",
+        "MTB",
+        "Be-F",
+        "NTF",
+        "WST-F"
     ],
     "mapping": [
         {
             "reportName": "脉搏",
-            "scientificName": "脉搏"
+            "scientificName": "PLS"
         },
         {
             "reportName": "体重",
-            "scientificName": "体重"
+            "scientificName": "WGT"
         },
         {
             "reportName": "身高",
-            "scientificName": "身高"
+            "scientificName": "HGT"
         },
         {
             "reportName": "复测血压(收缩压)",
-            "scientificName": "复测血压(收缩压)"
+            "scientificName": "SBP-R"
         },
         {
             "reportName": "体重指数",
-            "scientificName": "体重指数"
+            "scientificName": "BMI"
         },
         {
             "reportName": "复测血压(舒张压)",
-            "scientificName": "复测血压(舒张压)"
+            "scientificName": "DBP-R"
         },
         {
             "reportName": "体检血压(收缩压)",
-            "scientificName": "体检血压(收缩压)"
+            "scientificName": "SBP"
         },
         {
             "reportName": "体检血压(舒张压)",
-            "scientificName": "体检血压(舒张压)"
+            "scientificName": "DBP"
         },
         {
             "reportName": "舒张压",
-            "scientificName": "体检血压(舒张压)"
+            "scientificName": "DBP"
         },
         {
             "reportName": "收缩压",
-            "scientificName": "体检血压(收缩压)"
+            "scientificName": "SBP"
         },
         {
             "reportName": "复测血压2(舒张压)",
-            "scientificName": "复测血压2(舒张压)"
+            "scientificName": "DBP-R2"
         },
         {
             "reportName": "复测血压2(收缩压)",
-            "scientificName": "复测血压2(收缩压)"
+            "scientificName": "SBP-R2"
         },
         {
             "reportName": "腰围(男)",
-            "scientificName": "腰围(男)"
+            "scientificName": "WST-M"
         },
         {
             "reportName": "臀围",
-            "scientificName": "臀围"
+            "scientificName": "BUT"
         },
         {
             "reportName": "臀围(男)",
-            "scientificName": "臀围"
+            "scientificName": "BUT"
         },
         {
             "reportName": "腰臀比",
-            "scientificName": "腰臀比"
+            "scientificName": "W/B"
         },
         {
             "reportName": "腰臀比(男)",
-            "scientificName": "腰臀比"
+            "scientificName": "W/B"
         },
         {
             "reportName": "体温",
-            "scientificName": "体温"
+            "scientificName": "BT"
         },
         {
             "reportName": "呼吸",
-            "scientificName": "呼吸"
+            "scientificName": "BRT"
         },
         {
             "reportName": "营养",
-            "scientificName": "营养"
+            "scientificName": "NTR"
         },
         {
             "reportName": "发育",
-            "scientificName": "发育"
+            "scientificName": "DEV"
         },
         {
             "reportName": "体脂肪量",
-            "scientificName": "体脂肪量"
+            "scientificName": "BF"
         },
         {
             "reportName": "体脂肪率",
-            "scientificName": "体脂肪率"
+            "scientificName": "BFR"
         },
         {
             "reportName": "体水分率",
-            "scientificName": "体水分率"
+            "scientificName": "BWR"
         },
         {
             "reportName": "基础代谢",
-            "scientificName": "基础代谢"
+            "scientificName": "MTB"
         },
         {
             "reportName": "腹壁脂肪测定",
-            "scientificName": "腹壁脂肪测定"
+            "scientificName": "Be-F"
         },
         {
             "reportName": "营养体脂测定",
-            "scientificName": "营养体脂测定"
+            "scientificName": "NTF"
         },
         {
             "reportName": "腰围(女)",
-            "scientificName": "腰围(女)"
+            "scientificName": "WST-F"
         },
         {
             "reportName": "臀围(女)",
-            "scientificName": "臀围"
+            "scientificName": "BUT"
         },
         {
             "reportName": "腰臀比(女)",
-            "scientificName": "腰臀比"
+            "scientificName": "W/B"
         }
     ]
 }

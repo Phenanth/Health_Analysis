@@ -1,478 +1,477 @@
 {
     "indexs": [
-        "血小板容积分布宽度（PDW）",
-        "血小板比容（PCT）",
-        "平均红细胞血红蛋白浓度（MCHC）",
-        "平均红细胞体积（MCV）",
-        "红细胞分布宽度变异系数(RDW-CV)",
-        "平均红细胞血红蛋白含量（MCH）",
-        "平均血小板体积（MPV）",
-        "红细胞分布宽度标准差(RDW-SD)",
-        "白细胞计数(WBC)",
-        "红细胞计数(RBC)",
-        "血小板(PLT)",
-        "血红蛋白(Hb)",
-        "红细胞比容(Hct)",
-        "中性粒细胞百分比（NE%）",
-        "中性粒细胞绝对数（NE#）",
-        "淋巴细胞百分比（LY%）",
-        "淋巴细胞绝对数（LY#）",
-        "单核细胞百分比（MO%）",
-        "单核细胞绝对数(MO#)",
-        "嗜酸性粒细胞百分比（EO%）",
-        "嗜酸性粒细胞绝对数(EO#)",
-        "嗜碱性粒细胞百分比（BA%）",
-        "嗜碱性粒细胞绝对数(BA#)",
-        "大血小板数目",
-        "大血小板比率[P-LCR]",
-        "血红蛋白浓度",
-        "血红蛋白浓度(男)",
-        "网织红细胞计数",
-        "红细胞计数(男)",
-        "红细胞计数(女)",
-        "血红蛋白浓度(女)",
-        "红细胞体积分布宽度"
+        "PDW",
+        "PCT",
+        "MCHC",
+        "MCV",
+        "RDW-CV",
+        "MCH",
+        "MPV",
+        "RDW-SD",
+        "WBC",
+        "RBC",
+        "PLT",
+        "Hb",
+        "HCT",
+        "NE-P",
+        "NE-V",
+        "LY-P",
+        "LY-V",
+        "MO-P",
+        "MO-V",
+        "EO-P",
+        "EO-V",
+        "BA-P",
+        "BA-V",
+        "LCR",
+        "P-LCR",
+        "Hb-M",
+        "RCT",
+        "RBC-M",
+        "RBC-F",
+        "Hb-F",
+        "RDW"
     ],
     "mapping": [
         {
             "reportName": "血小板容积分布宽度（PDW）",
-            "scientificName": "血小板容积分布宽度（PDW）"
+            "scientificName": "PDW"
         },
         {
             "reportName": "血小板比容（PCT）",
-            "scientificName": "血小板比容（PCT）"
+            "scientificName": "PCT"
         },
         {
             "reportName": "平均红细胞血红蛋白浓度（MCHC）",
-            "scientificName": "平均红细胞血红蛋白浓度（MCHC）"
+            "scientificName": "MCHC"
         },
         {
             "reportName": "平均红细胞体积（MCV）",
-            "scientificName": "平均红细胞体积（MCV）"
+            "scientificName": "MCV"
         },
         {
             "reportName": "红细胞分布宽度变异系数(RDW-CV)",
-            "scientificName": "红细胞分布宽度变异系数(RDW-CV)"
+            "scientificName": "RDW-CV"
         },
         {
             "reportName": "平均红细胞血红蛋白含量（MCH）",
-            "scientificName": "平均红细胞血红蛋白含量（MCH）"
+            "scientificName": "MCH"
         },
         {
             "reportName": "平均血小板体积（MPV）",
-            "scientificName": "平均血小板体积（MPV）"
+            "scientificName": "MPV"
         },
         {
             "reportName": "红细胞分布宽度标准差(RDW-SD)",
-            "scientificName": "红细胞分布宽度标准差(RDW-SD)"
+            "scientificName": "RDW-SD"
         },
         {
             "reportName": "白细胞计数(WBC)",
-            "scientificName": "白细胞计数(WBC)"
+            "scientificName": "WBC"
         },
         {
             "reportName": "红细胞计数(RBC)",
-            "scientificName": "红细胞计数(RBC)"
+            "scientificName": "RBC"
         },
         {
             "reportName": "血小板(PLT)",
-            "scientificName": "血小板(PLT)"
+            "scientificName": "PLT"
         },
         {
             "reportName": "血红蛋白(Hb)",
-            "scientificName": "血红蛋白(Hb)"
+            "scientificName": "Hb"
         },
         {
             "reportName": "红细胞比容(Hct)",
-            "scientificName": "红细胞比容(Hct)"
+            "scientificName": "HCT"
         },
         {
             "reportName": "中性粒细胞百分比（NE%）",
-            "scientificName": "中性粒细胞百分比（NE%）"
+            "scientificName": "NE-P"
         },
         {
             "reportName": "中性粒细胞绝对数（NE#）",
-            "scientificName": "中性粒细胞绝对数（NE#）"
+            "scientificName": "NE-V"
         },
         {
             "reportName": "淋巴细胞百分比（LY%）",
-            "scientificName": "淋巴细胞百分比（LY%）"
+            "scientificName": "LY-P"
         },
         {
             "reportName": "淋巴细胞绝对数（LY#）",
-            "scientificName": "淋巴细胞绝对数（LY#）"
+            "scientificName": "LY-V"
         },
         {
             "reportName": "单核细胞百分比（MO%）",
-            "scientificName": "单核细胞百分比（MO%）"
+            "scientificName": "MO-P"
         },
         {
             "reportName": "单核细胞绝对数(MO#)",
-            "scientificName": "单核细胞绝对数(MO#)"
+            "scientificName": "MO-V"
         },
         {
             "reportName": "嗜酸性粒细胞百分比（EO%）",
-            "scientificName": "嗜酸性粒细胞百分比（EO%）"
+            "scientificName": "EO-P"
         },
         {
             "reportName": "嗜酸性粒细胞绝对数(EO#)",
-            "scientificName": "嗜酸性粒细胞绝对数(EO#)"
+            "scientificName": "EO-V"
         },
         {
             "reportName": "嗜碱性粒细胞百分比（BA%）",
-            "scientificName": "嗜碱性粒细胞百分比（BA%）"
+            "scientificName": "BA-P"
         },
         {
             "reportName": "嗜碱性粒细胞绝对数(BA#)",
-            "scientificName": "嗜碱性粒细胞绝对数(BA#)"
+            "scientificName": "BA-V"
         },
         {
             "reportName": "血红蛋白[Hb]",
-            "scientificName": "血红蛋白(Hb)"
+            "scientificName": "Hb"
         },
         {
             "reportName": "大血小板数目",
-            "scientificName": "大血小板数目"
+            "scientificName": "LCR"
         },
         {
             "reportName": "平均红细胞血红蛋白浓度[MCHC]",
-            "scientificName": "平均红细胞血红蛋白浓度（MCHC）"
+            "scientificName": "MCHC"
         },
         {
             "reportName": "单核细胞百分比[M]",
-            "scientificName": "单核细胞百分比（MO%）"
+            "scientificName": "MO-P"
         },
         {
             "reportName": "平均血小板体积[MPV]",
-            "scientificName": "平均血小板体积（MPV）"
+            "scientificName": "MPV"
         },
         {
             "reportName": "红细胞计数[RBC]",
-            "scientificName": "红细胞计数(RBC)"
+            "scientificName": "RBC"
         },
         {
             "reportName": "淋巴细胞绝对值[L#]",
-            "scientificName": "淋巴细胞绝对数（LY#）"
+            "scientificName": "LY-V"
         },
         {
             "reportName": "中性粒细胞绝对值[N#]",
-            "scientificName": "中性粒细胞绝对数（NE#）"
+            "scientificName": "NE-V"
         },
         {
             "reportName": "红细胞体积分布宽度变异系数",
-            "scientificName": "红细胞分布宽度变异系数(RDW-CV)"
+            "scientificName": "RDW-CV"
         },
         {
             "reportName": "嗜碱性粒细胞百分比[BA%]",
-            "scientificName": "嗜碱性粒细胞百分比（BA%）"
+            "scientificName": "BA-P"
         },
         {
             "reportName": "大血小板比率[P-LCR]",
-            "scientificName": "大血小板比率[P-LCR]"
+            "scientificName": "P-LCR"
         },
         {
             "reportName": "嗜酸性粒细胞绝对值[EO#]",
-            "scientificName": "嗜酸性粒细胞绝对数(EO#)"
+            "scientificName": "EO-V"
         },
         {
             "reportName": "嗜碱性粒细胞绝对值[BA#]",
-            "scientificName": "嗜碱性粒细胞绝对数(BA#)"
+            "scientificName": "BA-V"
         },
         {
             "reportName": "平均红细胞体积[MCV]",
-            "scientificName": "平均红细胞体积（MCV）"
+            "scientificName": "MCV"
         },
         {
             "reportName": "血小板容积分布宽度[PDW]",
-            "scientificName": "血小板容积分布宽度（PDW）"
+            "scientificName": "PDW"
         },
         {
             "reportName": "血小板计数(PLT)",
-            "scientificName": "血小板(PLT)"
+            "scientificName": "PLT"
         },
         {
             "reportName": "红细胞压积[HCT]",
-            "scientificName": "红细胞比容(Hct)"
+            "scientificName": "HCT"
         },
         {
             "reportName": "单核细胞绝对值[M#]",
-            "scientificName": "单核细胞绝对数(MO#)"
+            "scientificName": "MO-V"
         },
         {
             "reportName": "淋巴细胞百分比[L]",
-            "scientificName": "淋巴细胞百分比（LY%）"
+            "scientificName": "LY-P"
         },
         {
             "reportName": "平均血红蛋白含量[MCH]",
-            "scientificName": "平均红细胞血红蛋白含量（MCH）"
+            "scientificName": "MCH"
         },
         {
             "reportName": "红细胞分布宽度标准差[RDW-SD]",
-            "scientificName": "红细胞分布宽度标准差(RDW-SD)"
+            "scientificName": "RDW-SD"
         },
         {
             "reportName": "嗜酸性粒细胞百分比[EO%]",
-            "scientificName": "嗜酸性粒细胞百分比（EO%）"
+            "scientificName": "EO-P"
         },
         {
             "reportName": "血小板压积[PCT]",
-            "scientificName": "血小板比容（PCT）"
+            "scientificName": "PCT"
         },
         {
             "reportName": "中性粒细胞百分比[N]",
-            "scientificName": "中性粒细胞百分比（NE%）"
+            "scientificName": "NE-P"
         },
         {
             "reportName": "白细胞计数[WBC]",
-            "scientificName": "白细胞计数(WBC)"
+            "scientificName": "WBC"
         },
         {
             "reportName": "血小板[PLT]",
-            "scientificName": "血小板(PLT)"
+            "scientificName": "PLT"
         },
         {
             "reportName": "嗜碱性粒细胞绝对值(BASO#)",
-            "scientificName": "嗜碱性粒细胞绝对数(BA#)"
+            "scientificName": "BA-V"
         },
         {
             "reportName": "嗜碱性粒细胞百分数（BASO%）",
-            "scientificName": "嗜碱性粒细胞百分比（BA%）"
+            "scientificName": "BA-P"
         },
         {
             "reportName": "嗜酸性粒细胞百分数（EOS%）",
-            "scientificName": "嗜酸性粒细胞百分比（EO%）"
+            "scientificName": "EO-P"
         },
         {
             "reportName": "中性粒细胞绝对值（NEU#）",
-            "scientificName": "中性粒细胞绝对数（NE#）"
+            "scientificName": "NE-V"
         },
         {
             "reportName": "淋巴细胞绝对值（LYM#）",
-            "scientificName": "淋巴细胞绝对数（LY#）"
+            "scientificName": "LY-V"
         },
         {
             "reportName": "嗜酸性粒细胞绝对值(EO#)",
-            "scientificName": "嗜酸性粒细胞绝对数(EO#)"
+            "scientificName": "EO-V"
         },
         {
             "reportName": "单核细胞绝对值(MONO#)",
-            "scientificName": "单核细胞绝对数(MO#)"
+            "scientificName": "MO-V"
         },
         {
             "reportName": "中性粒细胞百分比（NEU%）",
-            "scientificName": "中性粒细胞百分比（NE%）"
+            "scientificName": "NE-P"
         },
         {
             "reportName": "血红蛋白(HGB)",
-            "scientificName": "血红蛋白(Hb)"
+            "scientificName": "Hb"
         },
         {
             "reportName": "淋巴细胞百分数（LYM%）",
-            "scientificName": "淋巴细胞百分比（LY%）"
+            "scientificName": "LY-P"
         },
         {
             "reportName": "单核细胞百分数（MONO%）",
-            "scientificName": "单核细胞百分比（MO%）"
+            "scientificName": "MO-P"
         },
         {
             "reportName": "红细胞压积(HCT)",
-            "scientificName": "红细胞比容(Hct)"
+            "scientificName": "HCT"
         },
         {
             "reportName": "红细胞计数",
-            "scientificName": "红细胞计数(RBC)"
+            "scientificName": "RBC"
         },
         {
             "reportName": "单核细胞比例",
-            "scientificName": "单核细胞百分比（MO%）"
+            "scientificName": "MO-P"
         },
         {
             "reportName": "血红蛋白浓度",
-            "scientificName": "血红蛋白浓度"
+            "scientificName": "Hb"
         },
         {
             "reportName": "血红蛋白浓度(男)",
-            "scientificName": "血红蛋白浓度(男)"
+            "scientificName": "Hb-M"
         },
         {
             "reportName": "血小板计数",
-            "scientificName": "血小板(PLT)"
+            "scientificName": "PLT"
         },
         {
             "reportName": "血小板压积",
-            "scientificName": "血小板比容（PCT）"
+            "scientificName": "PCT"
         },
         {
             "reportName": "血小板体积分布宽度",
-            "scientificName": "血小板容积分布宽度（PDW）"
+            "scientificName": "PDW"
         },
         {
             "reportName": "平均血小板体积",
-            "scientificName": "平均血小板体积（MPV）"
+            "scientificName": "MPV"
         },
         {
             "reportName": "大血小板比率",
-            "scientificName": "大血小板比率[P-LCR]"
+            "scientificName": "P-LCR"
         },
         {
             "reportName": "网织红细胞计数",
-            "scientificName": "网织红细胞计数"
+            "scientificName": "RCT"
         },
         {
             "reportName": "单核细胞计数",
-            "scientificName": "单核细胞绝对数(MO#)"
+            "scientificName": "MO-V"
         },
         {
             "reportName": "平均红细胞体积",
-            "scientificName": "平均红细胞体积（MCV）"
+            "scientificName": "MCV"
         },
         {
             "reportName": "平均红细胞血红蛋白含量",
-            "scientificName": "平均红细胞血红蛋白含量（MCH）"
+            "scientificName": "MCH"
         },
         {
             "reportName": "平均红细胞血红蛋白浓度",
-            "scientificName": "平均红细胞血红蛋白浓度（MCHC）"
+            "scientificName": "MCHC"
         },
         {
             "reportName": "红细胞分布宽度变异系数",
-            "scientificName": "红细胞分布宽度变异系数(RDW-CV)"
+            "scientificName": "RDW-CV"
         },
         {
             "reportName": "白细胞计数",
-            "scientificName": "白细胞计数(WBC)"
+            "scientificName": "WBC"
         },
         {
             "reportName": "中性粒细胞比例",
-            "scientificName": "中性粒细胞百分比（NE%）"
+            "scientificName": "NE-P"
         },
         {
             "reportName": "中性粒细胞计数",
-            "scientificName": "中性粒细胞绝对数（NE#）"
+            "scientificName": "NE-V"
         },
         {
             "reportName": "淋巴细胞比例",
-            "scientificName": "淋巴细胞百分比（LY%）"
+            "scientificName": "LY-P"
         },
         {
             "reportName": "淋巴细胞计数",
-            "scientificName": "淋巴细胞绝对数（LY#）"
+            "scientificName": "LY-V"
         },
         {
             "reportName": "嗜酸性粒细胞比例",
-            "scientificName": "嗜酸性粒细胞百分比（EO%）"
+            "scientificName": "EO-P"
         },
         {
             "reportName": "嗜酸性粒细胞计数",
-            "scientificName": "嗜酸性粒细胞绝对数(EO#)"
+            "scientificName": "EO-V"
         },
         {
             "reportName": "嗜碱性粒细胞比例",
-            "scientificName": "嗜碱性粒细胞百分比（BA%）"
+            "scientificName": "BA-P"
         },
         {
             "reportName": "嗜碱性粒细胞计数",
-            "scientificName": "嗜碱性粒细胞绝对数(BA#)"
+            "scientificName": "BA-V"
         },
         {
             "reportName": "红细胞计数(男)",
-            "scientificName": "红细胞计数(男)"
+            "scientificName": "RBC-M"
         },
         {
             "reportName": "红细胞计数(女)",
-            "scientificName": "红细胞计数(女)"
+            "scientificName": "RBC-F"
         },
         {
             "reportName": "血红蛋白浓度(女)",
-            "scientificName": "血红蛋白浓度(女)"
+            "scientificName": "Hb-F"
         },
         {
             "reportName": "淋巴细胞百分率",
-            "scientificName": "淋巴细胞百分比（LY%）"
+            "scientificName": "LY-P"
         },
         {
             "reportName": "单核细胞百分率",
-            "scientificName": "单核细胞百分比（MO%）"
+            "scientificName": "MO-P"
         },
         {
             "reportName": "中性粒细胞百分率",
-            "scientificName": "中性粒细胞百分比（NE%）"
+            "scientificName": "NE-P"
         },
         {
             "reportName": "嗜酸性粒细胞百分率",
-            "scientificName": "嗜酸性粒细胞百分比（EO%）"
+            "scientificName": "EO-P"
         },
         {
             "reportName": "嗜碱性粒细胞百分率",
-            "scientificName": "嗜碱性粒细胞百分比（BA%）"
+            "scientificName": "BA-P"
         },
         {
             "reportName": "淋巴细胞绝对值",
-            "scientificName": "淋巴细胞绝对数（LY#）"
+            "scientificName": "LY-V"
         },
         {
             "reportName": "单核细胞绝对值",
-            "scientificName": "单核细胞绝对数(MO#)"
+            "scientificName": "MO-V"
         },
         {
             "reportName": "中性粒细胞绝对值",
-            "scientificName": "中性粒细胞绝对数（NE#）"
+            "scientificName": "NE-V"
         },
         {
             "reportName": "嗜酸粒细胞绝对值",
-            "scientificName": "嗜酸性粒细胞绝对数(EO#)"
+            "scientificName": "EO-V"
         },
         {
             "reportName": "嗜碱粒细胞绝对值",
-            "scientificName": "嗜碱性粒细胞绝对数(BA#)"
+            "scientificName": "BA-V"
         },
         {
             "reportName": "血红蛋白",
-            "scientificName": "血红蛋白(Hb)"
+            "scientificName": "Hb"
         },
         {
             "reportName": "红细胞压积",
-            "scientificName": "红细胞比容(Hct)"
+            "scientificName": "HCT"
         },
         {
             "reportName": "平均血红蛋白含量",
-            "scientificName": "平均红细胞血红蛋白含量（MCH）"
+            "scientificName": "MCH"
         },
         {
             "reportName": "红细胞体积分布宽度",
-            "scientificName": "红细胞体积分布宽度"
+            "scientificName": "RDW"
         },
         {
             "reportName": "平均血红蛋白浓度",
-            "scientificName": "平均红细胞血红蛋白浓度（MCHC）"
+            "scientificName": "MCHC"
         },
         {
             "reportName": "淋巴细胞比值（LYM）",
-            "scientificName": "淋巴细胞百分比（LY%）"
+            "scientificName": "LY-P"
         },
         {
             "reportName": "单核细胞比值（MONO）",
-            "scientificName": "单核细胞百分比（MO%）"
+            "scientificName": "MO-P"
         },
         {
             "reportName": "嗜酸性粒细胞比值（EO）",
-            "scientificName": "嗜酸性粒细胞百分比（EO%）"
+            "scientificName": "EO-P"
         },
         {
             "reportName": "嗜碱性粒细胞比值（BASO）",
-            "scientificName": "嗜碱性粒细胞百分比（BA%）"
+            "scientificName": "BA-P"
         },
         {
             "reportName": "大血小板比率（P-LCR）",
-            "scientificName": "大血小板比率[P-LCR]"
+            "scientificName": "P-LCR"
         },
         {
             "reportName": "中性粒细胞比值（GRA）",
-            "scientificName": "中性粒细胞百分比（NE%）"
+            "scientificName": "NE-P"
         },
         {
             "reportName": "中性粒细胞绝对值（GRA#）",
-            "scientificName": "中性粒细胞绝对数（NE#）"
+            "scientificName": "NE-V"
         }
     ]
 }

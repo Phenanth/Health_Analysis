@@ -1,43 +1,43 @@
 {
     "indexs": [
-        "心率",
-        "QRS时限",
-        "P-R间期",
-        "Q-T间期",
+        "RHR",
+        "QRS-WC",
+        "P-RI",
+        "Q-TI",
         "QTc",
-        "电轴",
-        "心电图",
-        "束支传导阻滞",
-        "窦性心律",
-        "心肌梗塞",
-        "起博器",
-        "ST段T波",
-        "交界性心律",
-        "房性心律",
-        "室性心律",
-        "窦房传导阻滞",
-        "房室传导阻滞",
-        "U波",
-        "预激征候群",
-        "其他",
-        "心房心室"
+        "CEA",
+        "ECG",
+        "BBB",
+        "SR",
+        "AMI",
+        "CEP",
+        "STT",
+        "AJR",
+        "CAR",
+        "VEB",
+        "SAB",
+        "AB",
+        "U-W",
+        "WPW",
+        "ETC",
+        "A-V"
     ],
     "mapping": [
         {
             "reportName": "心率",
-            "scientificName": "心率"
+            "scientificName": "RHR"
         },
         {
             "reportName": "QRS时限",
-            "scientificName": "QRS时限"
+            "scientificName": "QRS-WC"
         },
         {
             "reportName": "P-R间期",
-            "scientificName": "P-R间期"
+            "scientificName": "P-RI"
         },
         {
             "reportName": "Q-T间期",
-            "scientificName": "Q-T间期"
+            "scientificName": "Q-TI"
         },
         {
             "reportName": "QTc",
@@ -45,87 +45,87 @@
         },
         {
             "reportName": "电轴",
-            "scientificName": "电轴"
+            "scientificName": "CEA"
         },
         {
             "reportName": "心电图",
-            "scientificName": "心电图"
+            "scientificName": "ECG"
         },
         {
             "reportName": "束支传导阻滞",
-            "scientificName": "束支传导阻滞"
+            "scientificName": "BBB"
         },
         {
             "reportName": "P波",
-            "scientificName": "P-R间期"
+            "scientificName": "P-RI"
         },
         {
             "reportName": "窦性心律",
-            "scientificName": "窦性心律"
+            "scientificName": "SR"
         },
         {
             "reportName": "QRS波",
-            "scientificName": "QRS时限"
+            "scientificName": "QRS-WC"
         },
         {
             "reportName": "心肌梗塞",
-            "scientificName": "心肌梗塞"
+            "scientificName": "AMI"
         },
         {
             "reportName": "起博器",
-            "scientificName": "起博器"
+            "scientificName": "CEP"
         },
         {
             "reportName": "ST段T波",
-            "scientificName": "ST段T波"
+            "scientificName": "STT"
         },
         {
             "reportName": "Q—T间期",
-            "scientificName": "Q-T间期"
+            "scientificName": "Q-TI"
         },
         {
             "reportName": "心电轴",
-            "scientificName": "心电图"
+            "scientificName": "ECG"
         },
         {
             "reportName": "心电位",
-            "scientificName": "心电图"
+            "scientificName": "ECG"
         },
         {
             "reportName": "交界性心律",
-            "scientificName": "交界性心律"
+            "scientificName": "AJR"
         },
         {
             "reportName": "房性心律",
-            "scientificName": "房性心律"
+            "scientificName": "CAR"
         },
         {
             "reportName": "室性心律",
-            "scientificName": "室性心律"
+            "scientificName": "VEB"
         },
         {
             "reportName": "窦房传导阻滞",
-            "scientificName": "窦房传导阻滞"
+            "scientificName": "SAB"
         },
         {
             "reportName": "房室传导阻滞",
-            "scientificName": "房室传导阻滞"
+            "scientificName": "AB"
         },
         {
             "reportName": "U波",
-            "scientificName": "U波"
+            "scientificName": "U-W"
         },
         {
             "reportName": "预激征候群",
-            "scientificName": "预激征候群"
+            "scientificName": "WPW"
         },
         {
             "reportName": "其他",
-            "scientificName": "其他"
+            "scientificName": "ETC"
         },
         {
             "reportName": "心房心室",
-            "scientificName": "心房心室"
+            "scientificName": "A-V"
         }
     ]
 }

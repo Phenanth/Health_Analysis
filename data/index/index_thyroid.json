@@ -1,27 +1,27 @@
 {
     "indexs": [
-        "甲状腺检查"
+        "THY-Detail"
     ],
     "mapping": [
         {
             "reportName": "甲状腺检查",
-            "scientificName": "甲状腺检查"
+            "scientificName": "THY-Detail"
         },
         {
             "reportName": "甲状腺彩超",
-            "scientificName": "甲状腺检查"
+            "scientificName": "THY-Detail"
         },
         {
             "reportName": "淋巴结检查",
-            "scientificName": "甲状腺检查"
+            "scientificName": "THY-Detail"
         },
         {
             "reportName": "甲状腺彩超(含淋巴结)",
-            "scientificName": "甲状腺检查"
+            "scientificName": "THY-Detail"
         },
         {
             "reportName": "甲状腺",
-            "scientificName": "甲状腺检查"
+            "scientificName": "THY-Detail"
         }
     ]
 }
