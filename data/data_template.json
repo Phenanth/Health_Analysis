@@ -1,0 +1,5324 @@
+{
+    "total": 591,
+    "data": [
+        {
+            "Id": "A00010",
+            "itemName": "身高",
+            "sectionName": "一般检查",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": "cm"
+        },
+        {
+            "Id": "A00020",
+            "itemName": "体重",
+            "sectionName": "一般检查",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "",
+            "unit": "kg"
+        },
+        {
+            "Id": "A00030",
+            "itemName": "体重指数",
+            "sectionName": "一般检查",
+            "refRang": "18.50~23.90",
+            "minValue": "18.50",
+            "maxValue": "23.90",
+            "unit": ""
+        },
+        {
+            "Id": "A00061",
+            "itemName": "腰围(男)",
+            "sectionName": "一般检查",
+            "refRang": "<90",
+            "minValue": "",
+            "maxValue": "90",
+            "unit": "cm"
+        },
+        {
+            "Id": "A00062",
+            "itemName": "腰围(女)",
+            "sectionName": "一般检查",
+            "refRang": "<85",
+            "minValue": "",
+            "maxValue": "85",
+            "unit": "cm"
+        },
+        {
+            "Id": "A00070",
+            "itemName": "臀围",
+            "sectionName": "一般检查",
+            "refRang": "标准臀围=身高×0.542",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": "cm"
+        },
+        {
+            "Id": "A00071",
+            "itemName": "臀围(男)",
+            "sectionName": "一般检查",
+            "refRang": "<99",
+            "minValue": "",
+            "maxValue": "99",
+            "unit": "cm"
+        },
+        {
+            "Id": "A00072",
+            "itemName": "臀围(女)",
+            "sectionName": "一般检查",
+            "refRang": "<100",
+            "minValue": "",
+            "maxValue": "100",
+            "unit": "cm"
+        },
+        {
+            "Id": "A00080",
+            "itemName": "腰臀比",
+            "sectionName": "一般检查",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "A00081",
+            "itemName": "腰臀比(男)",
+            "sectionName": "一般检查",
+            "refRang": "0.85~0.95",
+            "minValue": "0.85",
+            "maxValue": "0.95",
+            "unit": ""
+        },
+        {
+            "Id": "A00082",
+            "itemName": "腰臀比(女)",
+            "sectionName": "一般检查",
+            "refRang": "0.67~0.80",
+            "minValue": "0.67",
+            "maxValue": "0.80",
+            "unit": ""
+        },
+        {
+            "Id": "A00090",
+            "itemName": "收缩压",
+            "sectionName": "一般检查",
+            "refRang": "90~139",
+            "minValue": "90",
+            "maxValue": "139",
+            "unit": "mmHg"
+        },
+        {
+            "Id": "A00100",
+            "itemName": "舒张压",
+            "sectionName": "一般检查",
+            "refRang": "60~89",
+            "minValue": "60",
+            "maxValue": "89",
+            "unit": "mmHg"
+        },
+        {
+            "Id": "A00110",
+            "itemName": "脉搏",
+            "sectionName": "一般检查",
+            "refRang": "60~100",
+            "minValue": "60",
+            "maxValue": "100",
+            "unit": "次/分"
+        },
+        {
+            "Id": "A00120",
+            "itemName": "体温",
+            "sectionName": "一般检查",
+            "refRang": "36.30~37.20",
+            "minValue": "36.30",
+            "maxValue": "37.20",
+            "unit": "℃"
+        },
+        {
+            "Id": "A00130",
+            "itemName": "呼吸",
+            "sectionName": "一般检查",
+            "refRang": "12~20",
+            "minValue": "12",
+            "maxValue": "20",
+            "unit": "次/分"
+        },
+        {
+            "Id": "A00140",
+            "itemName": "营养",
+            "sectionName": "一般检查",
+            "refRang": "良好",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "A00150",
+            "itemName": "发育",
+            "sectionName": "一般检查",
+            "refRang": "良好",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "A00160",
+            "itemName": "体脂肪量",
+            "sectionName": "一般检查",
+            "refRang": "正常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "A00170",
+            "itemName": "体脂肪率",
+            "sectionName": "一般检查",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "A00180",
+            "itemName": "体水分率",
+            "sectionName": "一般检查",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "A00190",
+            "itemName": "基础代谢",
+            "sectionName": "一般检查",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "A00200",
+            "itemName": "腹壁脂肪测定",
+            "sectionName": "一般检查",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "A00210",
+            "itemName": "营养体脂测定",
+            "sectionName": "一般检查",
+            "refRang": "正常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "Q10020",
+            "itemName": "肺部CT",
+            "sectionName": "CT",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "Q10030",
+            "itemName": "肝脏CT",
+            "sectionName": "CT",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "Q10040",
+            "itemName": "肾脏CT",
+            "sectionName": "CT",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "Q10050",
+            "itemName": "胰腺CT",
+            "sectionName": "CT",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "Q10060",
+            "itemName": "胆CT",
+            "sectionName": "CT",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "Q10070",
+            "itemName": "脾CT",
+            "sectionName": "CT",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "U90020",
+            "itemName": "乳腺钼靶",
+            "sectionName": "单项检测",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "U30010",
+            "itemName": "热CT",
+            "sectionName": "单项检测",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "S10010",
+            "itemName": "胸透",
+            "sectionName": "X线",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "S10020",
+            "itemName": "透环",
+            "sectionName": "X线",
+            "refRang": "正常带环",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "S20010",
+            "itemName": "胸部平片",
+            "sectionName": "X线",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "S20020",
+            "itemName": "颈椎平片",
+            "sectionName": "X线",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "S20030",
+            "itemName": "腰椎平片",
+            "sectionName": "X线",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "S20040",
+            "itemName": "腹部平片",
+            "sectionName": "X线",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "S20050",
+            "itemName": "骨关节平片",
+            "sectionName": "X线",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "S20060",
+            "itemName": "腕骨龄片",
+            "sectionName": "X线",
+            "refRang": "正常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "S20070",
+            "itemName": "骨盆片",
+            "sectionName": "X线",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "S20080",
+            "itemName": "数字式口腔全景片",
+            "sectionName": "X线",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "S50010",
+            "itemName": "食管钡餐试验",
+            "sectionName": "X线",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "S50020",
+            "itemName": "结肠钡灌肠试验",
+            "sectionName": "X线",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "S50030",
+            "itemName": "数字胃肠造影",
+            "sectionName": "X线",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "S50040",
+            "itemName": "胆道造影",
+            "sectionName": "X线",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "S50050",
+            "itemName": "逆行肾盂造影",
+            "sectionName": "X线",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "S50060",
+            "itemName": "冠状动脉造影",
+            "sectionName": "X线",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "N10010",
+            "itemName": "腹部B超",
+            "sectionName": "超声",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "N10020",
+            "itemName": "肝胆B超",
+            "sectionName": "超声",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "N10030",
+            "itemName": "脾脏B超",
+            "sectionName": "超声",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "N10040",
+            "itemName": "胰腺B超",
+            "sectionName": "超声",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "N10050",
+            "itemName": "肾脏B超",
+            "sectionName": "超声",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "N10060",
+            "itemName": "膀胱B超",
+            "sectionName": "超声",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "N10070",
+            "itemName": "前列腺B超",
+            "sectionName": "超声",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "N10080",
+            "itemName": "阴道彩超",
+            "sectionName": "超声",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "N10090",
+            "itemName": "心脏彩超",
+            "sectionName": "超声",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "N10100",
+            "itemName": "颈动脉彩超",
+            "sectionName": "超声",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "N10110",
+            "itemName": "下肢动脉彩超",
+            "sectionName": "超声",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "N10120",
+            "itemName": "甲状腺彩超",
+            "sectionName": "超声",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "N10130",
+            "itemName": "乳腺彩超",
+            "sectionName": "超声",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "N10140",
+            "itemName": "子宫附件彩超",
+            "sectionName": "超声",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "N10150",
+            "itemName": "周围血管彩超",
+            "sectionName": "超声",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "N20010",
+            "itemName": "经颅多普勒彩超",
+            "sectionName": "超声",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "N20020",
+            "itemName": "超声心动图",
+            "sectionName": "超声",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "N90010",
+            "itemName": "超声骨龄",
+            "sectionName": "超声",
+            "refRang": "正常骨龄",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B50010",
+            "itemName": "耳鼻喉科既往史",
+            "sectionName": "耳鼻喉科",
+            "refRang": "既往无明显耳鼻喉科疾患",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B50020",
+            "itemName": "听力(左)",
+            "sectionName": "耳鼻喉科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B50030",
+            "itemName": "听力(右)",
+            "sectionName": "耳鼻喉科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B50040",
+            "itemName": "外耳",
+            "sectionName": "耳鼻喉科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B50050",
+            "itemName": "鼓膜",
+            "sectionName": "耳鼻喉科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B50120",
+            "itemName": "声阻抗",
+            "sectionName": "耳鼻喉科",
+            "refRang": "正常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B50070",
+            "itemName": "鼻窦",
+            "sectionName": "耳鼻喉科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B50080",
+            "itemName": "咽部",
+            "sectionName": "耳鼻喉科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B50090",
+            "itemName": "喉部",
+            "sectionName": "耳鼻喉科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B50100",
+            "itemName": "扁桃体",
+            "sectionName": "耳鼻喉科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B50110",
+            "itemName": "电测听",
+            "sectionName": "耳鼻喉科",
+            "refRang": "正常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B50060",
+            "itemName": "鼻",
+            "sectionName": "耳鼻喉科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "U50010",
+            "itemName": "潮气量",
+            "sectionName": "肺功能",
+            "refRang": "0.40~0.50",
+            "minValue": "0.40",
+            "maxValue": "0.50",
+            "unit": "L"
+        },
+        {
+            "Id": "U50020",
+            "itemName": "肺活量",
+            "sectionName": "肺功能",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": "L"
+        },
+        {
+            "Id": "U50030",
+            "itemName": "气道阻力测定",
+            "sectionName": "肺功能",
+            "refRang": "正常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "U50022",
+            "itemName": "肺活量(女)",
+            "sectionName": "肺功能",
+            "refRang": "0~2.44",
+            "minValue": "0",
+            "maxValue": "2.44",
+            "unit": "L"
+        },
+        {
+            "Id": "U50021",
+            "itemName": "肺活量(男)",
+            "sectionName": "肺功能",
+            "refRang": "0~3.47",
+            "minValue": "0",
+            "maxValue": "3.47",
+            "unit": "L"
+        },
+        {
+            "Id": "7a9fbdd153b84fd39fdf9b7e082616bc",
+            "itemName": "FEV1%",
+            "sectionName": "肺功能",
+            "refRang": "",
+            "minValue": "",
+            "maxValue": "",
+            "unit": ""
+        },
+        {
+            "Id": "a5c4277f70fd4db6a6f436446d284635",
+            "itemName": "FEV1/FVC",
+            "sectionName": "肺功能",
+            "refRang": "",
+            "minValue": "",
+            "maxValue": "",
+            "unit": ""
+        },
+        {
+            "Id": "B80040",
+            "itemName": "阴道",
+            "sectionName": "妇科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B80070",
+            "itemName": "附件",
+            "sectionName": "妇科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B80030",
+            "itemName": "外阴",
+            "sectionName": "妇科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B80020",
+            "itemName": "乳房",
+            "sectionName": "妇科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B80050",
+            "itemName": "宫颈",
+            "sectionName": "妇科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B80060",
+            "itemName": "宫体",
+            "sectionName": "妇科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B80010",
+            "itemName": "妇科既往史",
+            "sectionName": "妇科",
+            "refRang": "既往无明显妇科疾患",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B80080",
+            "itemName": "盆腔",
+            "sectionName": "妇科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "ddece6bbf460461192aa168ec8198b50",
+            "itemName": "宫颈肥大宫颈糜烂Ⅰ°多发性纳囊,接触性出血",
+            "sectionName": "妇科",
+            "refRang": "",
+            "minValue": "",
+            "maxValue": "",
+            "unit": ""
+        },
+        {
+            "Id": "Y10040",
+            "itemName": "脑储备能力测定",
+            "sectionName": "功能检测",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "Y10010",
+            "itemName": "动脉硬化检测",
+            "sectionName": "功能检测",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "Y10020",
+            "itemName": "心血管功能检测",
+            "sectionName": "功能检测",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "T10080",
+            "itemName": "动态血压",
+            "sectionName": "心电室",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "Y10030",
+            "itemName": "脑血管功能检测",
+            "sectionName": "功能检测",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "Y10080",
+            "itemName": "脑功能分析",
+            "sectionName": "功能检测",
+            "refRang": "正常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "Y10050",
+            "itemName": "脑功能检测",
+            "sectionName": "功能检测",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "Y10060",
+            "itemName": "数字心功能检查",
+            "sectionName": "功能检测",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "Y10070",
+            "itemName": "室壁运动分析",
+            "sectionName": "功能检测",
+            "refRang": "正常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "V20020",
+            "itemName": "睡眠多导监测",
+            "sectionName": "功能检测",
+            "refRang": "正常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "U10010",
+            "itemName": "骨密度检测",
+            "sectionName": "单项检测",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "R10010",
+            "itemName": "PET",
+            "sectionName": "核医学",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "R30010",
+            "itemName": "SPECT",
+            "sectionName": "核医学",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "R50010",
+            "itemName": "甲状腺显像",
+            "sectionName": "核医学",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "R50060",
+            "itemName": "肝胆显像",
+            "sectionName": "核医学",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "R50030",
+            "itemName": "脑血流灌注显像",
+            "sectionName": "核医学",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "R50040",
+            "itemName": "心肌灌注显像",
+            "sectionName": "核医学",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "R50050",
+            "itemName": "核素心血管造影",
+            "sectionName": "核医学",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "R50020",
+            "itemName": "肾上腺皮质显像",
+            "sectionName": "核医学",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "U90010",
+            "itemName": "乳腺红外线扫描",
+            "sectionName": "单项检测",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C10120",
+            "itemName": "红细胞计数",
+            "sectionName": "血常规",
+            "refRang": "",
+            "minValue": "",
+            "maxValue": "0",
+            "unit": "×10^12/L"
+        },
+        {
+            "Id": "C20010",
+            "itemName": "全血黏度",
+            "sectionName": "血流变",
+            "refRang": "3.33~4.66",
+            "minValue": "3.33",
+            "maxValue": "4.66",
+            "unit": ""
+        },
+        {
+            "Id": "D00190",
+            "itemName": "尿上皮细胞",
+            "sectionName": "尿液检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C30010",
+            "itemName": "出血时间",
+            "sectionName": "凝血",
+            "refRang": "0.50~7",
+            "minValue": "0.50",
+            "maxValue": "7",
+            "unit": "min"
+        },
+        {
+            "Id": "J10010",
+            "itemName": "血清钾",
+            "sectionName": "营养素",
+            "refRang": "3.50~5.50",
+            "minValue": "3.50",
+            "maxValue": "5.50",
+            "unit": "mmol/L"
+        },
+        {
+            "Id": "H10010",
+            "itemName": "乙肝病毒表面抗原(定性)",
+            "sectionName": "免疫检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "G10071",
+            "itemName": "血清孕酮(男)",
+            "sectionName": "激素检测",
+            "refRang": "卵泡期0.6～1.9；黄体期20.7～102.4；绝经期＜3.20",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": "nmol/L"
+        },
+        {
+            "Id": "F10010",
+            "itemName": "空腹血糖",
+            "sectionName": "生化检测",
+            "refRang": "<6.10",
+            "minValue": "",
+            "maxValue": "6.10",
+            "unit": "mmol/L"
+        },
+        {
+            "Id": "C40110",
+            "itemName": "红细胞丙酮酸激酶(PK)活性",
+            "sectionName": "血液其他",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "E00050",
+            "itemName": "粪胆素",
+            "sectionName": "粪便检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "L10010",
+            "itemName": "过敏原检测",
+            "sectionName": "其他检验",
+            "refRang": "正常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "K20030",
+            "itemName": "糖链抗原19-9",
+            "sectionName": "肿瘤检测",
+            "refRang": "<35",
+            "minValue": "",
+            "maxValue": "35",
+            "unit": "KU/L"
+        },
+        {
+            "Id": "L50010",
+            "itemName": "食物不耐受",
+            "sectionName": "其他检验",
+            "refRang": "正常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "D00180",
+            "itemName": "尿结晶",
+            "sectionName": "尿液检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C40220",
+            "itemName": "毛细血管抗性试验(CRT)",
+            "sectionName": "血液其他",
+            "refRang": "阴性。",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C30320",
+            "itemName": "优球蛋白溶解时间(ELT)",
+            "sectionName": "凝血",
+            "refRang": ">2",
+            "minValue": "2",
+            "maxValue": "0",
+            "unit": "h"
+        },
+        {
+            "Id": "G10070",
+            "itemName": "血清孕酮",
+            "sectionName": "激素检测",
+            "refRang": "卵泡期0.6～1.9；黄体期20.7～102.4；绝经期＜3.20",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": "nmol/L"
+        },
+        {
+            "Id": "C10100",
+            "itemName": "单核细胞比例",
+            "sectionName": "血常规",
+            "refRang": "0.03~0.08",
+            "minValue": "0.03",
+            "maxValue": "0.08",
+            "unit": ""
+        },
+        {
+            "Id": "K20020",
+            "itemName": "癌胚抗原(CEA)",
+            "sectionName": "肿瘤检测",
+            "refRang": "<5",
+            "minValue": "",
+            "maxValue": "5",
+            "unit": "μg/L"
+        },
+        {
+            "Id": "J30100",
+            "itemName": "血清叶酸",
+            "sectionName": "营养素",
+            "refRang": "4.50~34",
+            "minValue": "4.50",
+            "maxValue": "34",
+            "unit": "nmol/L"
+        },
+        {
+            "Id": "C20200",
+            "itemName": "脉搏波速度(PWV)",
+            "sectionName": "血流变",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "H20090",
+            "itemName": "乙型脑炎病毒抗体",
+            "sectionName": "免疫检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "F10020",
+            "itemName": "餐后2h血糖",
+            "sectionName": "生化检测",
+            "refRang": "<7.80",
+            "minValue": "",
+            "maxValue": "7.80",
+            "unit": "mmol/L"
+        },
+        {
+            "Id": "E00060",
+            "itemName": "粪便白细胞",
+            "sectionName": "粪便检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C10122",
+            "itemName": "红细胞计数(女)",
+            "sectionName": "血常规",
+            "refRang": "3.50~5",
+            "minValue": "3.50",
+            "maxValue": "5",
+            "unit": "×10^12/L"
+        },
+        {
+            "Id": "C20030",
+            "itemName": "血清黏度",
+            "sectionName": "血流变",
+            "refRang": "1.40~1.80",
+            "minValue": "1.40",
+            "maxValue": "1.80",
+            "unit": ""
+        },
+        {
+            "Id": "D10010",
+            "itemName": "尿沉渣细胞学检查",
+            "sectionName": "尿液检测",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "J50020",
+            "itemName": "二氧化碳分压",
+            "sectionName": "血液其他",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": "kPa"
+        },
+        {
+            "Id": "C30030",
+            "itemName": "凝血酶原时间",
+            "sectionName": "凝血",
+            "refRang": "12~14",
+            "minValue": "12",
+            "maxValue": "14",
+            "unit": ""
+        },
+        {
+            "Id": "J10030",
+            "itemName": "血清氯",
+            "sectionName": "营养素",
+            "refRang": "3.50~5.30",
+            "minValue": "3.50",
+            "maxValue": "5.30",
+            "unit": "mmol/L"
+        },
+        {
+            "Id": "H10030",
+            "itemName": "乙肝病毒e抗原(定性)",
+            "sectionName": "免疫检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "G10080",
+            "itemName": "血清睾酮",
+            "sectionName": "激素检测",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": "nmol/L"
+        },
+        {
+            "Id": "F10030",
+            "itemName": "糖化血红蛋白",
+            "sectionName": "生化检测",
+            "refRang": "4~6",
+            "minValue": "4",
+            "maxValue": "6",
+            "unit": "%"
+        },
+        {
+            "Id": "E00070",
+            "itemName": "粪便红细胞",
+            "sectionName": "粪便检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "U20020",
+            "itemName": "幽门螺旋杆菌(呼气法)",
+            "sectionName": "单项检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "M90010",
+            "itemName": "男性TCT",
+            "sectionName": "其他检验",
+            "refRang": "未见异常细胞",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "K20050",
+            "itemName": "糖链抗原125",
+            "sectionName": "肿瘤检测",
+            "refRang": "<35",
+            "minValue": "",
+            "maxValue": "35",
+            "unit": "KU/L"
+        },
+        {
+            "Id": "C10130",
+            "itemName": "血红蛋白浓度",
+            "sectionName": "血常规",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": "g/L"
+        },
+        {
+            "Id": "C20040",
+            "itemName": "卡松粘度",
+            "sectionName": "血流变",
+            "refRang": "1.32~3.14",
+            "minValue": "1.32",
+            "maxValue": "3.14",
+            "unit": "mPa?¤s"
+        },
+        {
+            "Id": "D10020",
+            "itemName": "尿沉渣管型检查",
+            "sectionName": "尿液检测",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "J50021",
+            "itemName": "二氧化碳分压(男)",
+            "sectionName": "血液其他",
+            "refRang": "4.70~6.40",
+            "minValue": "4.70",
+            "maxValue": "6.40",
+            "unit": "kPa"
+        },
+        {
+            "Id": "C30040",
+            "itemName": "纤维蛋白原",
+            "sectionName": "凝血",
+            "refRang": "2~4",
+            "minValue": "2",
+            "maxValue": "4",
+            "unit": "g/l"
+        },
+        {
+            "Id": "J10040",
+            "itemName": "血清钙",
+            "sectionName": "营养素",
+            "refRang": "1.12~1.23",
+            "minValue": "1.12",
+            "maxValue": "1.23",
+            "unit": "mmol/L"
+        },
+        {
+            "Id": "H10040",
+            "itemName": "乙肝病毒e抗体(定性)",
+            "sectionName": "免疫检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "G10081",
+            "itemName": "血清睾酮(男)",
+            "sectionName": "激素检测",
+            "refRang": "9.70~38.20",
+            "minValue": "9.70",
+            "maxValue": "38.20",
+            "unit": "nmol/L"
+        },
+        {
+            "Id": "F10040",
+            "itemName": "糖耐量试验",
+            "sectionName": "生化检测",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "E00080",
+            "itemName": "粪便乳糖",
+            "sectionName": "粪便检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "M20010",
+            "itemName": "宫颈细胞学涂片",
+            "sectionName": "其他检验",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "K20060",
+            "itemName": "糖链抗原50",
+            "sectionName": "肿瘤检测",
+            "refRang": "<40",
+            "minValue": "",
+            "maxValue": "40",
+            "unit": "μg/L"
+        },
+        {
+            "Id": "C10131",
+            "itemName": "血红蛋白浓度(男)",
+            "sectionName": "血常规",
+            "refRang": "120~160",
+            "minValue": "120",
+            "maxValue": "160",
+            "unit": "g/L"
+        },
+        {
+            "Id": "C20050",
+            "itemName": "卡松屈服应力",
+            "sectionName": "血流变",
+            "refRang": "8.90~14.26",
+            "minValue": "8.90",
+            "maxValue": "14.26",
+            "unit": "dyn/cm2"
+        },
+        {
+            "Id": "D10030",
+            "itemName": "尿沉渣结晶检查",
+            "sectionName": "尿液检测",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "J50022",
+            "itemName": "二氧化碳分压(女)",
+            "sectionName": "血液其他",
+            "refRang": "4.30~6",
+            "minValue": "4.30",
+            "maxValue": "6",
+            "unit": "kPa"
+        },
+        {
+            "Id": "C30050",
+            "itemName": "血小板黏附试验",
+            "sectionName": "凝血",
+            "refRang": "正常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "J10050",
+            "itemName": "血清锌",
+            "sectionName": "营养素",
+            "refRang": "7.70~23",
+            "minValue": "7.70",
+            "maxValue": "23",
+            "unit": "μmol/L"
+        },
+        {
+            "Id": "H10050",
+            "itemName": "乙肝病毒核心抗体(定性)",
+            "sectionName": "免疫检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "G10082",
+            "itemName": "血清睾酮(女)",
+            "sectionName": "激素检测",
+            "refRang": "0.90~2.90",
+            "minValue": "0.90",
+            "maxValue": "2.90",
+            "unit": "nmol/L"
+        },
+        {
+            "Id": "F10050",
+            "itemName": "胰岛素测定",
+            "sectionName": "生化检测",
+            "refRang": "5~20",
+            "minValue": "5",
+            "maxValue": "20",
+            "unit": "mu/L"
+        },
+        {
+            "Id": "E00090",
+            "itemName": "粪便轮状病毒",
+            "sectionName": "粪便检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "U20010",
+            "itemName": "幽门螺旋杆菌(血清法)",
+            "sectionName": "单项检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "M20020",
+            "itemName": "宫颈液基超薄细胞检测",
+            "sectionName": "其他检验",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "K20070",
+            "itemName": "糖链抗原242",
+            "sectionName": "肿瘤检测",
+            "refRang": "<20",
+            "minValue": "",
+            "maxValue": "20",
+            "unit": "KU/L"
+        },
+        {
+            "Id": "C10132",
+            "itemName": "血红蛋白浓度(女)",
+            "sectionName": "血常规",
+            "refRang": "110~150",
+            "minValue": "110",
+            "maxValue": "150",
+            "unit": "g/L"
+        },
+        {
+            "Id": "C20060",
+            "itemName": "红细胞压积",
+            "sectionName": "血流变",
+            "refRang": "37~49",
+            "minValue": "37",
+            "maxValue": "49",
+            "unit": "%"
+        },
+        {
+            "Id": "E00040",
+            "itemName": "粪便虫卵",
+            "sectionName": "粪便检测",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "D10040",
+            "itemName": "尿微量蛋白",
+            "sectionName": "尿液检测",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "J50030",
+            "itemName": "血氧分压",
+            "sectionName": "血液其他",
+            "refRang": "10.60~13.30",
+            "minValue": "10.60",
+            "maxValue": "13.30",
+            "unit": "kPa"
+        },
+        {
+            "Id": "C30060",
+            "itemName": "血小板凝集试验",
+            "sectionName": "凝血",
+            "refRang": "10～15秒内出现大凝集颗粒",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "J10060",
+            "itemName": "血清铜",
+            "sectionName": "营养素",
+            "refRang": "11~24",
+            "minValue": "11",
+            "maxValue": "24",
+            "unit": "μmol/L"
+        },
+        {
+            "Id": "H10060",
+            "itemName": "乙肝病毒表面抗原",
+            "sectionName": "免疫检测",
+            "refRang": "0~0.50",
+            "minValue": "0",
+            "maxValue": "0.50",
+            "unit": "ng/ml"
+        },
+        {
+            "Id": "G10090",
+            "itemName": "人绒毛促性腺激素",
+            "sectionName": "激素检测",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": "U/L"
+        },
+        {
+            "Id": "F10060",
+            "itemName": "胰岛素释放试验(空腹)",
+            "sectionName": "生化检测",
+            "refRang": "空腹胰岛素为10～20mu/L；胰岛素(μU/L)/葡萄糖(mg/dl)＜0.3。服糖后30-60min为胰岛素高峰期，为空腹时胰岛素值的5-10倍，2小时后开始下降。",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": "mu/L"
+        },
+        {
+            "Id": "M10010",
+            "itemName": "白带常规",
+            "sectionName": "其他检验",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "K20080",
+            "itemName": "糖链抗原724",
+            "sectionName": "肿瘤检测",
+            "refRang": "<6",
+            "minValue": "",
+            "maxValue": "6",
+            "unit": "μg/L"
+        },
+        {
+            "Id": "C10140",
+            "itemName": "血小板计数",
+            "sectionName": "血常规",
+            "refRang": "100~300",
+            "minValue": "100",
+            "maxValue": "300",
+            "unit": "×10^9/L"
+        },
+        {
+            "Id": "C20070",
+            "itemName": "红细胞沉降率",
+            "sectionName": "血流变",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": "mm/h"
+        },
+        {
+            "Id": "D10050",
+            "itemName": "晨尿A1-MG",
+            "sectionName": "尿液检测",
+            "refRang": "0~20",
+            "minValue": "0",
+            "maxValue": "20",
+            "unit": "ug/ml"
+        },
+        {
+            "Id": "J50040",
+            "itemName": "血氧饱和度",
+            "sectionName": "血液其他",
+            "refRang": "0.90~1",
+            "minValue": "0.90",
+            "maxValue": "1",
+            "unit": ""
+        },
+        {
+            "Id": "C30070",
+            "itemName": "血块收缩时间(CRT)(定量)",
+            "sectionName": "凝血",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "J10070",
+            "itemName": "血清铁",
+            "sectionName": "营养素",
+            "refRang": "7~29",
+            "minValue": "7",
+            "maxValue": "29",
+            "unit": "μmol/L"
+        },
+        {
+            "Id": "H10070",
+            "itemName": "乙肝病毒表面抗体",
+            "sectionName": "免疫检测",
+            "refRang": "0~10",
+            "minValue": "0",
+            "maxValue": "10",
+            "unit": "MIU/ml"
+        },
+        {
+            "Id": "G10091",
+            "itemName": "人绒毛促性腺激素(男)",
+            "sectionName": "激素检测",
+            "refRang": "0~5",
+            "minValue": "0",
+            "maxValue": "5",
+            "unit": "U/L"
+        },
+        {
+            "Id": "F10070",
+            "itemName": "胰岛素释放试验(餐后2小时)",
+            "sectionName": "生化检测",
+            "refRang": "空腹胰岛素为10～20mu/L；胰岛素(μU/L)/葡萄糖(mg/dl)＜0.3。服糖后30-60min为胰岛素高峰期，为空腹时胰岛素值的5-10倍，2小时后开始下降。",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": "mu/L"
+        },
+        {
+            "Id": "E00110",
+            "itemName": "粪便隐血试验",
+            "sectionName": "粪便检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "K30030",
+            "itemName": "游离前列腺特异性抗原",
+            "sectionName": "肿瘤检测",
+            "refRang": "<0.80",
+            "minValue": "",
+            "maxValue": "0.80",
+            "unit": "μg/L"
+        },
+        {
+            "Id": "C10150",
+            "itemName": "血小板压积",
+            "sectionName": "血常规",
+            "refRang": "0.0930~0.3050",
+            "minValue": "0.0930",
+            "maxValue": "0.3050",
+            "unit": ""
+        },
+        {
+            "Id": "C20071",
+            "itemName": "红细胞沉降率(男)",
+            "sectionName": "血流变",
+            "refRang": "0~15",
+            "minValue": "0",
+            "maxValue": "15",
+            "unit": "mm/h"
+        },
+        {
+            "Id": "E00010",
+            "itemName": "粪便性状",
+            "sectionName": "粪便检测",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "D10060",
+            "itemName": "晨尿B2-MG",
+            "sectionName": "尿液检测",
+            "refRang": "0~380",
+            "minValue": "0",
+            "maxValue": "380",
+            "unit": "ug/ml"
+        },
+        {
+            "Id": "J50050",
+            "itemName": "二氧化碳结合力",
+            "sectionName": "血液其他",
+            "refRang": "22~29",
+            "minValue": "22",
+            "maxValue": "29",
+            "unit": "mmol/L"
+        },
+        {
+            "Id": "C30080",
+            "itemName": "血小板第3因子有效性测定(PF3aT)",
+            "sectionName": "凝血",
+            "refRang": "<5",
+            "minValue": "",
+            "maxValue": "5",
+            "unit": "S"
+        },
+        {
+            "Id": "J10080",
+            "itemName": "血清锰",
+            "sectionName": "营养素",
+            "refRang": "73~255",
+            "minValue": "73",
+            "maxValue": "255",
+            "unit": "nmol/L"
+        },
+        {
+            "Id": "H10080",
+            "itemName": "乙肝病毒e抗原",
+            "sectionName": "免疫检测",
+            "refRang": "0~0.50",
+            "minValue": "0",
+            "maxValue": "0.50",
+            "unit": "PEI U/ml "
+        },
+        {
+            "Id": "G10092",
+            "itemName": "人绒毛促性腺激素(女)",
+            "sectionName": "激素检测",
+            "refRang": "0~7",
+            "minValue": "0",
+            "maxValue": "7",
+            "unit": "U/L"
+        },
+        {
+            "Id": "F10080",
+            "itemName": "血清C-肽测定",
+            "sectionName": "生化检测",
+            "refRang": "0.30~0.60",
+            "minValue": "0.30",
+            "maxValue": "0.60",
+            "unit": "nmol/L"
+        },
+        {
+            "Id": "K30020",
+            "itemName": "总前列腺特异性抗原",
+            "sectionName": "肿瘤检测",
+            "refRang": "0~4",
+            "minValue": "0",
+            "maxValue": "4",
+            "unit": "μg/L"
+        },
+        {
+            "Id": "C10160",
+            "itemName": "血小板体积分布宽度",
+            "sectionName": "血常规",
+            "refRang": "0.15~0.17",
+            "minValue": "0.15",
+            "maxValue": "0.17",
+            "unit": ""
+        },
+        {
+            "Id": "C20072",
+            "itemName": "红细胞沉降率(女)",
+            "sectionName": "血流变",
+            "refRang": "0~21",
+            "minValue": "0",
+            "maxValue": "21",
+            "unit": "mm/h"
+        },
+        {
+            "Id": "E00020",
+            "itemName": "粪便颜色",
+            "sectionName": "粪便检测",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "D10070",
+            "itemName": "晨尿白蛋白",
+            "sectionName": "尿液检测",
+            "refRang": "0~25",
+            "minValue": "0",
+            "maxValue": "25",
+            "unit": "ug/ml"
+        },
+        {
+            "Id": "C40010",
+            "itemName": "ABO血型",
+            "sectionName": "血液其他",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C30090",
+            "itemName": "β血小板球蛋白(β-TG)和血小板第4因子(PF4)",
+            "sectionName": "凝血",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "J10090",
+            "itemName": "血清铅",
+            "sectionName": "营养素",
+            "refRang": "<1.93",
+            "minValue": "",
+            "maxValue": "1.93",
+            "unit": "μmol/L"
+        },
+        {
+            "Id": "H10090",
+            "itemName": "乙肝病毒e抗体",
+            "sectionName": "免疫检测",
+            "refRang": "0~0.20",
+            "minValue": "0",
+            "maxValue": "0.20",
+            "unit": "PEI U/ml "
+        },
+        {
+            "Id": "G20010",
+            "itemName": "生长激素",
+            "sectionName": "激素检测",
+            "refRang": "0~5",
+            "minValue": "0",
+            "maxValue": "5",
+            "unit": "μg/L"
+        },
+        {
+            "Id": "F10090",
+            "itemName": "血果糖胺",
+            "sectionName": "生化检测",
+            "refRang": "2.10~2.80",
+            "minValue": "2.10",
+            "maxValue": "2.80",
+            "unit": "mmol/L"
+        },
+        {
+            "Id": "K30010",
+            "itemName": "前列腺特异性抗原",
+            "sectionName": "肿瘤检测",
+            "refRang": "0~4",
+            "minValue": "0",
+            "maxValue": "4",
+            "unit": "μg/L"
+        },
+        {
+            "Id": "C10170",
+            "itemName": "平均血小板体积",
+            "sectionName": "血常规",
+            "refRang": "7~11",
+            "minValue": "7",
+            "maxValue": "11",
+            "unit": "fl"
+        },
+        {
+            "Id": "C20080",
+            "itemName": "血沉方程K值",
+            "sectionName": "血流变",
+            "refRang": "14~94",
+            "minValue": "14",
+            "maxValue": "94",
+            "unit": ""
+        },
+        {
+            "Id": "E00030",
+            "itemName": "粪便气味",
+            "sectionName": "粪便检测",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "D20010",
+            "itemName": "尿绒毛膜促性腺激素定性试验",
+            "sectionName": "尿液检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C40020",
+            "itemName": "RH血型",
+            "sectionName": "血液其他",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C30100",
+            "itemName": "血小板相关抗体IgG(PAIgG)",
+            "sectionName": "凝血",
+            "refRang": "0~78",
+            "minValue": "0",
+            "maxValue": "78",
+            "unit": "ng/10^7PLT"
+        },
+        {
+            "Id": "J10100",
+            "itemName": "血清镁",
+            "sectionName": "营养素",
+            "refRang": "0.80~1.20",
+            "minValue": "0.80",
+            "maxValue": "1.20",
+            "unit": "mmol/L"
+        },
+        {
+            "Id": "H10100",
+            "itemName": "乙肝病毒核心抗体",
+            "sectionName": "免疫检测",
+            "refRang": "0~0.90",
+            "minValue": "0",
+            "maxValue": "0.90",
+            "unit": "PEI U/ml "
+        },
+        {
+            "Id": "G20020",
+            "itemName": "促甲状腺激素",
+            "sectionName": "激素检测",
+            "refRang": "0.27~4.20",
+            "minValue": "0.27",
+            "maxValue": "4.20",
+            "unit": "mIU/L"
+        },
+        {
+            "Id": "F10100",
+            "itemName": "血乳酸",
+            "sectionName": "生化检测",
+            "refRang": "0.50~1.70",
+            "minValue": "0.50",
+            "maxValue": "1.70",
+            "unit": "mmol/L"
+        },
+        {
+            "Id": "K80010",
+            "itemName": "鳞状细胞癌相关抗原",
+            "sectionName": "肿瘤检测",
+            "refRang": "0~10",
+            "minValue": "0",
+            "maxValue": "10",
+            "unit": "μg/L"
+        },
+        {
+            "Id": "C10180",
+            "itemName": "大血小板比率",
+            "sectionName": "血常规",
+            "refRang": "0.29~0.40",
+            "minValue": "0.29",
+            "maxValue": "0.40",
+            "unit": ""
+        },
+        {
+            "Id": "C20090",
+            "itemName": "全血高切粘度(200/S)",
+            "sectionName": "血流变",
+            "refRang": "3.67~5.49",
+            "minValue": "3.67",
+            "maxValue": "5.49",
+            "unit": "mPa?¤s"
+        },
+        {
+            "Id": "D00010",
+            "itemName": "尿量",
+            "sectionName": "尿液检测",
+            "refRang": "1000~2000",
+            "minValue": "1000",
+            "maxValue": "2000",
+            "unit": "ml/24h"
+        },
+        {
+            "Id": "C40030",
+            "itemName": "异型淋巴细胞",
+            "sectionName": "血液其他",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C30110",
+            "itemName": "血小板相关抗体IgA(PAIgA)",
+            "sectionName": "凝血",
+            "refRang": "0~2",
+            "minValue": "0",
+            "maxValue": "2",
+            "unit": "ng/10^8PLT"
+        },
+        {
+            "Id": "J10110",
+            "itemName": "血清磷",
+            "sectionName": "营养素",
+            "refRang": "0.87~1.45",
+            "minValue": "0.87",
+            "maxValue": "1.45",
+            "unit": "mmol/L"
+        },
+        {
+            "Id": "H10110",
+            "itemName": "乙肝病毒DNA",
+            "sectionName": "免疫检测",
+            "refRang": "0~50",
+            "minValue": "0",
+            "maxValue": "50",
+            "unit": "U/ml "
+        },
+        {
+            "Id": "G20030",
+            "itemName": "三碘甲状腺原氨酸",
+            "sectionName": "激素检测",
+            "refRang": "1.30~3.10",
+            "minValue": "1.30",
+            "maxValue": "3.10",
+            "unit": "nmol/mL"
+        },
+        {
+            "Id": "F10110",
+            "itemName": "血清丙酮酸",
+            "sectionName": "生化检测",
+            "refRang": "0.03~0.10",
+            "minValue": "0.03",
+            "maxValue": "0.10",
+            "unit": "mmol/L"
+        },
+        {
+            "Id": "E00100",
+            "itemName": "粪便脂肪球",
+            "sectionName": "粪便检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "K80020",
+            "itemName": "CYFRA21-1",
+            "sectionName": "肿瘤检测",
+            "refRang": "0~0.33",
+            "minValue": "0",
+            "maxValue": "0.33",
+            "unit": "ng/ml"
+        },
+        {
+            "Id": "C10190",
+            "itemName": "网织红细胞计数",
+            "sectionName": "血常规",
+            "refRang": "24~84",
+            "minValue": "24",
+            "maxValue": "84",
+            "unit": "×10^9/L"
+        },
+        {
+            "Id": "C20100",
+            "itemName": "全血中切粘度(30/S)",
+            "sectionName": "血流变",
+            "refRang": "4.43~6.37",
+            "minValue": "4.43",
+            "maxValue": "6.37",
+            "unit": "mPa?¤s"
+        },
+        {
+            "Id": "D00020",
+            "itemName": "尿颜色",
+            "sectionName": "尿液检测",
+            "refRang": "正常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C40040",
+            "itemName": "异型淋巴细胞百分比",
+            "sectionName": "血液其他",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C30120",
+            "itemName": "血小板相关抗体IgM(PAIgM)",
+            "sectionName": "凝血",
+            "refRang": "0~7",
+            "minValue": "0",
+            "maxValue": "7",
+            "unit": "ng/10^9PLT"
+        },
+        {
+            "Id": "J10120",
+            "itemName": "血清硒",
+            "sectionName": "营养素",
+            "refRang": "1.30~4.30",
+            "minValue": "1.30",
+            "maxValue": "4.30",
+            "unit": "μmol/L"
+        },
+        {
+            "Id": "H10120",
+            "itemName": "乙肝核心抗体IgM",
+            "sectionName": "免疫检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "G20040",
+            "itemName": "游离三碘甲状腺原氨酸",
+            "sectionName": "激素检测",
+            "refRang": "2.16~6.78",
+            "minValue": "2.16",
+            "maxValue": "6.78",
+            "unit": "pmol/L"
+        },
+        {
+            "Id": "F20010",
+            "itemName": "总胆固醇",
+            "sectionName": "生化检测",
+            "refRang": "<5.18",
+            "minValue": "",
+            "maxValue": "5.18",
+            "unit": "mmol/L"
+        },
+        {
+            "Id": "K80030",
+            "itemName": "神经原特异性烯醇化酶",
+            "sectionName": "肿瘤检测",
+            "refRang": "0~15",
+            "minValue": "0",
+            "maxValue": "15",
+            "unit": "μg/L"
+        },
+        {
+            "Id": "K80040",
+            "itemName": "恶性肿瘤特异性生长因子",
+            "sectionName": "肿瘤检测",
+            "refRang": "0~64",
+            "minValue": "0",
+            "maxValue": "64",
+            "unit": "U/ml"
+        },
+        {
+            "Id": "C20110",
+            "itemName": "全血低切粘度(3/S)",
+            "sectionName": "血流变",
+            "refRang": "6.98~12.10",
+            "minValue": "6.98",
+            "maxValue": "12.10",
+            "unit": "mPa?¤s"
+        },
+        {
+            "Id": "D00030",
+            "itemName": "尿酸碱度",
+            "sectionName": "尿液检测",
+            "refRang": "6~6.50",
+            "minValue": "6",
+            "maxValue": "6.50",
+            "unit": ""
+        },
+        {
+            "Id": "C40050",
+            "itemName": "幼稚细胞",
+            "sectionName": "血液其他",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C30130",
+            "itemName": "血管性血友病因子(vWF:Ag)",
+            "sectionName": "凝血",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C10110",
+            "itemName": "单核细胞计数",
+            "sectionName": "血常规",
+            "refRang": "0.12~0.80",
+            "minValue": "0.12",
+            "maxValue": "0.80",
+            "unit": "×10^9/L"
+        },
+        {
+            "Id": "J10130",
+            "itemName": "血清铬",
+            "sectionName": "营养素",
+            "refRang": "0.2460~1.0640",
+            "minValue": "0.2460",
+            "maxValue": "1.0640",
+            "unit": "μmol/L"
+        },
+        {
+            "Id": "H10130",
+            "itemName": "乙肝病毒前S1抗原",
+            "sectionName": "免疫检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "G20050",
+            "itemName": "甲状腺激素",
+            "sectionName": "激素检测",
+            "refRang": "66~181",
+            "minValue": "66",
+            "maxValue": "181",
+            "unit": "nmol/L"
+        },
+        {
+            "Id": "F20020",
+            "itemName": "甘油三酯",
+            "sectionName": "生化检测",
+            "refRang": "<1.70",
+            "minValue": "",
+            "maxValue": "1.70",
+            "unit": "mmol/L"
+        },
+        {
+            "Id": "K80050",
+            "itemName": "肿瘤坏死因子",
+            "sectionName": "肿瘤检测",
+            "refRang": "1.50~7.10",
+            "minValue": "1.50",
+            "maxValue": "7.10",
+            "unit": "μg/L"
+        },
+        {
+            "Id": "C20120",
+            "itemName": "全血高切还原粘度",
+            "sectionName": "血流变",
+            "refRang": "4.60~9.85",
+            "minValue": "4.60",
+            "maxValue": "9.85",
+            "unit": "mPa?¤s"
+        },
+        {
+            "Id": "C10200",
+            "itemName": "平均红细胞体积",
+            "sectionName": "血常规",
+            "refRang": "80~100",
+            "minValue": "80",
+            "maxValue": "100",
+            "unit": "fl"
+        },
+        {
+            "Id": "D00040",
+            "itemName": "尿比重",
+            "sectionName": "尿液检测",
+            "refRang": "1.0150~1.0250",
+            "minValue": "1.0150",
+            "maxValue": "1.0250",
+            "unit": ""
+        },
+        {
+            "Id": "C40060",
+            "itemName": "幼稚细胞百分比",
+            "sectionName": "血液其他",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C30140",
+            "itemName": "复钙时间(RT)",
+            "sectionName": "凝血",
+            "refRang": "1.50~3",
+            "minValue": "1.50",
+            "maxValue": "3",
+            "unit": "min"
+        },
+        {
+            "Id": "J10140",
+            "itemName": "血清砷",
+            "sectionName": "营养素",
+            "refRang": "0.03~0.83",
+            "minValue": "0.03",
+            "maxValue": "0.83",
+            "unit": "μmol/L"
+        },
+        {
+            "Id": "H10140",
+            "itemName": "甲肝病毒抗体",
+            "sectionName": "免疫检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "G20060",
+            "itemName": "游离甲状腺激素",
+            "sectionName": "激素检测",
+            "refRang": "10.30~25.80",
+            "minValue": "10.30",
+            "maxValue": "25.80",
+            "unit": "pmol/L"
+        },
+        {
+            "Id": "F20030",
+            "itemName": "血清低密度脂蛋白胆固醇",
+            "sectionName": "生化检测",
+            "refRang": "<3.37",
+            "minValue": "",
+            "maxValue": "3.37",
+            "unit": "mmol/L"
+        },
+        {
+            "Id": "K80060",
+            "itemName": "干扰素",
+            "sectionName": "肿瘤检测",
+            "refRang": "1~4",
+            "minValue": "1",
+            "maxValue": "4",
+            "unit": "ku/L"
+        },
+        {
+            "Id": "C20130",
+            "itemName": "全血中切还原粘度",
+            "sectionName": "血流变",
+            "refRang": "6.34~12.53",
+            "minValue": "6.34",
+            "maxValue": "12.53",
+            "unit": "mPa?¤s"
+        },
+        {
+            "Id": "C10210",
+            "itemName": "平均红细胞血红蛋白含量",
+            "sectionName": "血常规",
+            "refRang": "26~32",
+            "minValue": "26",
+            "maxValue": "32",
+            "unit": "pg"
+        },
+        {
+            "Id": "D00050",
+            "itemName": "尿潜血",
+            "sectionName": "尿液检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C40070",
+            "itemName": "血浆游离血红蛋白(FHb)",
+            "sectionName": "血液其他",
+            "refRang": "0~40",
+            "minValue": "0",
+            "maxValue": "40",
+            "unit": "mg/L"
+        },
+        {
+            "Id": "C30150",
+            "itemName": "凝血酶原消耗试验(PCT)",
+            "sectionName": "凝血",
+            "refRang": ">25",
+            "minValue": "25",
+            "maxValue": "0",
+            "unit": "S"
+        },
+        {
+            "Id": "J10150",
+            "itemName": "血清钴",
+            "sectionName": "营养素",
+            "refRang": "<42.50",
+            "minValue": "",
+            "maxValue": "42.50",
+            "unit": "nmol/L"
+        },
+        {
+            "Id": "H10150",
+            "itemName": "丙肝病毒抗体",
+            "sectionName": "免疫检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "G20070",
+            "itemName": "甲状旁腺激素",
+            "sectionName": "激素检测",
+            "refRang": "8~24",
+            "minValue": "8",
+            "maxValue": "24",
+            "unit": "ng/L"
+        },
+        {
+            "Id": "F20050",
+            "itemName": "载脂蛋白AI",
+            "sectionName": "生化检测",
+            "refRang": "1~1.60",
+            "minValue": "1",
+            "maxValue": "1.60",
+            "unit": "g/L"
+        },
+        {
+            "Id": "K90010",
+            "itemName": "早期肿瘤筛查(液态芯片)",
+            "sectionName": "肿瘤检测",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C20140",
+            "itemName": "全血低切还原粘度",
+            "sectionName": "血流变",
+            "refRang": "14.16~31.65",
+            "minValue": "14.16",
+            "maxValue": "31.65",
+            "unit": "mPa?¤s"
+        },
+        {
+            "Id": "C10220",
+            "itemName": "平均红细胞血红蛋白浓度",
+            "sectionName": "血常规",
+            "refRang": "310~350",
+            "minValue": "310",
+            "maxValue": "350",
+            "unit": "g/L"
+        },
+        {
+            "Id": "D00060",
+            "itemName": "尿酮体",
+            "sectionName": "尿液检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C40080",
+            "itemName": "红细胞渗透脆性试验(EOFT)",
+            "sectionName": "血液其他",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": "mmol/L"
+        },
+        {
+            "Id": "C30160",
+            "itemName": "凝血酶原消耗纠正试验",
+            "sectionName": "凝血",
+            "refRang": ">25",
+            "minValue": "25",
+            "maxValue": "0",
+            "unit": "S"
+        },
+        {
+            "Id": "J10160",
+            "itemName": "血清汞",
+            "sectionName": "营养素",
+            "refRang": "<50",
+            "minValue": "",
+            "maxValue": "50",
+            "unit": "nmol/L"
+        },
+        {
+            "Id": "H10160",
+            "itemName": "丁肝病毒抗体",
+            "sectionName": "免疫检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "G20080",
+            "itemName": "降钙素",
+            "sectionName": "激素检测",
+            "refRang": "0~14",
+            "minValue": "0",
+            "maxValue": "14",
+            "unit": "ng/L"
+        },
+        {
+            "Id": "F20060",
+            "itemName": "载脂蛋白B",
+            "sectionName": "生化检测",
+            "refRang": "0.60~1.12",
+            "minValue": "0.60",
+            "maxValue": "1.12",
+            "unit": "g/L"
+        },
+        {
+            "Id": "F20070",
+            "itemName": "脂蛋白a",
+            "sectionName": "生化检测",
+            "refRang": "0~300",
+            "minValue": "0",
+            "maxValue": "300",
+            "unit": "mg/L"
+        },
+        {
+            "Id": "C10230",
+            "itemName": "红细胞分布宽度变异系数",
+            "sectionName": "血常规",
+            "refRang": "<0.1490",
+            "minValue": "",
+            "maxValue": "0.1490",
+            "unit": ""
+        },
+        {
+            "Id": "D00070",
+            "itemName": "尿胆红素",
+            "sectionName": "尿液检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C40090",
+            "itemName": "自身溶血试验(AHT)及纠正试验(ACT)",
+            "sectionName": "血液其他",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C30170",
+            "itemName": "简易凝血活酶生成试验(STGT)",
+            "sectionName": "凝血",
+            "refRang": "10~15",
+            "minValue": "10",
+            "maxValue": "15",
+            "unit": "S"
+        },
+        {
+            "Id": "K10010",
+            "itemName": "甲胎蛋白(AFP)(定性)",
+            "sectionName": "肿瘤检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C20150",
+            "itemName": "红细胞聚集指数",
+            "sectionName": "血流变",
+            "refRang": "5.17~10.04",
+            "minValue": "5.17",
+            "maxValue": "10.04",
+            "unit": ""
+        },
+        {
+            "Id": "J10170",
+            "itemName": "血清锂",
+            "sectionName": "营养素",
+            "refRang": "0.50~1.40",
+            "minValue": "0.50",
+            "maxValue": "1.40",
+            "unit": "mmol/L"
+        },
+        {
+            "Id": "H10170",
+            "itemName": "戊肝病毒抗体",
+            "sectionName": "免疫检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "G30010",
+            "itemName": "血浆皮质醇",
+            "sectionName": "激素检测",
+            "refRang": "上午210～342nmol/L;下午77～181nmol/L;午夜64～130nmol/L",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": "nmol/L"
+        },
+        {
+            "Id": "F20080",
+            "itemName": "游离脂肪酸",
+            "sectionName": "生化检测",
+            "refRang": "0.40~0.90",
+            "minValue": "0.40",
+            "maxValue": "0.90",
+            "unit": "mmol/L"
+        },
+        {
+            "Id": "D00080",
+            "itemName": "尿胆原",
+            "sectionName": "尿液检测",
+            "refRang": "阴性～弱阳性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C40100",
+            "itemName": "红细胞葡糖-6-磷酸脱氢酶(G-6PD)活性",
+            "sectionName": "血液其他",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C30180",
+            "itemName": "简易凝血活酶生成纠正试验",
+            "sectionName": "凝血",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C10010",
+            "itemName": "白细胞计数",
+            "sectionName": "血常规",
+            "refRang": "4~10",
+            "minValue": "4",
+            "maxValue": "10",
+            "unit": "×10^9/L"
+        },
+        {
+            "Id": "K10020",
+            "itemName": "癌胚抗原(CEA)(定性)",
+            "sectionName": "肿瘤检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C20160",
+            "itemName": "红细胞刚性指数",
+            "sectionName": "血流变",
+            "refRang": "2.71~7.04",
+            "minValue": "2.71",
+            "maxValue": "7.04",
+            "unit": ""
+        },
+        {
+            "Id": "J30010",
+            "itemName": "血清维生素A",
+            "sectionName": "营养素",
+            "refRang": "0.52~2.10",
+            "minValue": "0.52",
+            "maxValue": "2.10",
+            "unit": "μmol/L"
+        },
+        {
+            "Id": "H10180",
+            "itemName": "庚肝病毒抗体",
+            "sectionName": "免疫检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "G30020",
+            "itemName": "抗利尿激素",
+            "sectionName": "激素检测",
+            "refRang": "1~1.50",
+            "minValue": "1",
+            "maxValue": "1.50",
+            "unit": "ng/L"
+        },
+        {
+            "Id": "F20090",
+            "itemName": "磷脂",
+            "sectionName": "生化检测",
+            "refRang": "1.30~3.20",
+            "minValue": "1.30",
+            "maxValue": "3.20",
+            "unit": "mmol/L"
+        },
+        {
+            "Id": "D00090",
+            "itemName": "尿亚硝酸盐",
+            "sectionName": "尿液检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C40120",
+            "itemName": "高铁血红蛋白还原试验(MRT)",
+            "sectionName": "血液其他",
+            "refRang": ">0.75",
+            "minValue": "0.75",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C30190",
+            "itemName": "毕格(Bigg)凝血活酶生成时间(BTGT)",
+            "sectionName": "凝血",
+            "refRang": "9~11",
+            "minValue": "9",
+            "maxValue": "11",
+            "unit": "S"
+        },
+        {
+            "Id": "C10020",
+            "itemName": "中性粒细胞比例",
+            "sectionName": "血常规",
+            "refRang": "0.50~0.70",
+            "minValue": "0.50",
+            "maxValue": "0.70",
+            "unit": ""
+        },
+        {
+            "Id": "K20010",
+            "itemName": "甲胎蛋白(AFP)",
+            "sectionName": "肿瘤检测",
+            "refRang": "<25",
+            "minValue": "",
+            "maxValue": "25",
+            "unit": "μg/L"
+        },
+        {
+            "Id": "C20170",
+            "itemName": "红细胞变形指数",
+            "sectionName": "血流变",
+            "refRang": "0.58~1.04",
+            "minValue": "0.58",
+            "maxValue": "1.04",
+            "unit": ""
+        },
+        {
+            "Id": "J30020",
+            "itemName": "血清β胡萝卜素",
+            "sectionName": "营养素",
+            "refRang": "0.93~5.60",
+            "minValue": "0.93",
+            "maxValue": "5.60",
+            "unit": "μmol/L"
+        },
+        {
+            "Id": "H20010",
+            "itemName": "梅毒抗体",
+            "sectionName": "免疫检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "G30030",
+            "itemName": "促肾上腺皮质激素",
+            "sectionName": "激素检测",
+            "refRang": "2.20~17.60",
+            "minValue": "2.20",
+            "maxValue": "17.60",
+            "unit": "pmol/L"
+        },
+        {
+            "Id": "K20040",
+            "itemName": "糖链抗原15-3",
+            "sectionName": "肿瘤检测",
+            "refRang": "<25",
+            "minValue": "",
+            "maxValue": "25",
+            "unit": "KU/L"
+        },
+        {
+            "Id": "D00100",
+            "itemName": "尿蛋白",
+            "sectionName": "尿液检测",
+            "refRang": "定性阴性，定量0～80",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": "mg/24h"
+        },
+        {
+            "Id": "C40130",
+            "itemName": "酸溶血试验(Ham试验)",
+            "sectionName": "血液其他",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C30200",
+            "itemName": "凝血因子的活性测定(因子Ⅱ：C)",
+            "sectionName": "凝血",
+            "refRang": "0.80~1.20",
+            "minValue": "0.80",
+            "maxValue": "1.20",
+            "unit": ""
+        },
+        {
+            "Id": "C10030",
+            "itemName": "中性粒细胞计数",
+            "sectionName": "血常规",
+            "refRang": "2~7",
+            "minValue": "2",
+            "maxValue": "7",
+            "unit": "×10^9/L"
+        },
+        {
+            "Id": "C20180",
+            "itemName": "红细胞电泳指数",
+            "sectionName": "血流变",
+            "refRang": "13.76~20.06",
+            "minValue": "13.76",
+            "maxValue": "20.06",
+            "unit": ""
+        },
+        {
+            "Id": "J30030",
+            "itemName": "血清维生素E",
+            "sectionName": "营养素",
+            "refRang": "11.60~46.40",
+            "minValue": "11.60",
+            "maxValue": "46.40",
+            "unit": "μmol/L"
+        },
+        {
+            "Id": "H20020",
+            "itemName": "人类免疫缺陷病毒抗体",
+            "sectionName": "免疫检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "G30040",
+            "itemName": "尿儿茶酚胺",
+            "sectionName": "激素检测",
+            "refRang": "71~229.50",
+            "minValue": "71",
+            "maxValue": "229.50",
+            "unit": "nmol/L"
+        },
+        {
+            "Id": "F30010",
+            "itemName": "丙氨酸氨基转移酶",
+            "sectionName": "生化检测",
+            "refRang": "8~40",
+            "minValue": "8",
+            "maxValue": "40",
+            "unit": "u/L"
+        },
+        {
+            "Id": "F30020",
+            "itemName": "天冬氨酸氨基转移酶",
+            "sectionName": "生化检测",
+            "refRang": "5~40",
+            "minValue": "5",
+            "maxValue": "40",
+            "unit": "u/L"
+        },
+        {
+            "Id": "D00110",
+            "itemName": "尿糖",
+            "sectionName": "尿液检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C40140",
+            "itemName": "冷热溶血试验(D-LT)",
+            "sectionName": "血液其他",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C30210",
+            "itemName": "凝血因子的活性测定(因子Ⅴ：C)",
+            "sectionName": "凝血",
+            "refRang": "0.80~1.20",
+            "minValue": "0.80",
+            "maxValue": "1.20",
+            "unit": ""
+        },
+        {
+            "Id": "C10040",
+            "itemName": "淋巴细胞比例",
+            "sectionName": "血常规",
+            "refRang": "0.20~0.40",
+            "minValue": "0.20",
+            "maxValue": "0.40",
+            "unit": ""
+        },
+        {
+            "Id": "C20190",
+            "itemName": "踝臂指数(ABI)",
+            "sectionName": "血流变",
+            "refRang": "1~1.40",
+            "minValue": "1",
+            "maxValue": "1.40",
+            "unit": ""
+        },
+        {
+            "Id": "J30040",
+            "itemName": "维生素D",
+            "sectionName": "营养素",
+            "refRang": "62~156",
+            "minValue": "62",
+            "maxValue": "156",
+            "unit": "pmol/L"
+        },
+        {
+            "Id": "H20030",
+            "itemName": "单纯疱疹病毒抗体",
+            "sectionName": "免疫检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "G30050",
+            "itemName": "血浆醛固酮",
+            "sectionName": "激素检测",
+            "refRang": "5~15",
+            "minValue": "5",
+            "maxValue": "15",
+            "unit": "ng/dL"
+        },
+        {
+            "Id": "F30030",
+            "itemName": "γ-谷氨酰基转肽酶",
+            "sectionName": "生化检测",
+            "refRang": "0~50",
+            "minValue": "0",
+            "maxValue": "50",
+            "unit": "u/L"
+        },
+        {
+            "Id": "C20020",
+            "itemName": "血浆黏度",
+            "sectionName": "血流变",
+            "refRang": "0.82~1.99",
+            "minValue": "0.82",
+            "maxValue": "1.99",
+            "unit": "mPa?¤s"
+        },
+        {
+            "Id": "D00120",
+            "itemName": "尿检抗坏血酸",
+            "sectionName": "尿液检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C40150",
+            "itemName": "蔗糖溶血试验(SHT)定性",
+            "sectionName": "血液其他",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C30220",
+            "itemName": "凝血因子的活性测定(因子ⅤI：C)",
+            "sectionName": "凝血",
+            "refRang": "0.80~1.20",
+            "minValue": "0.80",
+            "maxValue": "1.20",
+            "unit": ""
+        },
+        {
+            "Id": "C10050",
+            "itemName": "淋巴细胞计数",
+            "sectionName": "血常规",
+            "refRang": "0.80~4",
+            "minValue": "0.80",
+            "maxValue": "4",
+            "unit": "×10^9/L"
+        },
+        {
+            "Id": "J30050",
+            "itemName": "维生素C",
+            "sectionName": "营养素",
+            "refRang": "23~85",
+            "minValue": "23",
+            "maxValue": "85",
+            "unit": "μmol/L"
+        },
+        {
+            "Id": "H20040",
+            "itemName": "人类乳头瘤病毒",
+            "sectionName": "免疫检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "G30060",
+            "itemName": "血管紧张素Ⅰ",
+            "sectionName": "激素检测",
+            "refRang": "11~88",
+            "minValue": "11",
+            "maxValue": "88",
+            "unit": "ng/L"
+        },
+        {
+            "Id": "F30040",
+            "itemName": "总胆汁酸",
+            "sectionName": "生化检测",
+            "refRang": "0~10",
+            "minValue": "0",
+            "maxValue": "10",
+            "unit": "μmol/L"
+        },
+        {
+            "Id": "D00130",
+            "itemName": "尿白细胞",
+            "sectionName": "尿液检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C40160",
+            "itemName": "蔗糖溶血试验(SHT)定量",
+            "sectionName": "血液其他",
+            "refRang": "<5",
+            "minValue": "",
+            "maxValue": "5",
+            "unit": "%"
+        },
+        {
+            "Id": "C30230",
+            "itemName": "凝血因子的活性测定(因子Ⅷ：C)",
+            "sectionName": "凝血",
+            "refRang": "0.60~1.60",
+            "minValue": "0.60",
+            "maxValue": "1.60",
+            "unit": ""
+        },
+        {
+            "Id": "C10060",
+            "itemName": "嗜酸性粒细胞比例",
+            "sectionName": "血常规",
+            "refRang": "0.0050~0.50",
+            "minValue": "0.0050",
+            "maxValue": "0.50",
+            "unit": ""
+        },
+        {
+            "Id": "J30060",
+            "itemName": "维生素B1",
+            "sectionName": "营养素",
+            "refRang": "0~75",
+            "minValue": "0",
+            "maxValue": "75",
+            "unit": "μmol/L"
+        },
+        {
+            "Id": "H20050",
+            "itemName": "人类轮状病毒抗体",
+            "sectionName": "免疫检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "G30070",
+            "itemName": "血管紧张素Ⅱ",
+            "sectionName": "激素检测",
+            "refRang": "10~30",
+            "minValue": "10",
+            "maxValue": "30",
+            "unit": "ng/L"
+        },
+        {
+            "Id": "F30050",
+            "itemName": "总胆红素",
+            "sectionName": "生化检测",
+            "refRang": "3.40~17.10",
+            "minValue": "3.40",
+            "maxValue": "17.10",
+            "unit": "μmol/L"
+        },
+        {
+            "Id": "D00140",
+            "itemName": "尿镜检白细胞",
+            "sectionName": "尿液检测",
+            "refRang": "0~5",
+            "minValue": "0",
+            "maxValue": "5",
+            "unit": "个/HP"
+        },
+        {
+            "Id": "C40170",
+            "itemName": "抗人球蛋白试验",
+            "sectionName": "血液其他",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C30240",
+            "itemName": "凝血因子的活性测定(因子Ⅸ：C)",
+            "sectionName": "凝血",
+            "refRang": "0.80~1.20",
+            "minValue": "0.80",
+            "maxValue": "1.20",
+            "unit": ""
+        },
+        {
+            "Id": "C10070",
+            "itemName": "嗜酸性粒细胞计数",
+            "sectionName": "血常规",
+            "refRang": "0.05~0.50",
+            "minValue": "0.05",
+            "maxValue": "0.50",
+            "unit": "×10^9/L"
+        },
+        {
+            "Id": "J30070",
+            "itemName": "维生素B2",
+            "sectionName": "营养素",
+            "refRang": "69~98",
+            "minValue": "69",
+            "maxValue": "98",
+            "unit": "nmol/L"
+        },
+        {
+            "Id": "H20060",
+            "itemName": "结核菌素皮内试验",
+            "sectionName": "免疫检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "G30080",
+            "itemName": "肾上腺素",
+            "sectionName": "激素检测",
+            "refRang": "<480",
+            "minValue": "",
+            "maxValue": "480",
+            "unit": "pmol/L"
+        },
+        {
+            "Id": "F30060",
+            "itemName": "直接胆红素",
+            "sectionName": "生化检测",
+            "refRang": "0~6.84",
+            "minValue": "0",
+            "maxValue": "6.84",
+            "unit": "μmol/L"
+        },
+        {
+            "Id": "D00150",
+            "itemName": "尿镜检红细胞",
+            "sectionName": "尿液检测",
+            "refRang": "0~3",
+            "minValue": "0",
+            "maxValue": "3",
+            "unit": "个/HP"
+        },
+        {
+            "Id": "C40180",
+            "itemName": "血红蛋白电泳(HE)",
+            "sectionName": "血液其他",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C30250",
+            "itemName": "凝血因子的活性测定(因子Ⅹ：C)",
+            "sectionName": "凝血",
+            "refRang": "0.80~1.20",
+            "minValue": "0.80",
+            "maxValue": "1.20",
+            "unit": ""
+        },
+        {
+            "Id": "C10080",
+            "itemName": "嗜碱性粒细胞比例",
+            "sectionName": "血常规",
+            "refRang": "0~0.01",
+            "minValue": "0",
+            "maxValue": "0.01",
+            "unit": ""
+        },
+        {
+            "Id": "J30080",
+            "itemName": "维生素B6",
+            "sectionName": "营养素",
+            "refRang": "14.60~72.90",
+            "minValue": "14.60",
+            "maxValue": "72.90",
+            "unit": "nmol/L"
+        },
+        {
+            "Id": "H20070",
+            "itemName": "结核杆菌抗体",
+            "sectionName": "免疫检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "G90010",
+            "itemName": "多巴胺",
+            "sectionName": "激素检测",
+            "refRang": "<888",
+            "minValue": "",
+            "maxValue": "888",
+            "unit": "pmol/L"
+        },
+        {
+            "Id": "F30070",
+            "itemName": "间接胆红素",
+            "sectionName": "生化检测",
+            "refRang": "1.70~10.20",
+            "minValue": "1.70",
+            "maxValue": "10.20",
+            "unit": "μmol/L"
+        },
+        {
+            "Id": "D00160",
+            "itemName": "尿镜检管型",
+            "sectionName": "尿液检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C40190",
+            "itemName": "血红蛋白H包涵体(HbH)",
+            "sectionName": "血液其他",
+            "refRang": "<5",
+            "minValue": "",
+            "maxValue": "5",
+            "unit": "%"
+        },
+        {
+            "Id": "C30260",
+            "itemName": "凝血因子的活性测定(因子Ⅺ：C)",
+            "sectionName": "凝血",
+            "refRang": "0.80~1.20",
+            "minValue": "0.80",
+            "maxValue": "1.20",
+            "unit": ""
+        },
+        {
+            "Id": "C10090",
+            "itemName": "嗜碱性粒细胞计数",
+            "sectionName": "血常规",
+            "refRang": "0~0.10",
+            "minValue": "0",
+            "maxValue": "0.10",
+            "unit": "×10^9/L"
+        },
+        {
+            "Id": "J30090",
+            "itemName": "维生素B12",
+            "sectionName": "营养素",
+            "refRang": "74~516",
+            "minValue": "74",
+            "maxValue": "516",
+            "unit": "pmol/L"
+        },
+        {
+            "Id": "H20080",
+            "itemName": "流行性出血热病毒抗体",
+            "sectionName": "免疫检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "G90020",
+            "itemName": "红细胞生成素",
+            "sectionName": "激素检测",
+            "refRang": "25~75",
+            "minValue": "25",
+            "maxValue": "75",
+            "unit": "IU/L"
+        },
+        {
+            "Id": "C10121",
+            "itemName": "红细胞计数(男)",
+            "sectionName": "血常规",
+            "refRang": "4~5.50",
+            "minValue": "4",
+            "maxValue": "5.50",
+            "unit": "×10^12/L"
+        },
+        {
+            "Id": "D00170",
+            "itemName": "尿血红蛋白",
+            "sectionName": "尿液检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C40200",
+            "itemName": "异丙醇试验(TPT)",
+            "sectionName": "血液其他",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C30270",
+            "itemName": "凝血因子的活性测定(因子Ⅻ：C)",
+            "sectionName": "凝血",
+            "refRang": "0.80~1.20",
+            "minValue": "0.80",
+            "maxValue": "1.20",
+            "unit": ""
+        },
+        {
+            "Id": "F40040",
+            "itemName": "24h内生肌酐清除率",
+            "sectionName": "生化检测",
+            "refRang": "80~120",
+            "minValue": "80",
+            "maxValue": "120",
+            "unit": "ml/min"
+        },
+        {
+            "Id": "J10020",
+            "itemName": "血清钠",
+            "sectionName": "营养素",
+            "refRang": "135~145",
+            "minValue": "135",
+            "maxValue": "145",
+            "unit": "mmol/L"
+        },
+        {
+            "Id": "H20100",
+            "itemName": "巨细胞病毒抗体",
+            "sectionName": "免疫检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "G10072",
+            "itemName": "血清孕酮(女)",
+            "sectionName": "激素检测",
+            "refRang": "卵泡期0.6～1.9；黄体期20.7～102.4；绝经期＜3.20",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": "nmol/L"
+        },
+        {
+            "Id": "G90040",
+            "itemName": "胃泌素",
+            "sectionName": "激素检测",
+            "refRang": "1~15",
+            "minValue": "1",
+            "maxValue": "15",
+            "unit": "pmol/L"
+        },
+        {
+            "Id": "D00200",
+            "itemName": "尿粘液丝",
+            "sectionName": "尿液检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C40210",
+            "itemName": "阿司匹林耐量试验(ATT)",
+            "sectionName": "血液其他",
+            "refRang": "<2",
+            "minValue": "",
+            "maxValue": "2",
+            "unit": "min"
+        },
+        {
+            "Id": "C30280",
+            "itemName": "因子ⅩⅢ定性测定(因子ⅩⅢ：C)",
+            "sectionName": "凝血",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "F40050",
+            "itemName": "β2-微球蛋白",
+            "sectionName": "生化检测",
+            "refRang": "1~2",
+            "minValue": "1",
+            "maxValue": "2",
+            "unit": "mg/L"
+        },
+        {
+            "Id": "H20110",
+            "itemName": "麻疹病毒抗体",
+            "sectionName": "免疫检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "H20120",
+            "itemName": "EB病毒壳抗原IgA抗体",
+            "sectionName": "免疫检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C30290",
+            "itemName": "蝰蛇毒时间(RVVT)",
+            "sectionName": "凝血",
+            "refRang": "13~14",
+            "minValue": "13",
+            "maxValue": "14",
+            "unit": "S"
+        },
+        {
+            "Id": "G10010",
+            "itemName": "血清促卵泡激素",
+            "sectionName": "激素检测",
+            "refRang": "男性1～8u/L；女性卵泡期1～12u/L，排卵期16～104u/L，黄体期1～12u/L，绝经期16～66",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": "u/L"
+        },
+        {
+            "Id": "F40060",
+            "itemName": "胱抑素C",
+            "sectionName": "生化检测",
+            "refRang": "0.51~10.90",
+            "minValue": "0.51",
+            "maxValue": "10.90",
+            "unit": "mg/L"
+        },
+        {
+            "Id": "J50010",
+            "itemName": "血液酸碱度",
+            "sectionName": "血液其他",
+            "refRang": "7.35~7.45",
+            "minValue": "7.35",
+            "maxValue": "7.45",
+            "unit": ""
+        },
+        {
+            "Id": "H20130",
+            "itemName": "风疹病毒抗体",
+            "sectionName": "免疫检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C30300",
+            "itemName": "抗凝血酶Ⅲ活性(ATⅢ：C)和抗凝血酶Ⅲ抗原(ATⅢ：Ag)",
+            "sectionName": "凝血",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "G10011",
+            "itemName": "血清促卵泡激素(男)",
+            "sectionName": "激素检测",
+            "refRang": "男性1～8u/L；女性卵泡期1～12u/L，排卵期16～104u/L，黄体期1～12u/L，绝经期16～66",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": "u/L"
+        },
+        {
+            "Id": "F50010",
+            "itemName": "碱性磷酸酶",
+            "sectionName": "生化检测",
+            "refRang": "40~110",
+            "minValue": "40",
+            "maxValue": "110",
+            "unit": "u/L"
+        },
+        {
+            "Id": "H20140",
+            "itemName": "脊髓灰质炎病毒抗体",
+            "sectionName": "免疫检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "C30310",
+            "itemName": "凝血酶时间(TT)",
+            "sectionName": "凝血",
+            "refRang": "16~18",
+            "minValue": "16",
+            "maxValue": "18",
+            "unit": "S"
+        },
+        {
+            "Id": "G10012",
+            "itemName": "血清促卵泡激素(女)",
+            "sectionName": "激素检测",
+            "refRang": "男性1～8u/L；女性卵泡期1～12u/L，排卵期16～104u/L，黄体期1～12u/L，绝经期16～66",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": "u/L"
+        },
+        {
+            "Id": "F50020",
+            "itemName": "淀粉酶",
+            "sectionName": "生化检测",
+            "refRang": "400~1800",
+            "minValue": "400",
+            "maxValue": "1800",
+            "unit": "u/L"
+        },
+        {
+            "Id": "H20150",
+            "itemName": "柯萨奇病毒抗体",
+            "sectionName": "免疫检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "G10020",
+            "itemName": "黄体生成素",
+            "sectionName": "激素检测",
+            "refRang": "男性1～7u/L；女性卵泡期1～9u/L，排卵期6～260u/L，黄体期1～9u/L，绝经期30～119u/L",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": "u/L"
+        },
+        {
+            "Id": "F50030",
+            "itemName": "脂肪酶",
+            "sectionName": "生化检测",
+            "refRang": "<220",
+            "minValue": "",
+            "maxValue": "220",
+            "unit": "u/L"
+        },
+        {
+            "Id": "C30020",
+            "itemName": "凝血时间",
+            "sectionName": "凝血",
+            "refRang": "3~7",
+            "minValue": "3",
+            "maxValue": "7",
+            "unit": "min"
+        },
+        {
+            "Id": "H20160",
+            "itemName": "阿米巴原虫抗原抗体",
+            "sectionName": "免疫检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "G10021",
+            "itemName": "黄体生成素(男)",
+            "sectionName": "激素检测",
+            "refRang": "男性1～7u/L；女性卵泡期1～9u/L，排卵期6～260u/L，黄体期1～9u/L，绝经期30～119u/L",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": "u/L"
+        },
+        {
+            "Id": "F50040",
+            "itemName": "单胺氧化酶",
+            "sectionName": "生化检测",
+            "refRang": "12~40",
+            "minValue": "12",
+            "maxValue": "40",
+            "unit": "u/ml"
+        },
+        {
+            "Id": "H20170",
+            "itemName": "疟原虫抗原抗体",
+            "sectionName": "免疫检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "G10022",
+            "itemName": "黄体生成素(女)",
+            "sectionName": "激素检测",
+            "refRang": "男性1～7u/L；女性卵泡期1～9u/L，排卵期6～260u/L，黄体期1～9u/L，绝经期30～119u/L",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": "u/L"
+        },
+        {
+            "Id": "F50050",
+            "itemName": "胆碱酯酶",
+            "sectionName": "生化检测",
+            "refRang": "30000~80000",
+            "minValue": "30000",
+            "maxValue": "80000",
+            "unit": "u/L"
+        },
+        {
+            "Id": "H20180",
+            "itemName": "肥达反应",
+            "sectionName": "免疫检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "G10030",
+            "itemName": "垂体泌乳素",
+            "sectionName": "激素检测",
+            "refRang": "0~25",
+            "minValue": "0",
+            "maxValue": "25",
+            "unit": "ng/mL"
+        },
+        {
+            "Id": "F50060",
+            "itemName": "肌酸激酶",
+            "sectionName": "生化检测",
+            "refRang": "酶偶联法（37℃）38～174",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": "u/L"
+        },
+        {
+            "Id": "H20190",
+            "itemName": "抗“O”试验",
+            "sectionName": "免疫检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "G10031",
+            "itemName": "垂体泌乳素(男)",
+            "sectionName": "激素检测",
+            "refRang": "0~25",
+            "minValue": "0",
+            "maxValue": "25",
+            "unit": "ng/mL"
+        },
+        {
+            "Id": "F50061",
+            "itemName": "肌酸激酶(男)",
+            "sectionName": "生化检测",
+            "refRang": "38~174",
+            "minValue": "38",
+            "maxValue": "174",
+            "unit": "u/L"
+        },
+        {
+            "Id": "H20200",
+            "itemName": "沙眼衣原体抗体",
+            "sectionName": "免疫检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "G10032",
+            "itemName": "垂体泌乳素(女)",
+            "sectionName": "激素检测",
+            "refRang": "0~25",
+            "minValue": "0",
+            "maxValue": "25",
+            "unit": "ng/mL"
+        },
+        {
+            "Id": "F50062",
+            "itemName": "肌酸激酶(女)",
+            "sectionName": "生化检测",
+            "refRang": "26~140",
+            "minValue": "26",
+            "maxValue": "140",
+            "unit": "u/L"
+        },
+        {
+            "Id": "F50070",
+            "itemName": "肌酸激酶同工酶",
+            "sectionName": "生化检测",
+            "refRang": "<0.05",
+            "minValue": "",
+            "maxValue": "0.05",
+            "unit": "%"
+        },
+        {
+            "Id": "I10010",
+            "itemName": "免疫球蛋白G",
+            "sectionName": "免疫检测",
+            "refRang": "6~16",
+            "minValue": "6",
+            "maxValue": "16",
+            "unit": "g/L"
+        },
+        {
+            "Id": "G10040",
+            "itemName": "雌二醇",
+            "sectionName": "激素检测",
+            "refRang": "男＜180pmol/L；女:卵泡期37～330pmol/L、排卵期367～1835pmol/L、黄体期184～881pmol/L、绝经期37-110pmol/L",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": "pmol/L"
+        },
+        {
+            "Id": "I10020",
+            "itemName": "免疫球蛋白A",
+            "sectionName": "免疫检测",
+            "refRang": "760~3900",
+            "minValue": "760",
+            "maxValue": "3900",
+            "unit": "mg/L"
+        },
+        {
+            "Id": "G10041",
+            "itemName": "雌二醇(男)",
+            "sectionName": "激素检测",
+            "refRang": "男＜180pmol/L；女:卵泡期37～330pmol/L、排卵期367～1835pmol/L、黄体期184～881pmol/L、绝经期37-110pmol/L",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": "pmol/L"
+        },
+        {
+            "Id": "F50080",
+            "itemName": "乳酸脱氢酶",
+            "sectionName": "生化检测",
+            "refRang": "104~245",
+            "minValue": "104",
+            "maxValue": "245",
+            "unit": "u/L"
+        },
+        {
+            "Id": "I10030",
+            "itemName": "免疫球蛋白M",
+            "sectionName": "免疫检测",
+            "refRang": "400~3450",
+            "minValue": "400",
+            "maxValue": "3450",
+            "unit": "mg/L"
+        },
+        {
+            "Id": "G10042",
+            "itemName": "雌二醇(女)",
+            "sectionName": "激素检测",
+            "refRang": "男＜180pmol/L；女:卵泡期37～330pmol/L、排卵期367～1835pmol/L、黄体期184～881pmol/L、绝经期37-110pmol/L",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": "pmol/L"
+        },
+        {
+            "Id": "F50090",
+            "itemName": "乳酸脱氢酶同工酶",
+            "sectionName": "生化检测",
+            "refRang": "LD132.7%?à4.6%;LD245.1%?à3.53%;LD318.5%?à2.96%;LD42.9%?à0.89%;LD50.85%?à0.55%",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": "%"
+        },
+        {
+            "Id": "I10040",
+            "itemName": "免疫球蛋白D",
+            "sectionName": "免疫检测",
+            "refRang": "0~80",
+            "minValue": "0",
+            "maxValue": "80",
+            "unit": "mg/L"
+        },
+        {
+            "Id": "G10050",
+            "itemName": "雌三醇",
+            "sectionName": "激素检测",
+            "refRang": "0~7",
+            "minValue": "0",
+            "maxValue": "7",
+            "unit": "nmol/L"
+        },
+        {
+            "Id": "F50100",
+            "itemName": "α-羟丁酸脱氢酶",
+            "sectionName": "生化检测",
+            "refRang": "90~220",
+            "minValue": "90",
+            "maxValue": "220",
+            "unit": "u/L"
+        },
+        {
+            "Id": "I10050",
+            "itemName": "免疫球蛋白E",
+            "sectionName": "免疫检测",
+            "refRang": "0.10~0.90",
+            "minValue": "0.10",
+            "maxValue": "0.90",
+            "unit": "mg/L"
+        },
+        {
+            "Id": "G10051",
+            "itemName": "雌三醇(男)",
+            "sectionName": "激素检测",
+            "refRang": "0~7",
+            "minValue": "0",
+            "maxValue": "7",
+            "unit": "nmol/L"
+        },
+        {
+            "Id": "F50110",
+            "itemName": "α-L-岩藻糖苷酶",
+            "sectionName": "生化检测",
+            "refRang": "0~740",
+            "minValue": "0",
+            "maxValue": "740",
+            "unit": "nmol/L"
+        },
+        {
+            "Id": "I10060",
+            "itemName": "补体C3",
+            "sectionName": "免疫检测",
+            "refRang": "0.80~1.20",
+            "minValue": "0.80",
+            "maxValue": "1.20",
+            "unit": "g/L"
+        },
+        {
+            "Id": "G10052",
+            "itemName": "雌三醇(女)",
+            "sectionName": "激素检测",
+            "refRang": "0~7",
+            "minValue": "0",
+            "maxValue": "7",
+            "unit": "nmol/L"
+        },
+        {
+            "Id": "F50120",
+            "itemName": "甘氨酰脯氨酸二肽氨基肽酶",
+            "sectionName": "生化检测",
+            "refRang": "44~116",
+            "minValue": "44",
+            "maxValue": "116",
+            "unit": "u/L"
+        },
+        {
+            "Id": "I10070",
+            "itemName": "补体C4",
+            "sectionName": "免疫检测",
+            "refRang": "0.10~0.40",
+            "minValue": "0.10",
+            "maxValue": "0.40",
+            "unit": "g/L"
+        },
+        {
+            "Id": "G10060",
+            "itemName": "雌酮",
+            "sectionName": "激素检测",
+            "refRang": "青春期0～296pmol/L；卵泡期74～555pmol/L；绝经期116～134pmol/L",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": "pmol/L"
+        },
+        {
+            "Id": "F50130",
+            "itemName": "骨特异性碱性磷酸酶",
+            "sectionName": "生化检测",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "I20010",
+            "itemName": "T淋巴细胞亚群CD3",
+            "sectionName": "免疫检测",
+            "refRang": "0.6110~0.77",
+            "minValue": "0.6110",
+            "maxValue": "0.77",
+            "unit": ""
+        },
+        {
+            "Id": "G10061",
+            "itemName": "雌酮(男)",
+            "sectionName": "激素检测",
+            "refRang": "青春期0～296pmol/L；卵泡期74～555pmol/L；绝经期116～134pmol/L",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": "pmol/L"
+        },
+        {
+            "Id": "F60010",
+            "itemName": "转铁蛋白",
+            "sectionName": "生化检测",
+            "refRang": "2.20~4",
+            "minValue": "2.20",
+            "maxValue": "4",
+            "unit": "g/L"
+        },
+        {
+            "Id": "I20020",
+            "itemName": "T淋巴细胞亚群CD4",
+            "sectionName": "免疫检测",
+            "refRang": "0.2580~0.4160",
+            "minValue": "0.2580",
+            "maxValue": "0.4160",
+            "unit": ""
+        },
+        {
+            "Id": "G10062",
+            "itemName": "雌酮(女)",
+            "sectionName": "激素检测",
+            "refRang": "青春期0～296pmol/L；卵泡期74～555pmol/L；绝经期116～134pmol/L",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": "pmol/L"
+        },
+        {
+            "Id": "F60020",
+            "itemName": "前白蛋白",
+            "sectionName": "生化检测",
+            "refRang": "180~390",
+            "minValue": "180",
+            "maxValue": "390",
+            "unit": "mg/L"
+        },
+        {
+            "Id": "G90030",
+            "itemName": "胃蛋白酶原(PG)Ⅰ/Ⅱ",
+            "sectionName": "激素检测",
+            "refRang": ">6",
+            "minValue": "6",
+            "maxValue": "",
+            "unit": ""
+        },
+        {
+            "Id": "F60030",
+            "itemName": "C-反应蛋白",
+            "sectionName": "生化检测",
+            "refRang": "<10",
+            "minValue": "",
+            "maxValue": "10",
+            "unit": "mg/L"
+        },
+        {
+            "Id": "I20030",
+            "itemName": "T淋巴细胞亚群CD8",
+            "sectionName": "免疫检测",
+            "refRang": "0.1810~0.2960",
+            "minValue": "0.1810",
+            "maxValue": "0.2960",
+            "unit": ""
+        },
+        {
+            "Id": "I30010",
+            "itemName": "组织损伤免疫测定",
+            "sectionName": "免疫检测",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "F60040",
+            "itemName": "超敏C-反应蛋白",
+            "sectionName": "生化检测",
+            "refRang": "0~10",
+            "minValue": "0",
+            "maxValue": "10",
+            "unit": "mg/L"
+        },
+        {
+            "Id": "I30030",
+            "itemName": "类风湿因子",
+            "sectionName": "免疫检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "F60050",
+            "itemName": "血清肌钙蛋白",
+            "sectionName": "生化检测",
+            "refRang": "<0.30",
+            "minValue": "",
+            "maxValue": "0.30",
+            "unit": "μg/L"
+        },
+        {
+            "Id": "I50010",
+            "itemName": "抗核抗体",
+            "sectionName": "免疫检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "F60060",
+            "itemName": "血清肌红蛋白",
+            "sectionName": "生化检测",
+            "refRang": "6~80",
+            "minValue": "6",
+            "maxValue": "80",
+            "unit": "μg/L"
+        },
+        {
+            "Id": "I50020",
+            "itemName": "抗双链DNA抗体",
+            "sectionName": "免疫检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "F60070",
+            "itemName": "肌红蛋白(Mb)",
+            "sectionName": "生化检测",
+            "refRang": "50~85",
+            "minValue": "50",
+            "maxValue": "85",
+            "unit": "μg/L"
+        },
+        {
+            "Id": "H10020",
+            "itemName": "乙肝病毒表面抗体(定性)",
+            "sectionName": "免疫检测",
+            "refRang": "阴性",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "F60080",
+            "itemName": "血清铁蛋白(SF)",
+            "sectionName": "生化检测",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": "μg/L"
+        },
+        {
+            "Id": "F60081",
+            "itemName": "血清铁蛋白(SF)(男)",
+            "sectionName": "生化检测",
+            "refRang": "15~200",
+            "minValue": "15",
+            "maxValue": "200",
+            "unit": "μg/L"
+        },
+        {
+            "Id": "F60082",
+            "itemName": "血清铁蛋白(SF)(女)",
+            "sectionName": "生化检测",
+            "refRang": "12~150",
+            "minValue": "12",
+            "maxValue": "150",
+            "unit": "μg/L"
+        },
+        {
+            "Id": "F60090",
+            "itemName": "血清运铁蛋白(Tf)",
+            "sectionName": "生化检测",
+            "refRang": "2.50~4.30",
+            "minValue": "2.50",
+            "maxValue": "4.30",
+            "unit": "g/L"
+        },
+        {
+            "Id": "F60100",
+            "itemName": "运铁蛋白结合铁饱和度",
+            "sectionName": "生化检测",
+            "refRang": "0.33~0.35",
+            "minValue": "0.33",
+            "maxValue": "0.35",
+            "unit": ""
+        },
+        {
+            "Id": "F60110",
+            "itemName": "血清触珠蛋白(Hp)",
+            "sectionName": "生化检测",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": "g/L"
+        },
+        {
+            "Id": "F60120",
+            "itemName": "血清总铁结合力",
+            "sectionName": "生化检测",
+            "refRang": "50~77",
+            "minValue": "50",
+            "maxValue": "77",
+            "unit": "μmol/L"
+        },
+        {
+            "Id": "F60130",
+            "itemName": "透明质酸",
+            "sectionName": "生化检测",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "F60140",
+            "itemName": "同型半胱氨酸",
+            "sectionName": "生化检测",
+            "refRang": "0~15",
+            "minValue": "0",
+            "maxValue": "15",
+            "unit": "umol/L"
+        },
+        {
+            "Id": "F30080",
+            "itemName": "总蛋白",
+            "sectionName": "生化检测",
+            "refRang": "60~80",
+            "minValue": "60",
+            "maxValue": "80",
+            "unit": "g/L"
+        },
+        {
+            "Id": "F30090",
+            "itemName": "白蛋白",
+            "sectionName": "生化检测",
+            "refRang": "36~50",
+            "minValue": "36",
+            "maxValue": "50",
+            "unit": "g/L"
+        },
+        {
+            "Id": "F30100",
+            "itemName": "球蛋白",
+            "sectionName": "生化检测",
+            "refRang": "20~30",
+            "minValue": "20",
+            "maxValue": "30",
+            "unit": "g/L"
+        },
+        {
+            "Id": "F30110",
+            "itemName": "白蛋白/球蛋白",
+            "sectionName": "生化检测",
+            "refRang": "1.50~2.50",
+            "minValue": "1.50",
+            "maxValue": "2.50",
+            "unit": ""
+        },
+        {
+            "Id": "F30120",
+            "itemName": "血氨",
+            "sectionName": "生化检测",
+            "refRang": "12~59",
+            "minValue": "12",
+            "maxValue": "59",
+            "unit": "μmol/L"
+        },
+        {
+            "Id": "F30130",
+            "itemName": "麝香草酚浊度",
+            "sectionName": "生化检测",
+            "refRang": "0~7",
+            "minValue": "0",
+            "maxValue": "7",
+            "unit": "U"
+        },
+        {
+            "Id": "F40010",
+            "itemName": "血尿素氮",
+            "sectionName": "生化检测",
+            "refRang": "3.56~14.28",
+            "minValue": "3.56",
+            "maxValue": "14.28",
+            "unit": "mmol/L"
+        },
+        {
+            "Id": "F40020",
+            "itemName": "血肌酐",
+            "sectionName": "生化检测",
+            "refRang": "44~133",
+            "minValue": "44",
+            "maxValue": "133",
+            "unit": "μmol/L"
+        },
+        {
+            "Id": "F40021",
+            "itemName": "血肌酐(男)",
+            "sectionName": "生化检测",
+            "refRang": "44~132",
+            "minValue": "44",
+            "maxValue": "132",
+            "unit": "μmol/L"
+        },
+        {
+            "Id": "F40022",
+            "itemName": "血肌酐(女)",
+            "sectionName": "生化检测",
+            "refRang": "70~106",
+            "minValue": "70",
+            "maxValue": "106",
+            "unit": "μmol/L"
+        },
+        {
+            "Id": "F40030",
+            "itemName": "血尿酸",
+            "sectionName": "生化检测",
+            "refRang": "90~450",
+            "minValue": "90",
+            "maxValue": "450",
+            "unit": "μmol/L"
+        },
+        {
+            "Id": "F40031",
+            "itemName": "血尿酸(男)",
+            "sectionName": "生化检测",
+            "refRang": "150~416",
+            "minValue": "150",
+            "maxValue": "416",
+            "unit": "μmol/L"
+        },
+        {
+            "Id": "F40032",
+            "itemName": "血尿酸(女)",
+            "sectionName": "生化检测",
+            "refRang": "89~357",
+            "minValue": "89",
+            "maxValue": "357",
+            "unit": "μmol/L"
+        },
+        {
+            "Id": "F20040",
+            "itemName": "血清高密度脂蛋白胆固醇",
+            "sectionName": "生化检测",
+            "refRang": ">1.04",
+            "minValue": "1.04",
+            "maxValue": "",
+            "unit": "mmol/L"
+        },
+        {
+            "Id": "B60010",
+            "itemName": "口腔科既往史",
+            "sectionName": "口腔科",
+            "refRang": "既往无明显口腔科疾患",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B60020",
+            "itemName": "唇",
+            "sectionName": "口腔科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B60030",
+            "itemName": "舌",
+            "sectionName": "口腔科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B60040",
+            "itemName": "牙齿",
+            "sectionName": "口腔科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B60090",
+            "itemName": "颞下颌关节",
+            "sectionName": "口腔科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B60060",
+            "itemName": "粘膜",
+            "sectionName": "口腔科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B60070",
+            "itemName": "腮腺",
+            "sectionName": "口腔科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B60080",
+            "itemName": "颌面部",
+            "sectionName": "口腔科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B60050",
+            "itemName": "牙龈",
+            "sectionName": "口腔科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "O10040",
+            "itemName": "结肠镜检查",
+            "sectionName": "内镜",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "O10030",
+            "itemName": "食管镜检查",
+            "sectionName": "内镜",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "O20060",
+            "itemName": "宫腔镜",
+            "sectionName": "内镜",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "O10020",
+            "itemName": "纤维喉镜检查",
+            "sectionName": "内镜",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "O10010",
+            "itemName": "胃、十二指肠内镜检查",
+            "sectionName": "内镜",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "O90010",
+            "itemName": "智能胶囊内窥镜检测",
+            "sectionName": "内镜",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "O10060",
+            "itemName": "纤维支气管镜检查",
+            "sectionName": "内镜",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "O10050",
+            "itemName": "直肠、乙状结肠镜检查",
+            "sectionName": "内镜",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "O20050",
+            "itemName": "关节镜",
+            "sectionName": "内镜",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "O20040",
+            "itemName": "电子阴道镜检查",
+            "sectionName": "内镜",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "O20030",
+            "itemName": "膀胱镜检查",
+            "sectionName": "内镜",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "O20020",
+            "itemName": "鼻腔镜检查",
+            "sectionName": "内镜",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "O20010",
+            "itemName": "腹腔镜检查",
+            "sectionName": "内镜",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "O20070",
+            "itemName": "电子视频耳镜",
+            "sectionName": "内镜",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B10150",
+            "itemName": "肝",
+            "sectionName": "内科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B10030",
+            "itemName": "心率",
+            "sectionName": "内科",
+            "refRang": "60~100",
+            "minValue": "60",
+            "maxValue": "100",
+            "unit": "次/分"
+        },
+        {
+            "Id": "B10170",
+            "itemName": "脾",
+            "sectionName": "内科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B10180",
+            "itemName": "肾",
+            "sectionName": "内科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B10140",
+            "itemName": "移动性浊音",
+            "sectionName": "内科",
+            "refRang": "无",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B10130",
+            "itemName": "血管杂音",
+            "sectionName": "内科",
+            "refRang": "未闻及异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B10120",
+            "itemName": "肠鸣音",
+            "sectionName": "内科",
+            "refRang": "4~5",
+            "minValue": "4",
+            "maxValue": "5",
+            "unit": "次/分"
+        },
+        {
+            "Id": "B10110",
+            "itemName": "腹部触诊",
+            "sectionName": "内科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B10100",
+            "itemName": "腹部视诊",
+            "sectionName": "内科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B10090",
+            "itemName": "胸膜摩擦音",
+            "sectionName": "内科",
+            "refRang": "未闻及异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B10080",
+            "itemName": "肺部呼吸音",
+            "sectionName": "内科",
+            "refRang": "正常呼吸音",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B10070",
+            "itemName": "呼吸深度",
+            "sectionName": "内科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B10060",
+            "itemName": "呼吸频率",
+            "sectionName": "内科",
+            "refRang": "12~20",
+            "minValue": "12",
+            "maxValue": "20",
+            "unit": "次/分"
+        },
+        {
+            "Id": "B10050",
+            "itemName": "心音",
+            "sectionName": "内科",
+            "refRang": "未闻及异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B10040",
+            "itemName": "心律",
+            "sectionName": "内科",
+            "refRang": "窦性心律",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B10190",
+            "itemName": "神经系统检查",
+            "sectionName": "内科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B10020",
+            "itemName": "心界",
+            "sectionName": "内科",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B10010",
+            "itemName": "内科既往史",
+            "sectionName": "内科",
+            "refRang": "既往无明显内科疾患",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B10160",
+            "itemName": "胆",
+            "sectionName": "内科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B20070",
+            "itemName": "脊柱",
+            "sectionName": "外科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B20080",
+            "itemName": "四肢关节",
+            "sectionName": "外科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B20090",
+            "itemName": "肛周",
+            "sectionName": "外科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B20100",
+            "itemName": "肛门指诊",
+            "sectionName": "外科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B20110",
+            "itemName": "生殖器",
+            "sectionName": "外科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B20010",
+            "itemName": "外科既往史",
+            "sectionName": "外科",
+            "refRang": "既往无明显外科疾患",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B20020",
+            "itemName": "皮肤粘膜",
+            "sectionName": "外科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B20030",
+            "itemName": "头面部",
+            "sectionName": "外科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B20040",
+            "itemName": "颈部",
+            "sectionName": "外科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B20050",
+            "itemName": "胸廓",
+            "sectionName": "外科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B20060",
+            "itemName": "淋巴结",
+            "sectionName": "外科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "T10010",
+            "itemName": "心电图",
+            "sectionName": "心电室",
+            "refRang": "正常心电图",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "T10020",
+            "itemName": "动态心电图",
+            "sectionName": "心电室",
+            "refRang": "正常心电图",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "T10030",
+            "itemName": "脑电图",
+            "sectionName": "心电室",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "T10050",
+            "itemName": "心电向量图",
+            "sectionName": "心电室",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "T10060",
+            "itemName": "甲襞微循环",
+            "sectionName": "心电室",
+            "refRang": "正常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "T10070",
+            "itemName": "神经肌肉电生理",
+            "sectionName": "心电室",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "T10040",
+            "itemName": "脑血流图",
+            "sectionName": "心电室",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B40010",
+            "itemName": "眼科既往史",
+            "sectionName": "眼科",
+            "refRang": "既往无明显眼科疾患",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B40160",
+            "itemName": "医学验光",
+            "sectionName": "眼科",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B40030",
+            "itemName": "裸眼视力(右)",
+            "sectionName": "眼科",
+            "refRang": "5.20~5.30",
+            "minValue": "5.20",
+            "maxValue": "5.30",
+            "unit": ""
+        },
+        {
+            "Id": "B40040",
+            "itemName": "矫正视力(左)",
+            "sectionName": "眼科",
+            "refRang": "5.20~5.30",
+            "minValue": "5.20",
+            "maxValue": "5.30",
+            "unit": ""
+        },
+        {
+            "Id": "B40050",
+            "itemName": "矫正视力(右)",
+            "sectionName": "眼科",
+            "refRang": "5.20~5.30",
+            "minValue": "5.20",
+            "maxValue": "5.30",
+            "unit": ""
+        },
+        {
+            "Id": "B40060",
+            "itemName": "辨色力",
+            "sectionName": "眼科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B40070",
+            "itemName": "眼睑",
+            "sectionName": "眼科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B40080",
+            "itemName": "结膜",
+            "sectionName": "眼科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B40090",
+            "itemName": "角膜",
+            "sectionName": "眼科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B40100",
+            "itemName": "瞳孔",
+            "sectionName": "眼科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B40110",
+            "itemName": "晶状体",
+            "sectionName": "眼科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B40120",
+            "itemName": "眼底",
+            "sectionName": "眼科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B40130",
+            "itemName": "眼压",
+            "sectionName": "眼科",
+            "refRang": "11~21",
+            "minValue": "11",
+            "maxValue": "21",
+            "unit": "mmHg"
+        },
+        {
+            "Id": "B40140",
+            "itemName": "眼科裂隙灯",
+            "sectionName": "眼科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B40150",
+            "itemName": "眼底成像",
+            "sectionName": "眼科",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "B40020",
+            "itemName": "裸眼视力(左)",
+            "sectionName": "眼科",
+            "refRang": "5.20~5.30",
+            "minValue": "5.20",
+            "maxValue": "5.30",
+            "unit": ""
+        },
+        {
+            "Id": "V10010",
+            "itemName": "活动平板实验",
+            "sectionName": "预测分析",
+            "refRang": "正常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "V10020",
+            "itemName": "体能检测",
+            "sectionName": "预测分析",
+            "refRang": "正常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "V10030",
+            "itemName": "心脏负荷检测",
+            "sectionName": "预测分析",
+            "refRang": "正常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "V10040",
+            "itemName": "人体功能状态快速检测",
+            "sectionName": "预测分析",
+            "refRang": "正常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "V10050",
+            "itemName": "暗适应检查",
+            "sectionName": "预测分析",
+            "refRang": "正常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "V30010",
+            "itemName": "智力检测",
+            "sectionName": "预测分析",
+            "refRang": "正常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "V40010",
+            "itemName": "心理测评",
+            "sectionName": "预测分析",
+            "refRang": "正常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "V40020",
+            "itemName": "心理素质评估",
+            "sectionName": "预测分析",
+            "refRang": "正常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "V50010",
+            "itemName": "中医脉诊",
+            "sectionName": "预测分析",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "V50020",
+            "itemName": "中医体质辨识",
+            "sectionName": "预测分析",
+            "refRang": "平和质",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "V60010",
+            "itemName": "亚健康检测",
+            "sectionName": "预测分析",
+            "refRang": "正常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "V60020",
+            "itemName": "量子共振检测",
+            "sectionName": "预测分析",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "V20010",
+            "itemName": "人体成分分析",
+            "sectionName": "预测分析",
+            "refRang": "",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "X10010",
+            "itemName": "慢病风险评估",
+            "sectionName": "预测分析",
+            "refRang": "正常水平",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "X10020",
+            "itemName": "糖尿病风险评估",
+            "sectionName": "预测分析",
+            "refRang": "正常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "X50010",
+            "itemName": "基因检测",
+            "sectionName": "预测分析",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "P10010",
+            "itemName": "心脏MRI",
+            "sectionName": "MRI",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "P10020",
+            "itemName": "肺MRI",
+            "sectionName": "MRI",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "P10030",
+            "itemName": "乳腺MRI",
+            "sectionName": "MRI",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "P10040",
+            "itemName": "肾及肾上腺MRI",
+            "sectionName": "MRI",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "P20010",
+            "itemName": "头颅MRI",
+            "sectionName": "MRI",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "P20020",
+            "itemName": "脊椎MRI",
+            "sectionName": "MRI",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "P20030",
+            "itemName": "腹腔及腹膜MRI",
+            "sectionName": "MRI",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        },
+        {
+            "Id": "P20040",
+            "itemName": "盆腔MRI",
+            "sectionName": "MRI",
+            "refRang": "未见异常",
+            "minValue": "0",
+            "maxValue": "0",
+            "unit": ""
+        }
+    ]
+}

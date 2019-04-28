@@ -1,6 +1,6 @@
 import json
 
-genre = [1, "chemical"]
+genre = [5, "tumour"]
 
 data_path = '../data/test/index_col.json'
 

@@ -1,0 +1,131 @@
+{
+    "indexs": [
+        "心率",
+        "QRS时限",
+        "P-R间期",
+        "Q-T间期",
+        "QTc",
+        "电轴",
+        "心电图",
+        "束支传导阻滞",
+        "窦性心律",
+        "心肌梗塞",
+        "起博器",
+        "ST段T波",
+        "交界性心律",
+        "房性心律",
+        "室性心律",
+        "窦房传导阻滞",
+        "房室传导阻滞",
+        "U波",
+        "预激征候群",
+        "其他",
+        "心房心室"
+    ],
+    "mapping": [
+        {
+            "reportName": "心率",
+            "scientificName": "心率"
+        },
+        {
+            "reportName": "QRS时限",
+            "scientificName": "QRS时限"
+        },
+        {
+            "reportName": "P-R间期",
+            "scientificName": "P-R间期"
+        },
+        {
+            "reportName": "Q-T间期",
+            "scientificName": "Q-T间期"
+        },
+        {
+            "reportName": "QTc",
+            "scientificName": "QTc"
+        },
+        {
+            "reportName": "电轴",
+            "scientificName": "电轴"
+        },
+        {
+            "reportName": "心电图",
+            "scientificName": "心电图"
+        },
+        {
+            "reportName": "束支传导阻滞",
+            "scientificName": "束支传导阻滞"
+        },
+        {
+            "reportName": "P波",
+            "scientificName": "P-R间期"
+        },
+        {
+            "reportName": "窦性心律",
+            "scientificName": "窦性心律"
+        },
+        {
+            "reportName": "QRS波",
+            "scientificName": "QRS时限"
+        },
+        {
+            "reportName": "心肌梗塞",
+            "scientificName": "心肌梗塞"
+        },
+        {
+            "reportName": "起博器",
+            "scientificName": "起博器"
+        },
+        {
+            "reportName": "ST段T波",
+            "scientificName": "ST段T波"
+        },
+        {
+            "reportName": "Q—T间期",
+            "scientificName": "Q-T间期"
+        },
+        {
+            "reportName": "心电轴",
+            "scientificName": "心电图"
+        },
+        {
+            "reportName": "心电位",
+            "scientificName": "心电图"
+        },
+        {
+            "reportName": "交界性心律",
+            "scientificName": "交界性心律"
+        },
+        {
+            "reportName": "房性心律",
+            "scientificName": "房性心律"
+        },
+        {
+            "reportName": "室性心律",
+            "scientificName": "室性心律"
+        },
+        {
+            "reportName": "窦房传导阻滞",
+            "scientificName": "窦房传导阻滞"
+        },
+        {
+            "reportName": "房室传导阻滞",
+            "scientificName": "房室传导阻滞"
+        },
+        {
+            "reportName": "U波",
+            "scientificName": "U波"
+        },
+        {
+            "reportName": "预激征候群",
+            "scientificName": "预激征候群"
+        },
+        {
+            "reportName": "其他",
+            "scientificName": "其他"
+        },
+        {
+            "reportName": "心房心室",
+            "scientificName": "心房心室"
+        }
+    ]
+}

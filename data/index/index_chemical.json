@@ -1,0 +1,757 @@
+{
+    "indexs": [
+        "总胆红素(T-BIL)",
+        "总蛋白(TP)",
+        "空腹血糖（FPG）",
+        "白蛋白/球蛋白(A/G)",
+        "丙氨酸氨基转移酶(ALT)",
+        "天门冬氨酸氨基转移酶(AST)",
+        "AST/ALT",
+        "γ-谷氨酰转移酶（GGT）",
+        "碱性磷酸酶(ALP)",
+        "白蛋白(ALB)",
+        "球蛋白(GLB)",
+        "直接胆红素(D-BIL)",
+        "间接胆红素(I-BIL)",
+        "总胆固醇(TCHOL)",
+        "甘油三酯(TGIG)",
+        "高密度脂蛋白胆固醇(HDL-CH)",
+        "低密度脂蛋白胆固醇(LDL-CH)",
+        "尿素(Urea)",
+        "尿酸(UA)",
+        "肌酐(Crea)",
+        "血清载脂蛋白B(Apo-B)",
+        "载脂蛋白A1/载脂蛋白B",
+        "血清载脂蛋白AI(ApoAI)",
+        "同型半胱氨酸(Hcy)",
+        "肌酸激酶（CK）",
+        "乳酸脱氢酶（LDH）",
+        "血清肌酸激酶同工酶(CK-MB)",
+        "超敏C反应蛋白（hsCRP）",
+        "尿素氮（BUN）",
+        "血清胱抑素C",
+        "脑利钠肽",
+        "糖化血红蛋白[HbA1C]",
+        "血清Ⅳ型胶原测定(CIV)",
+        "血清层粘连蛋白[LN]",
+        "血清Ⅲ型前胶原测定（pcⅢ）",
+        "血清透明质酸测定（HA）",
+        "α-羟丁酸脱氢酶(HBDH)",
+        "免疫球蛋白A(IgA)",
+        "免疫球蛋白G(IgG)",
+        "免疫球蛋白M(IgM)",
+        "补体C4",
+        "氯离子(Cl)",
+        "钠离子(Na)",
+        "钾离子(K)",
+        "补体C3",
+        "血清总胆汁酸(TBA)",
+        "脂蛋白a[Lp(a)]",
+        "铁蛋白",
+        "维生素B12",
+        "叶酸",
+        "无机磷(P)",
+        "血清钙(Ca)",
+        "镁离子(Mg)",
+        "血浆肾素活性测定(PRA)",
+        "血管紧张素Ⅰ测定(AT-Ⅰ)(立位)",
+        "血管紧张素Ⅱ测定(AT-Ⅱ)(立位)",
+        "血清转铁蛋白(TRF)",
+        "胰岛素抗体测定(INS-Ab)",
+        "抗胰岛素细胞抗体(ICA)",
+        "抗谷氨酸脱羧酶抗体(GAD-Ab)",
+        "血清空腹胰岛素(INS0)+(电发光)",
+        "血清肌钙蛋白T",
+        "肌红蛋白(MYO)",
+        "血清淀粉酶(AMY)",
+        "C-肽定量",
+        "血浆D-二聚体",
+        "总铁结合力(TIBC)",
+        "转铁蛋白饱和度[Tfs]",
+        "甲胎蛋白AFP(发光)",
+        "癌胚抗原CEA(发光)",
+        "抗胰岛素自身抗体"
+    ],
+    "mapping": [
+        {
+            "reportName": "总胆红素(T-BIL)",
+            "scientificName": "总胆红素(T-BIL)"
+        },
+        {
+            "reportName": "总蛋白(TP)",
+            "scientificName": "总蛋白(TP)"
+        },
+        {
+            "reportName": "空腹血糖（FPG）",
+            "scientificName": "空腹血糖（FPG）"
+        },
+        {
+            "reportName": "白蛋白/球蛋白(A/G)",
+            "scientificName": "白蛋白/球蛋白(A/G)"
+        },
+        {
+            "reportName": "丙氨酸氨基转移酶(ALT)",
+            "scientificName": "丙氨酸氨基转移酶(ALT)"
+        },
+        {
+            "reportName": "天门冬氨酸氨基转移酶(AST)",
+            "scientificName": "天门冬氨酸氨基转移酶(AST)"
+        },
+        {
+            "reportName": "AST/ALT",
+            "scientificName": "AST/ALT"
+        },
+        {
+            "reportName": "γ-谷氨酰转移酶（GGT）",
+            "scientificName": "γ-谷氨酰转移酶（GGT）"
+        },
+        {
+            "reportName": "碱性磷酸酶(ALP)",
+            "scientificName": "碱性磷酸酶(ALP)"
+        },
+        {
+            "reportName": "白蛋白(ALB)",
+            "scientificName": "白蛋白(ALB)"
+        },
+        {
+            "reportName": "球蛋白(GLB)",
+            "scientificName": "球蛋白(GLB)"
+        },
+        {
+            "reportName": "直接胆红素(D-BIL)",
+            "scientificName": "直接胆红素(D-BIL)"
+        },
+        {
+            "reportName": "间接胆红素(I-BIL)",
+            "scientificName": "间接胆红素(I-BIL)"
+        },
+        {
+            "reportName": "总胆固醇(TCHOL)",
+            "scientificName": "总胆固醇(TCHOL)"
+        },
+        {
+            "reportName": "甘油三酯(TGIG)",
+            "scientificName": "甘油三酯(TGIG)"
+        },
+        {
+            "reportName": "高密度脂蛋白胆固醇(HDL-CH)",
+            "scientificName": "高密度脂蛋白胆固醇(HDL-CH)"
+        },
+        {
+            "reportName": "低密度脂蛋白胆固醇(LDL-CH)",
+            "scientificName": "低密度脂蛋白胆固醇(LDL-CH)"
+        },
+        {
+            "reportName": "尿素(Urea)",
+            "scientificName": "尿素(Urea)"
+        },
+        {
+            "reportName": "尿酸(UA)",
+            "scientificName": "尿酸(UA)"
+        },
+        {
+            "reportName": "肌酐(Crea)",
+            "scientificName": "肌酐(Crea)"
+        },
+        {
+            "reportName": "血清天门冬氨酸氨基转移酶[AST]",
+            "scientificName": "天门冬氨酸氨基转移酶(AST)"
+        },
+        {
+            "reportName": "血清球蛋白[GLOB]",
+            "scientificName": "球蛋白(GLB)"
+        },
+        {
+            "reportName": "血清载脂蛋白B(Apo-B)",
+            "scientificName": "血清载脂蛋白B(Apo-B)"
+        },
+        {
+            "reportName": "血清γ-谷氨酰基转移酶[GGT]",
+            "scientificName": "γ-谷氨酰转移酶（GGT）"
+        },
+        {
+            "reportName": "AST/ALT比值",
+            "scientificName": "AST/ALT"
+        },
+        {
+            "reportName": "总胆固醇(TCHO)",
+            "scientificName": "总胆固醇(TCHOL)"
+        },
+        {
+            "reportName": "血清碱性磷酸酶[ALP]",
+            "scientificName": "碱性磷酸酶(ALP)"
+        },
+        {
+            "reportName": "血清白蛋白[ALB]",
+            "scientificName": "白蛋白(ALB)"
+        },
+        {
+            "reportName": "血清直接胆红素[DBIL]",
+            "scientificName": "直接胆红素(D-BIL)"
+        },
+        {
+            "reportName": "血清白球比[A/G]",
+            "scientificName": "白蛋白/球蛋白(A/G)"
+        },
+        {
+            "reportName": "甘油三酯（TG）",
+            "scientificName": "甘油三酯(TGIG)"
+        },
+        {
+            "reportName": "低密度脂蛋白胆固醇（LDL-CHO）",
+            "scientificName": "低密度脂蛋白胆固醇(LDL-CH)"
+        },
+        {
+            "reportName": "血清尿酸[UA]",
+            "scientificName": "尿酸(UA)"
+        },
+        {
+            "reportName": "载脂蛋白A1/载脂蛋白B",
+            "scientificName": "载脂蛋白A1/载脂蛋白B"
+        },
+        {
+            "reportName": "血清总胆红素[T-BIL]",
+            "scientificName": "总胆红素(T-BIL)"
+        },
+        {
+            "reportName": "空腹葡萄糖",
+            "scientificName": "空腹血糖（FPG）"
+        },
+        {
+            "reportName": "血清尿素(Urea)",
+            "scientificName": "尿素(Urea)"
+        },
+        {
+            "reportName": "高密度脂蛋白胆固醇（HDL-CHO）",
+            "scientificName": "高密度脂蛋白胆固醇(HDL-CH)"
+        },
+        {
+            "reportName": "血清载脂蛋白AI(ApoAI)",
+            "scientificName": "血清载脂蛋白AI(ApoAI)"
+        },
+        {
+            "reportName": "血清丙氨酸氨基转移酶[ALT]",
+            "scientificName": "丙氨酸氨基转移酶(ALT)"
+        },
+        {
+            "reportName": "血清肌酐[CREA]",
+            "scientificName": "肌酐(Crea)"
+        },
+        {
+            "reportName": "血清总蛋白[TP]",
+            "scientificName": "总蛋白(TP)"
+        },
+        {
+            "reportName": "血清间接胆红素[IBIL]",
+            "scientificName": "间接胆红素(I-BIL)"
+        },
+        {
+            "reportName": "同型半胱氨酸(Hcy)",
+            "scientificName": "同型半胱氨酸(Hcy)"
+        },
+        {
+            "reportName": "肌酸激酶（CK）",
+            "scientificName": "肌酸激酶（CK）"
+        },
+        {
+            "reportName": "乳酸脱氢酶（LDH）",
+            "scientificName": "乳酸脱氢酶（LDH）"
+        },
+        {
+            "reportName": "血清肌酸激酶同工酶(CK-MB)",
+            "scientificName": "血清肌酸激酶同工酶(CK-MB)"
+        },
+        {
+            "reportName": "超敏C反应蛋白（hsCRP）",
+            "scientificName": "超敏C反应蛋白（hsCRP）"
+        },
+        {
+            "reportName": "尿素氮（BUN）",
+            "scientificName": "尿素氮（BUN）"
+        },
+        {
+            "reportName": "空腹葡萄糖（GLU）",
+            "scientificName": "空腹血糖（FPG）"
+        },
+        {
+            "reportName": "血清胱抑素C",
+            "scientificName": "血清胱抑素C"
+        },
+        {
+            "reportName": "脑利钠肽",
+            "scientificName": "脑利钠肽"
+        },
+        {
+            "reportName": "糖化血红蛋白[HbA1C]",
+            "scientificName": "糖化血红蛋白[HbA1C]"
+        },
+        {
+            "reportName": "血清直接胆红素(DBIL)",
+            "scientificName": "直接胆红素(D-BIL)"
+        },
+        {
+            "reportName": "血清总蛋白(TP)",
+            "scientificName": "总蛋白(TP)"
+        },
+        {
+            "reportName": "血清天门冬氨酸氨基转移酶(AST)",
+            "scientificName": "天门冬氨酸氨基转移酶(AST)"
+        },
+        {
+            "reportName": "血清总胆红素(T-BIL)",
+            "scientificName": "总胆红素(T-BIL)"
+        },
+        {
+            "reportName": "血清白蛋白(ALB)",
+            "scientificName": "白蛋白(ALB)"
+        },
+        {
+            "reportName": "血清白球比(ALB/GLOB)",
+            "scientificName": "白蛋白/球蛋白(A/G)"
+        },
+        {
+            "reportName": "血清肌酐(Cr)",
+            "scientificName": "肌酐(Crea)"
+        },
+        {
+            "reportName": "血清丙氨酸氨基转移酶(ALT)",
+            "scientificName": "丙氨酸氨基转移酶(ALT)"
+        },
+        {
+            "reportName": "血清总胆固醇(TC)",
+            "scientificName": "总胆固醇(TCHOL)"
+        },
+        {
+            "reportName": "血清碱性磷酸酶(ALP)",
+            "scientificName": "碱性磷酸酶(ALP)"
+        },
+        {
+            "reportName": "血清γ-谷氨酰转移酶（GGT）",
+            "scientificName": "γ-谷氨酰转移酶（GGT）"
+        },
+        {
+            "reportName": "血清高密度脂蛋白胆固醇(HDL-CHO)",
+            "scientificName": "高密度脂蛋白胆固醇(HDL-CH)"
+        },
+        {
+            "reportName": "血清间接胆红素(IBIL)",
+            "scientificName": "间接胆红素(I-BIL)"
+        },
+        {
+            "reportName": "血清甘油三酯(TG)",
+            "scientificName": "甘油三酯(TGIG)"
+        },
+        {
+            "reportName": "血清球蛋白(GLB)",
+            "scientificName": "球蛋白(GLB)"
+        },
+        {
+            "reportName": "血清尿酸（UA）",
+            "scientificName": "尿酸(UA)"
+        },
+        {
+            "reportName": "血清低密度脂蛋白胆固醇(LDL-CHO)",
+            "scientificName": "低密度脂蛋白胆固醇(LDL-CH)"
+        },
+        {
+            "reportName": "超敏C反应蛋白(hs—CRP)",
+            "scientificName": "超敏C反应蛋白（hsCRP）"
+        },
+        {
+            "reportName": "同型半胱氨酸(HCY)",
+            "scientificName": "同型半胱氨酸(Hcy)"
+        },
+        {
+            "reportName": "血清胱抑素C (Cys-C)",
+            "scientificName": "血清胱抑素C"
+        },
+        {
+            "reportName": "血清Ⅳ型胶原测定(CIV)",
+            "scientificName": "血清Ⅳ型胶原测定(CIV)"
+        },
+        {
+            "reportName": "血清层粘连蛋白[LN]",
+            "scientificName": "血清层粘连蛋白[LN]"
+        },
+        {
+            "reportName": "血清Ⅲ型前胶原测定（pcⅢ）",
+            "scientificName": "血清Ⅲ型前胶原测定（pcⅢ）"
+        },
+        {
+            "reportName": "血清透明质酸测定（HA）",
+            "scientificName": "血清透明质酸测定（HA）"
+        },
+        {
+            "reportName": "α-羟丁酸脱氢酶(HBDH)",
+            "scientificName": "α-羟丁酸脱氢酶(HBDH)"
+        },
+        {
+            "reportName": "免疫球蛋白A(IgA)",
+            "scientificName": "免疫球蛋白A(IgA)"
+        },
+        {
+            "reportName": "免疫球蛋白G(IgG)",
+            "scientificName": "免疫球蛋白G(IgG)"
+        },
+        {
+            "reportName": "免疫球蛋白M(IgM)",
+            "scientificName": "免疫球蛋白M(IgM)"
+        },
+        {
+            "reportName": "肌酸激酶(CK)",
+            "scientificName": "肌酸激酶（CK）"
+        },
+        {
+            "reportName": "乳酸脱氢酶(LDH)",
+            "scientificName": "乳酸脱氢酶（LDH）"
+        },
+        {
+            "reportName": "α-羟丁酸脱氢酶(α-HBDH)",
+            "scientificName": "α-羟丁酸脱氢酶(HBDH)"
+        },
+        {
+            "reportName": "肌酸激酶同工酶(CK-MB)",
+            "scientificName": "血清肌酸激酶同工酶(CK-MB)"
+        },
+        {
+            "reportName": "补体C4",
+            "scientificName": "补体C4"
+        },
+        {
+            "reportName": "氯离子(Cl)",
+            "scientificName": "氯离子(Cl)"
+        },
+        {
+            "reportName": "钠离子(Na)",
+            "scientificName": "钠离子(Na)"
+        },
+        {
+            "reportName": "钾离子(K)",
+            "scientificName": "钾离子(K)"
+        },
+        {
+            "reportName": "补体C3",
+            "scientificName": "补体C3"
+        },
+        {
+            "reportName": "血清总胆汁酸(TBA)",
+            "scientificName": "血清总胆汁酸(TBA)"
+        },
+        {
+            "reportName": "血清Ⅳ型胶原测定(CⅣ)",
+            "scientificName": "血清Ⅳ型胶原测定(CIV)"
+        },
+        {
+            "reportName": "血清Ⅲ型前胶原测定(pcⅢ)",
+            "scientificName": "血清Ⅲ型前胶原测定（pcⅢ）"
+        },
+        {
+            "reportName": "血清层粘连蛋白测定(LN）",
+            "scientificName": "血清层粘连蛋白[LN]"
+        },
+        {
+            "reportName": "血清透明质酸测定(HA)",
+            "scientificName": "血清透明质酸测定（HA）"
+        },
+        {
+            "reportName": "血清载脂蛋白A1(Apo-A1)",
+            "scientificName": "血清载脂蛋白AI(ApoAI)"
+        },
+        {
+            "reportName": "血清载脂蛋白B（Apo-B）",
+            "scientificName": "血清载脂蛋白B(Apo-B)"
+        },
+        {
+            "reportName": "脂蛋白a[Lp(a)]",
+            "scientificName": "脂蛋白a[Lp(a)]"
+        },
+        {
+            "reportName": "铁蛋白",
+            "scientificName": "铁蛋白"
+        },
+        {
+            "reportName": "维生素B12",
+            "scientificName": "维生素B12"
+        },
+        {
+            "reportName": "叶酸",
+            "scientificName": "叶酸"
+        },
+        {
+            "reportName": "无机磷(P)",
+            "scientificName": "无机磷(P)"
+        },
+        {
+            "reportName": "血清钙(Ca)",
+            "scientificName": "血清钙(Ca)"
+        },
+        {
+            "reportName": "镁离子(Mg)",
+            "scientificName": "镁离子(Mg)"
+        },
+        {
+            "reportName": "叶酸(FOL)",
+            "scientificName": "叶酸"
+        },
+        {
+            "reportName": "血浆肾素活性测定(PRA)",
+            "scientificName": "血浆肾素活性测定(PRA)"
+        },
+        {
+            "reportName": "血管紧张素Ⅰ测定(AT-Ⅰ)(立位)",
+            "scientificName": "血管紧张素Ⅰ测定(AT-Ⅰ)(立位)"
+        },
+        {
+            "reportName": "血管紧张素Ⅱ测定(AT-Ⅱ)(立位)",
+            "scientificName": "血管紧张素Ⅱ测定(AT-Ⅱ)(立位)"
+        },
+        {
+            "reportName": "铁蛋白(FER)",
+            "scientificName": "铁蛋白"
+        },
+        {
+            "reportName": "维生素B12(VB12)",
+            "scientificName": "维生素B12"
+        },
+        {
+            "reportName": "血清转铁蛋白(TRF)",
+            "scientificName": "血清转铁蛋白(TRF)"
+        },
+        {
+            "reportName": "胰岛素抗体测定(INS-Ab)",
+            "scientificName": "胰岛素抗体测定(INS-Ab)"
+        },
+        {
+            "reportName": "抗胰岛素细胞抗体(ICA)",
+            "scientificName": "抗胰岛素细胞抗体(ICA)"
+        },
+        {
+            "reportName": "抗谷氨酸脱羧酶抗体(GAD-Ab)",
+            "scientificName": "抗谷氨酸脱羧酶抗体(GAD-Ab)"
+        },
+        {
+            "reportName": "肌酸激酶同工酶（CK-MB）",
+            "scientificName": "血清肌酸激酶同工酶(CK-MB)"
+        },
+        {
+            "reportName": "空腹血糖（GLU）",
+            "scientificName": "空腹血糖（FPG）"
+        },
+        {
+            "reportName": "血清转铁蛋白",
+            "scientificName": "血清转铁蛋白(TRF)"
+        },
+        {
+            "reportName": "丙氨酸氨基转移酶",
+            "scientificName": "丙氨酸氨基转移酶(ALT)"
+        },
+        {
+            "reportName": "天冬氨酸氨基转移酶",
+            "scientificName": "天门冬氨酸氨基转移酶(AST)"
+        },
+        {
+            "reportName": "碱性磷酸酶",
+            "scientificName": "碱性磷酸酶(ALP)"
+        },
+        {
+            "reportName": "谷氨酰转肽酶",
+            "scientificName": "γ-谷氨酰转移酶（GGT）"
+        },
+        {
+            "reportName": "总蛋白",
+            "scientificName": "总蛋白(TP)"
+        },
+        {
+            "reportName": "白蛋白",
+            "scientificName": "白蛋白(ALB)"
+        },
+        {
+            "reportName": "球蛋白",
+            "scientificName": "球蛋白(GLB)"
+        },
+        {
+            "reportName": "白球比值",
+            "scientificName": "白蛋白/球蛋白(A/G)"
+        },
+        {
+            "reportName": "总胆红素",
+            "scientificName": "总胆红素(T-BIL)"
+        },
+        {
+            "reportName": "直接胆红素",
+            "scientificName": "直接胆红素(D-BIL)"
+        },
+        {
+            "reportName": "间接胆红素",
+            "scientificName": "间接胆红素(I-BIL)"
+        },
+        {
+            "reportName": "免疫球蛋白A（IGA）",
+            "scientificName": "免疫球蛋白A(IgA)"
+        },
+        {
+            "reportName": "免疫球蛋白G（IGG）",
+            "scientificName": "免疫球蛋白G(IgG)"
+        },
+        {
+            "reportName": "免疫球蛋白M（IGM）",
+            "scientificName": "免疫球蛋白M(IgM)"
+        },
+        {
+            "reportName": "血清空腹胰岛素(INS0)+(电发光)",
+            "scientificName": "血清空腹胰岛素(INS0)+(电发光)"
+        },
+        {
+            "reportName": "血清肌钙蛋白T",
+            "scientificName": "血清肌钙蛋白T"
+        },
+        {
+            "reportName": "肌红蛋白(MYO)",
+            "scientificName": "肌红蛋白(MYO)"
+        },
+        {
+            "reportName": "血清淀粉酶(AMY)",
+            "scientificName": "血清淀粉酶(AMY)"
+        },
+        {
+            "reportName": "胰岛素测定INS(0h)(空腹)",
+            "scientificName": "血清空腹胰岛素(INS0)+(电发光)"
+        },
+        {
+            "reportName": "C-肽定量",
+            "scientificName": "C-肽定量"
+        },
+        {
+            "reportName": "抗胰岛素抗体(INS-Ab)",
+            "scientificName": "胰岛素抗体测定(INS-Ab)"
+        },
+        {
+            "reportName": "血浆D-二聚体",
+            "scientificName": "血浆D-二聚体"
+        },
+        {
+            "reportName": "总铁结合力(TIBC)",
+            "scientificName": "总铁结合力(TIBC)"
+        },
+        {
+            "reportName": "转铁蛋白饱和度[Tfs]",
+            "scientificName": "转铁蛋白饱和度[Tfs]"
+        },
+        {
+            "reportName": "血清钙（Ca）",
+            "scientificName": "血清钙(Ca)"
+        },
+        {
+            "reportName": "血清透明质酸(HA)",
+            "scientificName": "血清透明质酸测定（HA）"
+        },
+        {
+            "reportName": "血清Ⅳ型胶原(CⅣ)",
+            "scientificName": "血清Ⅳ型胶原测定(CIV)"
+        },
+        {
+            "reportName": "血清层粘连蛋白(LN）",
+            "scientificName": "血清层粘连蛋白[LN]"
+        },
+        {
+            "reportName": "血清Ⅲ型前胶原(pcⅢ)",
+            "scientificName": "血清Ⅲ型前胶原测定（pcⅢ）"
+        },
+        {
+            "reportName": "谷氨酸脱羧酶抗体",
+            "scientificName": "抗谷氨酸脱羧酶抗体(GAD-Ab)"
+        },
+        {
+            "reportName": "总胆固醇（CHO）",
+            "scientificName": "总胆固醇(TCHOL)"
+        },
+        {
+            "reportName": "α-羟丁酸脱氢酶（α-HBDH）",
+            "scientificName": "α-羟丁酸脱氢酶(HBDH)"
+        },
+        {
+            "reportName": "白球比(ALB/GLOB)",
+            "scientificName": "白蛋白/球蛋白(A/G)"
+        },
+        {
+            "reportName": "直接胆红素(DBIL)",
+            "scientificName": "直接胆红素(D-BIL)"
+        },
+        {
+            "reportName": "间接胆红素(IBIL)",
+            "scientificName": "间接胆红素(I-BIL)"
+        },
+        {
+            "reportName": "胰岛素细胞抗体",
+            "scientificName": "抗胰岛素细胞抗体(ICA)"
+        },
+        {
+            "reportName": "肌钙蛋白T",
+            "scientificName": "血清肌钙蛋白T"
+        },
+        {
+            "reportName": "D-二聚体",
+            "scientificName": "血浆D-二聚体"
+        },
+        {
+            "reportName": "甲胎蛋白AFP(发光)",
+            "scientificName": "甲胎蛋白AFP(发光)"
+        },
+        {
+            "reportName": "癌胚抗原CEA(发光)",
+            "scientificName": "癌胚抗原CEA(发光)"
+        },
+        {
+            "reportName": "ALT/AST比值",
+            "scientificName": "AST/ALT"
+        },
+        {
+            "reportName": "总胆固醇(TC)",
+            "scientificName": "总胆固醇(TCHOL)"
+        },
+        {
+            "reportName": "甘油三酯(TG)",
+            "scientificName": "甘油三酯(TGIG)"
+        },
+        {
+            "reportName": "高密度脂蛋白胆固醇(HDL-CHO)",
+            "scientificName": "高密度脂蛋白胆固醇(HDL-CH)"
+        },
+        {
+            "reportName": "低密度脂蛋白胆固醇(LDL-CHO)",
+            "scientificName": "低密度脂蛋白胆固醇(LDL-CH)"
+        },
+        {
+            "reportName": "肌酐(Cr)",
+            "scientificName": "肌酐(Crea)"
+        },
+        {
+            "reportName": "尿酸（UA）",
+            "scientificName": "尿酸(UA)"
+        },
+        {
+            "reportName": "脂蛋白(a)",
+            "scientificName": "脂蛋白a[Lp(a)]"
+        },
+        {
+            "reportName": "胰岛素测定(空腹)",
+            "scientificName": "血清空腹胰岛素(INS0)+(电发光)"
+        },
+        {
+            "reportName": "抗胰岛素自身抗体",
+            "scientificName": "抗胰岛素自身抗体"
+        },
+        {
+            "reportName": "钠",
+            "scientificName": "钠离子(Na)"
+        },
+        {
+            "reportName": "钾",
+            "scientificName": "钾离子(K)"
+        },
+        {
+            "reportName": "氯",
+            "scientificName": "氯离子(Cl)"
+        }
+    ]
+}

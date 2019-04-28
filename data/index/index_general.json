@@ -1,0 +1,150 @@
+{
+    "indexs": [
+        "脉搏",
+        "体重",
+        "身高",
+        "复测血压(收缩压)",
+        "体重指数",
+        "复测血压(舒张压)",
+        "体检血压(收缩压)",
+        "体检血压(舒张压)",
+        "复测血压2(舒张压)",
+        "复测血压2(收缩压)",
+        "腰围(男)",
+        "臀围",
+        "腰臀比",
+        "体温",
+        "呼吸",
+        "营养",
+        "发育",
+        "体脂肪量",
+        "体脂肪率",
+        "体水分率",
+        "基础代谢",
+        "腹壁脂肪测定",
+        "营养体脂测定",
+        "腰围(女)"
+    ],
+    "mapping": [
+        {
+            "reportName": "脉搏",
+            "scientificName": "脉搏"
+        },
+        {
+            "reportName": "体重",
+            "scientificName": "体重"
+        },
+        {
+            "reportName": "身高",
+            "scientificName": "身高"
+        },
+        {
+            "reportName": "复测血压(收缩压)",
+            "scientificName": "复测血压(收缩压)"
+        },
+        {
+            "reportName": "体重指数",
+            "scientificName": "体重指数"
+        },
+        {
+            "reportName": "复测血压(舒张压)",
+            "scientificName": "复测血压(舒张压)"
+        },
+        {
+            "reportName": "体检血压(收缩压)",
+            "scientificName": "体检血压(收缩压)"
+        },
+        {
+            "reportName": "体检血压(舒张压)",
+            "scientificName": "体检血压(舒张压)"
+        },
+        {
+            "reportName": "舒张压",
+            "scientificName": "体检血压(舒张压)"
+        },
+        {
+            "reportName": "收缩压",
+            "scientificName": "体检血压(收缩压)"
+        },
+        {
+            "reportName": "复测血压2(舒张压)",
+            "scientificName": "复测血压2(舒张压)"
+        },
+        {
+            "reportName": "复测血压2(收缩压)",
+            "scientificName": "复测血压2(收缩压)"
+        },
+        {
+            "reportName": "腰围(男)",
+            "scientificName": "腰围(男)"
+        },
+        {
+            "reportName": "臀围",
+            "scientificName": "臀围"
+        },
+        {
+            "reportName": "臀围(男)",
+            "scientificName": "臀围"
+        },
+        {
+            "reportName": "腰臀比",
+            "scientificName": "腰臀比"
+        },
+        {
+            "reportName": "腰臀比(男)",
+            "scientificName": "腰臀比"
+        },
+        {
+            "reportName": "体温",
+            "scientificName": "体温"
+        },
+        {
+            "reportName": "呼吸",
+            "scientificName": "呼吸"
+        },
+        {
+            "reportName": "营养",
+            "scientificName": "营养"
+        },
+        {
+            "reportName": "发育",
+            "scientificName": "发育"
+        },
+        {
+            "reportName": "体脂肪量",
+            "scientificName": "体脂肪量"
+        },
+        {
+            "reportName": "体脂肪率",
+            "scientificName": "体脂肪率"
+        },
+        {
+            "reportName": "体水分率",
+            "scientificName": "体水分率"
+        },
+        {
+            "reportName": "基础代谢",
+            "scientificName": "基础代谢"
+        },
+        {
+            "reportName": "腹壁脂肪测定",
+            "scientificName": "腹壁脂肪测定"
+        },
+        {
+            "reportName": "营养体脂测定",
+            "scientificName": "营养体脂测定"
+        },
+        {
+            "reportName": "腰围(女)",
+            "scientificName": "腰围(女)"
+        },
+        {
+            "reportName": "臀围(女)",
+            "scientificName": "臀围"
+        },
+        {
+            "reportName": "腰臀比(女)",
+            "scientificName": "腰臀比"
+        }
+    ]
+}

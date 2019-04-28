@@ -1,6 +1,7 @@
 # Customs
-*/data/*.json
-./data
+data/list/
+data/reports/
+data/test/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
