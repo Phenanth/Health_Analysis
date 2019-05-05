@@ -1,215 +1,218 @@
 create table `blood` (reportId varchar(32)) ENGINE=InnoDB;
 ALTER TABLE `blood` ADD PRIMARY KEY (reportId);
-ALTER TABLE `blood` ADD COLUMN 血小板容积分布宽度（PDW） decimal(8, 4)
-ALTER TABLE `blood` ADD COLUMN 血小板比容（PCT） decimal(8, 4)
-ALTER TABLE `blood` ADD COLUMN 平均红细胞血红蛋白浓度（MCHC） decimal(8, 4)
-ALTER TABLE `blood` ADD COLUMN 平均红细胞体积（MCV） decimal(8, 4)
-ALTER TABLE `blood` ADD COLUMN 红细胞分布宽度变异系数(RDW-CV) decimal(8, 4)
-ALTER TABLE `blood` ADD COLUMN 平均红细胞血红蛋白含量（MCH） decimal(8, 4)
-ALTER TABLE `blood` ADD COLUMN 平均血小板体积（MPV） decimal(8, 4)
-ALTER TABLE `blood` ADD COLUMN 红细胞分布宽度标准差(RDW-SD) decimal(8, 4)
-ALTER TABLE `blood` ADD COLUMN 白细胞计数(WBC) decimal(8, 4)
-ALTER TABLE `blood` ADD COLUMN 红细胞计数(RBC) decimal(8, 4)
-ALTER TABLE `blood` ADD COLUMN 血小板(PLT) decimal(8, 4)
-ALTER TABLE `blood` ADD COLUMN 血红蛋白(Hb) decimal(8, 4)
-ALTER TABLE `blood` ADD COLUMN 红细胞比容(Hct) decimal(8, 4)
-ALTER TABLE `blood` ADD COLUMN 中性粒细胞百分比（NE%） decimal(8, 4)
-ALTER TABLE `blood` ADD COLUMN 中性粒细胞绝对数（NE#） decimal(8, 4)
-ALTER TABLE `blood` ADD COLUMN 淋巴细胞百分比（LY%） decimal(8, 4)
-ALTER TABLE `blood` ADD COLUMN 淋巴细胞绝对数（LY#） decimal(8, 4)
-ALTER TABLE `blood` ADD COLUMN 单核细胞百分比（MO%） decimal(8, 4)
-ALTER TABLE `blood` ADD COLUMN 单核细胞绝对数(MO#) decimal(8, 4)
-ALTER TABLE `blood` ADD COLUMN 嗜酸性粒细胞百分比（EO%） decimal(8, 4)
-ALTER TABLE `blood` ADD COLUMN 嗜酸性粒细胞绝对数(EO#) decimal(8, 4)
-ALTER TABLE `blood` ADD COLUMN 嗜碱性粒细胞百分比（BA%） decimal(8, 4)
-ALTER TABLE `blood` ADD COLUMN 嗜碱性粒细胞绝对数(BA#) decimal(8, 4)
-ALTER TABLE `blood` ADD COLUMN 大血小板数目 decimal(8, 4)
-ALTER TABLE `blood` ADD COLUMN 大血小板比率[P-LCR] decimal(8, 4)
-ALTER TABLE `blood` ADD COLUMN 血红蛋白浓度 varchar(10)
-ALTER TABLE `blood` ADD COLUMN 血红蛋白浓度(男) decimal(8, 4)
-ALTER TABLE `blood` ADD COLUMN 网织红细胞计数 decimal(8, 4)
-ALTER TABLE `blood` ADD COLUMN 红细胞计数(男) decimal(8, 4)
-ALTER TABLE `blood` ADD COLUMN 红细胞计数(女) decimal(8, 4)
-ALTER TABLE `blood` ADD COLUMN 血红蛋白浓度(女) decimal(8, 4)
-ALTER TABLE `blood` ADD COLUMN 红细胞体积分布宽度 decimal(8, 4)
-ALTER TABLE `blood` ADD COLUMN clientId varchar(32)
+ALTER TABLE `blood` ADD COLUMN PDW decimal(8, 4);
+ALTER TABLE `blood` ADD COLUMN PCT decimal(8, 4);
+ALTER TABLE `blood` ADD COLUMN MCHC decimal(8, 4);
+ALTER TABLE `blood` ADD COLUMN MCV decimal(8, 4);
+ALTER TABLE `blood` ADD COLUMN RDW_CV decimal(8, 4);
+ALTER TABLE `blood` ADD COLUMN MCH decimal(8, 4);
+ALTER TABLE `blood` ADD COLUMN MPV decimal(8, 4);
+ALTER TABLE `blood` ADD COLUMN RDW_SD decimal(8, 4);
+ALTER TABLE `blood` ADD COLUMN WBC decimal(8, 4);
+ALTER TABLE `blood` ADD COLUMN RBC decimal(8, 4);
+ALTER TABLE `blood` ADD COLUMN PLT decimal(8, 4);
+ALTER TABLE `blood` ADD COLUMN Hb decimal(8, 4);
+ALTER TABLE `blood` ADD COLUMN HCT decimal(8, 4);
+ALTER TABLE `blood` ADD COLUMN NE_P decimal(8, 4);
+ALTER TABLE `blood` ADD COLUMN NE_V decimal(8, 4);
+ALTER TABLE `blood` ADD COLUMN LY_P decimal(8, 4);
+ALTER TABLE `blood` ADD COLUMN LY_V decimal(8, 4);
+ALTER TABLE `blood` ADD COLUMN MO_P decimal(8, 4);
+ALTER TABLE `blood` ADD COLUMN MO_V decimal(8, 4);
+ALTER TABLE `blood` ADD COLUMN EO_P decimal(8, 4);
+ALTER TABLE `blood` ADD COLUMN EO_V decimal(8, 4);
+ALTER TABLE `blood` ADD COLUMN BA_P decimal(8, 4);
+ALTER TABLE `blood` ADD COLUMN BA_V decimal(8, 4);
+ALTER TABLE `blood` ADD COLUMN LCR decimal(8, 4);
+ALTER TABLE `blood` ADD COLUMN P_LCR decimal(8, 4);
+ALTER TABLE `blood` ADD COLUMN Hb_M decimal(8, 4);
+ALTER TABLE `blood` ADD COLUMN RCT decimal(8, 4);
+ALTER TABLE `blood` ADD COLUMN RBC_M decimal(8, 4);
+ALTER TABLE `blood` ADD COLUMN RBC_F decimal(8, 4);
+ALTER TABLE `blood` ADD COLUMN Hb_F decimal(8, 4);
+ALTER TABLE `blood` ADD COLUMN RDW decimal(8, 4);
+ALTER TABLE `blood` ADD COLUMN clientId varchar(32);
 
-
-create table `chemical` (reportId varchar(32)) ENGINE=InnoDB
-	ALTER TABLE `chemical` ADD PRIMARY KEY (reportId)
-ALTER TABLE `chemical` ADD COLUMN 总胆红素(T-BIL) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 总蛋白(TP) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 空腹血糖（FPG） decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 白蛋白/球蛋白(A/G) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 丙氨酸氨基转移酶(ALT) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 天门冬氨酸氨基转移酶(AST) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN AST/ALT decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN γ-谷氨酰转移酶（GGT） decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 碱性磷酸酶(ALP) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 白蛋白(ALB) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 球蛋白(GLB) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 直接胆红素(D-BIL) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 间接胆红素(I-BIL) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 总胆固醇(TCHOL) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 甘油三酯(TGIG) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 高密度脂蛋白胆固醇(HDL-CH) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 低密度脂蛋白胆固醇(LDL-CH) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 尿素(Urea) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 尿酸(UA) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 肌酐(Crea) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 血清载脂蛋白B(Apo-B) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 载脂蛋白A1/载脂蛋白B decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 血清载脂蛋白AI(ApoAI) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 同型半胱氨酸(Hcy) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 肌酸激酶（CK） decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 乳酸脱氢酶（LDH） decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 血清肌酸激酶同工酶(CK-MB) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 超敏C反应蛋白（hsCRP） decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 尿素氮（BUN） decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 血清胱抑素C decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 脑利钠肽 decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 糖化血红蛋白[HbA1C] decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 血清Ⅳ型胶原测定(CIV) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 血清层粘连蛋白[LN] decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 血清Ⅲ型前胶原测定（pcⅢ） decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 血清透明质酸测定（HA） decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN α-羟丁酸脱氢酶(HBDH) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 免疫球蛋白A(IgA) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 免疫球蛋白G(IgG) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 免疫球蛋白M(IgM) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 补体C4 decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 氯离子(Cl) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 钠离子(Na) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 钾离子(K) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 补体C3 decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 血清总胆汁酸(TBA) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 脂蛋白a[Lp(a)] decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 铁蛋白 decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 维生素B12 decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 叶酸 decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 无机磷(P) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 血清钙(Ca) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 镁离子(Mg) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 血浆肾素活性测定(PRA) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 血管紧张素Ⅰ测定(AT-Ⅰ)(立位) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 血管紧张素Ⅱ测定(AT-Ⅱ)(立位) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 血清转铁蛋白(TRF) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 胰岛素抗体测定(INS-Ab) varchar(10)
-ALTER TABLE `chemical` ADD COLUMN 抗胰岛素细胞抗体(ICA) varchar(10)
-ALTER TABLE `chemical` ADD COLUMN 抗谷氨酸脱羧酶抗体(GAD-Ab) varchar(10)
-ALTER TABLE `chemical` ADD COLUMN 血清空腹胰岛素(INS0)+(电发光) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 血清肌钙蛋白T decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 肌红蛋白(MYO) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 血清淀粉酶(AMY) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN C-肽定量 decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 血浆D-二聚体 decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 总铁结合力(TIBC) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 转铁蛋白饱和度[Tfs] decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 甲胎蛋白AFP(发光) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 癌胚抗原CEA(发光) decimal(8, 4)
-ALTER TABLE `chemical` ADD COLUMN 抗胰岛素自身抗体 varchar(10)
+create table `chemical` (reportId varchar(32)) ENGINE=InnoDB;
+ALTER TABLE `chemical` ADD PRIMARY KEY (reportId);
+ALTER TABLE `chemical` ADD COLUMN T_BIL decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN TP decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN FPG decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN AdevG decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN ALT decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN AST decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN ASTdevALT decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN GGT decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN ALP decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN ALB decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN GLB decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN D_BIL decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN I_BIL decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN TCHOL decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN TGIG decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN HDL_CH decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN LDL_CH decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN Urea decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN UA decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN Crea decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN Apo_B decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN ApoAIdevApoB decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN ApoAI decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN Hcy decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN CK decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN LDH decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN CK_MB decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN hsCRP decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN BUN decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN Cys_C decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN BN_P decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN HbA1C decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN CIV decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN LN decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN pcⅢ decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN HA decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN HBDH decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN IgA decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN IgG decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN IgM decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN C4 decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN Cl decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN Na decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN K decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN C3 decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN TBA decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN Lp_a decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN FER_Che decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN Vtm_B12 decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN FOL decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN P decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN Ca decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN Mg decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN PRA decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN AT_i decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN AT_ii decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN TRF decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN INS_Ab varchar(10);
+ALTER TABLE `chemical` ADD COLUMN ICA varchar(10);
+ALTER TABLE `chemical` ADD COLUMN GAD_Ab varchar(10);
+ALTER TABLE `chemical` ADD COLUMN INS0 decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN Tro_T decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN MYO decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN AMY decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN C_P decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN D_Dim decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN TIBC decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN Tfs decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN AFP_Che decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN CEA_Che decimal(8, 4);
+ALTER TABLE `chemical` ADD COLUMN IAA varchar(10);
 ALTER TABLE `chemical` ADD COLUMN clientId varchar(32)
 
-
-
-create table `general` (reportId varchar(32)) ENGINE=InnoDB
-	ALTER TABLE `general` ADD PRIMARY KEY (reportId)
-ALTER TABLE `general` ADD COLUMN 脉搏 decimal(8, 4)
-ALTER TABLE `general` ADD COLUMN 体重 decimal(8, 4)
-ALTER TABLE `general` ADD COLUMN 身高 decimal(8, 4)
-ALTER TABLE `general` ADD COLUMN 复测血压(收缩压) varchar(10)
-ALTER TABLE `general` ADD COLUMN 体重指数 decimal(8, 4)
-ALTER TABLE `general` ADD COLUMN 复测血压(舒张压) varchar(10)
-ALTER TABLE `general` ADD COLUMN 体检血压(收缩压) decimal(8, 4)
-ALTER TABLE `general` ADD COLUMN 体检血压(舒张压) decimal(8, 4)
-ALTER TABLE `general` ADD COLUMN 复测血压2(舒张压) varchar(10)
-ALTER TABLE `general` ADD COLUMN 复测血压2(收缩压) varchar(10)
-ALTER TABLE `general` ADD COLUMN 腰围(男) decimal(8, 4)
-ALTER TABLE `general` ADD COLUMN 臀围 varchar(10)
-ALTER TABLE `general` ADD COLUMN 腰臀比 varchar(10)
-ALTER TABLE `general` ADD COLUMN 体温 decimal(8, 4)
-ALTER TABLE `general` ADD COLUMN 呼吸 decimal(8, 4)
-ALTER TABLE `general` ADD COLUMN 营养 varchar(10)
-ALTER TABLE `general` ADD COLUMN 发育 varchar(10)
-ALTER TABLE `general` ADD COLUMN 体脂肪量 varchar(10)
-ALTER TABLE `general` ADD COLUMN 体脂肪率 varchar(10)
-ALTER TABLE `general` ADD COLUMN 体水分率 varchar(10)
-ALTER TABLE `general` ADD COLUMN 基础代谢 varchar(10)
-ALTER TABLE `general` ADD COLUMN 腹壁脂肪测定 varchar(10)
-ALTER TABLE `general` ADD COLUMN 营养体脂测定 varchar(10)
-ALTER TABLE `general` ADD COLUMN 腰围(女) decimal(8, 4)
+create table `general` (reportId varchar(32)) ENGINE=InnoDB;
+ALTER TABLE `general` ADD PRIMARY KEY (reportId);
+ALTER TABLE `general` ADD COLUMN PLS decimal(8, 4);
+ALTER TABLE `general` ADD COLUMN WGT decimal(8, 4);
+ALTER TABLE `general` ADD COLUMN HGT decimal(8, 4);
+ALTER TABLE `general` ADD COLUMN SBP_R varchar(10);
+ALTER TABLE `general` ADD COLUMN BMI decimal(8, 4);
+ALTER TABLE `general` ADD COLUMN DBP_R varchar(10);
+ALTER TABLE `general` ADD COLUMN DBP decimal(8, 4);
+ALTER TABLE `general` ADD COLUMN SBP decimal(8, 4);
+ALTER TABLE `general` ADD COLUMN DBP_R2 varchar(10);
+ALTER TABLE `general` ADD COLUMN SBP_R2 varchar(10);
+ALTER TABLE `general` ADD COLUMN WST_M decimal(8, 4);
+ALTER TABLE `general` ADD COLUMN BUT varchar(10);
+ALTER TABLE `general` ADD COLUMN WdevB varchar(10);
+ALTER TABLE `general` ADD COLUMN BT decimal(8, 4);
+ALTER TABLE `general` ADD COLUMN BRT decimal(8, 4);
+ALTER TABLE `general` ADD COLUMN NTR varchar(10);
+ALTER TABLE `general` ADD COLUMN DEV varchar(10);
+ALTER TABLE `general` ADD COLUMN BF varchar(10);
+ALTER TABLE `general` ADD COLUMN BFR varchar(10);
+ALTER TABLE `general` ADD COLUMN BWR varchar(10);
+ALTER TABLE `general` ADD COLUMN MTB varchar(10);
+ALTER TABLE `general` ADD COLUMN Be_F varchar(10);
+ALTER TABLE `general` ADD COLUMN NTF varchar(10);
+ALTER TABLE `general` ADD COLUMN WST_F decimal(8, 4);
 ALTER TABLE `general` ADD COLUMN clientId varchar(32)
 
-
-create table `heart` (reportId varchar(32)) ENGINE=InnoDB
-	ALTER TABLE `heart` ADD PRIMARY KEY (reportId)
-ALTER TABLE `heart` ADD COLUMN 心率 decimal(8, 4)
-ALTER TABLE `heart` ADD COLUMN QRS时限 decimal(8, 4)
-ALTER TABLE `heart` ADD COLUMN P-R间期 decimal(8, 4)
-ALTER TABLE `heart` ADD COLUMN Q-T间期 decimal(8, 4)
-ALTER TABLE `heart` ADD COLUMN QTc decimal(8, 4)
-ALTER TABLE `heart` ADD COLUMN 电轴 decimal(8, 4)
-ALTER TABLE `heart` ADD COLUMN 心电图 varchar(10)
-ALTER TABLE `heart` ADD COLUMN 束支传导阻滞 varchar(10)
-ALTER TABLE `heart` ADD COLUMN 窦性心律 varchar(10)
-ALTER TABLE `heart` ADD COLUMN 心肌梗塞 varchar(10)
-ALTER TABLE `heart` ADD COLUMN 起博器 varchar(10)
-ALTER TABLE `heart` ADD COLUMN ST段T波 varchar(10)
-ALTER TABLE `heart` ADD COLUMN 交界性心律 varchar(10)
-ALTER TABLE `heart` ADD COLUMN 房性心律 varchar(10)
-ALTER TABLE `heart` ADD COLUMN 室性心律 varchar(10)
-ALTER TABLE `heart` ADD COLUMN 窦房传导阻滞 varchar(10)
-ALTER TABLE `heart` ADD COLUMN 房室传导阻滞 varchar(10)
-ALTER TABLE `heart` ADD COLUMN U波 varchar(10)
-ALTER TABLE `heart` ADD COLUMN 预激征候群 varchar(10)
-ALTER TABLE `heart` ADD COLUMN 其他 varchar(10)
-ALTER TABLE `heart` ADD COLUMN 心房心室 varchar(10)
+create table `heart` (reportId varchar(32)) ENGINE=InnoDB;
+ALTER TABLE `heart` ADD PRIMARY KEY (reportId);
+ALTER TABLE `heart` ADD COLUMN RHR decimal(8, 4);
+ALTER TABLE `heart` ADD COLUMN QRS_WC decimal(8, 4);
+ALTER TABLE `heart` ADD COLUMN P_RI decimal(8, 4);
+ALTER TABLE `heart` ADD COLUMN Q_TI decimal(8, 4);
+ALTER TABLE `heart` ADD COLUMN QTc decimal(8, 4);
+ALTER TABLE `heart` ADD COLUMN CEA decimal(8, 4);
+ALTER TABLE `heart` ADD COLUMN ECG varchar(10);
+ALTER TABLE `heart` ADD COLUMN BBB varchar(10);
+ALTER TABLE `heart` ADD COLUMN SR varchar(10);
+ALTER TABLE `heart` ADD COLUMN AMI varchar(10);
+ALTER TABLE `heart` ADD COLUMN CEP varchar(10);
+ALTER TABLE `heart` ADD COLUMN STT varchar(10);
+ALTER TABLE `heart` ADD COLUMN AJR varchar(10);
+ALTER TABLE `heart` ADD COLUMN CAR varchar(10);
+ALTER TABLE `heart` ADD COLUMN VEB varchar(10);
+ALTER TABLE `heart` ADD COLUMN SAB varchar(10);
+ALTER TABLE `heart` ADD COLUMN AB varchar(10);
+ALTER TABLE `heart` ADD COLUMN U_W varchar(10);
+ALTER TABLE `heart` ADD COLUMN WPW varchar(10);
+ALTER TABLE `heart` ADD COLUMN ETC varchar(10);
+ALTER TABLE `heart` ADD COLUMN A_V varchar(10);
 ALTER TABLE `heart` ADD COLUMN clientId varchar(32)
 
+create table `report_thyroid` (reportId varchar(32)) ENGINE=InnoDB;
+ALTER TABLE `report_thyroid` ADD PRIMARY KEY (reportId);
+ALTER TABLE `report_thyroid` ADD COLUMN THY_Detail varchar(500);
+ALTER TABLE `report_thyroid` ADD COLUMN clientId varchar(32);
+
+create table `report_tumour` (reportId varchar(32)) ENGINE=InnoDB;
+ALTER TABLE `report_tumour` ADD PRIMARY KEY (reportId);
+ALTER TABLE `report_tumour` ADD COLUMN CEA decimal(8, 4);
+ALTER TABLE `report_tumour` ADD COLUMN AFP decimal(8, 4);
+ALTER TABLE `report_tumour` ADD COLUMN CA125 decimal(8, 4);
+ALTER TABLE `report_tumour` ADD COLUMN F_PSA decimal(8, 4);
+ALTER TABLE `report_tumour` ADD COLUMN CA199 decimal(8, 4);
+ALTER TABLE `report_tumour` ADD COLUMN T_PSA decimal(8, 4);
+ALTER TABLE `report_tumour` ADD COLUMN F_PSAdevT_PSA decimal(8, 4);
+ALTER TABLE `report_tumour` ADD COLUMN CA153 decimal(8, 4);
+ALTER TABLE `report_tumour` ADD COLUMN CYF211 decimal(8, 4);
+ALTER TABLE `report_tumour` ADD COLUMN SCC decimal(8, 4);
+ALTER TABLE `report_tumour` ADD COLUMN CA242 decimal(8, 4);
+ALTER TABLE `report_tumour` ADD COLUMN CA724 decimal(8, 4);
+ALTER TABLE `report_tumour` ADD COLUMN FER decimal(8, 4);
+ALTER TABLE `report_tumour` ADD COLUMN G17 varchar(10);
+ALTER TABLE `report_tumour` ADD COLUMN PGII decimal(8, 4);
+ALTER TABLE `report_tumour` ADD COLUMN PGI decimal(8, 4);
+ALTER TABLE `report_tumour` ADD COLUMN PGIdevPGII decimal(8, 4);
+ALTER TABLE `report_tumour` ADD COLUMN CA50 decimal(8, 4);
+ALTER TABLE `report_tumour` ADD COLUMN NSE decimal(8, 4);
+ALTER TABLE `report_tumour` ADD COLUMN PSA decimal(8, 4);
+ALTER TABLE `report_tumour` ADD COLUMN TSGF decimal(8, 4);
+ALTER TABLE `report_tumour` ADD COLUMN TNF decimal(8, 4);
+ALTER TABLE `report_tumour` ADD COLUMN IFN decimal(8, 4);
+ALTER TABLE `report_tumour` ADD COLUMN ECS varchar(10);
+ALTER TABLE `report_tumour` ADD COLUMN AFP_R varchar(10);
+ALTER TABLE `report_tumour` ADD COLUMN CEA_R varchar(10);
+ALTER TABLE `report_tumour` ADD COLUMN AFU decimal(8, 4);
+ALTER TABLE `report_tumour` ADD COLUMN ProGRP decimal(8, 4);
+ALTER TABLE `report_tumour` ADD COLUMN b_HCG decimal(12, 6);
+ALTER TABLE `report_tumour` ADD COLUMN CT decimal(8, 4);
+ALTER TABLE `report_tumour` ADD COLUMN FIO decimal(8, 4);
+ALTER TABLE `report_tumour` ADD COLUMN UIBC decimal(8, 4);
+ALTER TABLE `report_tumour` ADD COLUMN NMP22 varchar(10);
+ALTER TABLE `report_tumour` ADD COLUMN HE4 decimal(8, 4);
+ALTER TABLE `report_tumour` ADD COLUMN EB_IgM varchar(10);
+ALTER TABLE `report_tumour` ADD COLUMN clientId varchar(32);
 
 
-create table `thyroid` (reportId varchar(32)) ENGINE=InnoDB
-	ALTER TABLE `thyroid` ADD PRIMARY KEY (reportId)
-ALTER TABLE `thyroid` ADD COLUMN 甲状腺检查 varchar(150)
-ALTER TABLE `thyroid` ADD COLUMN clientId varchar(32)
+TRUNCATE report_blood;
+TRUNCATE report_chemical;
+TRUNCATE report_general;
+TRUNCATE report_heart;
+TRUNCATE report_thyroid;
+TRUNCATE report_tumour;
 
+alter table report_thyroid modify column THY_Detail varchar(400);
 
-
-create table `tumour` (reportId varchar(32)) ENGINE=InnoDB
-	ALTER TABLE `tumour` ADD PRIMARY KEY (reportId)
-ALTER TABLE `tumour` ADD COLUMN 癌胚抗原CEA(发光) decimal(8, 4)
-ALTER TABLE `tumour` ADD COLUMN 甲胎蛋白AFP(发光) decimal(8, 4)
-ALTER TABLE `tumour` ADD COLUMN 糖类抗原125(CA125)(发光) decimal(8, 4)
-ALTER TABLE `tumour` ADD COLUMN 游离前列腺特异性抗原（F-PSA） decimal(8, 4)
-ALTER TABLE `tumour` ADD COLUMN 糖类抗原19-9(CA19-9) decimal(8, 4)
-ALTER TABLE `tumour` ADD COLUMN 总前列腺特异性抗原（T-PSA） decimal(8, 4)
-ALTER TABLE `tumour` ADD COLUMN F-PSA/T-PSA decimal(8, 4)
-ALTER TABLE `tumour` ADD COLUMN 糖类抗原15-3(CA15-3) decimal(8, 4)
-ALTER TABLE `tumour` ADD COLUMN 细胞角蛋白19片段(Cyfra 21-1) decimal(8, 4)
-ALTER TABLE `tumour` ADD COLUMN 鳞状细胞相关抗原(SCC) decimal(8, 4)
-ALTER TABLE `tumour` ADD COLUMN 糖类抗原242 decimal(8, 4)
-ALTER TABLE `tumour` ADD COLUMN 糖类抗原72-4(CA72-4) decimal(8, 4)
-ALTER TABLE `tumour` ADD COLUMN 铁蛋白(FER) decimal(8, 4)
-ALTER TABLE `tumour` ADD COLUMN 胃泌素-17 decimal(8, 4)
-ALTER TABLE `tumour` ADD COLUMN 胃蛋白酶原II测定 decimal(8, 4)
-ALTER TABLE `tumour` ADD COLUMN 胃蛋白酶原I测定 decimal(8, 4)
-ALTER TABLE `tumour` ADD COLUMN 胃蛋白酶原I/胃蛋白酶原II测定 decimal(8, 4)
-ALTER TABLE `tumour` ADD COLUMN 糖类抗原50(CA50) decimal(8, 4)
-ALTER TABLE `tumour` ADD COLUMN 神经元特异性烯醇化酶(NSE) decimal(8, 4)
-ALTER TABLE `tumour` ADD COLUMN 前列腺特异性抗原 decimal(8, 4)
-ALTER TABLE `tumour` ADD COLUMN 恶性肿瘤特异性生长因子 decimal(8, 4)
-ALTER TABLE `tumour` ADD COLUMN 肿瘤坏死因子 decimal(8, 4)
-ALTER TABLE `tumour` ADD COLUMN 干扰素 decimal(8, 4)
-ALTER TABLE `tumour` ADD COLUMN 早期肿瘤筛查(液态芯片) varchar(10)
-ALTER TABLE `tumour` ADD COLUMN 甲胎蛋白(AFP)(定性) varchar(10)
-ALTER TABLE `tumour` ADD COLUMN 癌胚抗原(CEA)(定性) varchar(10)
-ALTER TABLE `tumour` ADD COLUMN 血清α-L-岩藻糖苷酶 decimal(8, 4)
-ALTER TABLE `tumour` ADD COLUMN 胃泌素释放钛前体[ProGRP] decimal(8, 4)
-ALTER TABLE `tumour` ADD COLUMN 血清人绒毛膜促性腺激素(β-HCG） decimal(8, 4)
-ALTER TABLE `tumour` ADD COLUMN 降钙素(CT) decimal(8, 4)
-ALTER TABLE `tumour` ADD COLUMN 血清铁离子 decimal(8, 4)
-ALTER TABLE `tumour` ADD COLUMN 不饱和铁结合能力(UIBC) decimal(8, 4)
-ALTER TABLE `tumour` ADD COLUMN 膀胱瘤（NMP22） varchar(10)
-ALTER TABLE `tumour` ADD COLUMN 附睾蛋白4 decimal(8, 4)
-ALTER TABLE `tumour` ADD COLUMN EB病毒抗体IgM varchar(10)
-ALTER TABLE `tumour` ADD COLUMN clientId varchar(32)
+alter table report_blood character set utf8;

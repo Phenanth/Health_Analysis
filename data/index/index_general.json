@@ -3,16 +3,16 @@
         "PLS",
         "WGT",
         "HGT",
-        "SBP-R",
+        "SBP_R",
         "BMI",
-        "DBP-R",
+        "DBP_R",
         "DBP",
         "SBP",
-        "DBP-R2",
-        "SBP-R2",
-        "WST-M",
+        "DBP_R2",
+        "SBP_R2",
+        "WST_M",
         "BUT",
-        "W/B",
+        "WdevB",
         "BT",
         "BRT",
         "NTR",
@@ -21,9 +21,9 @@
         "BFR",
         "BWR",
         "MTB",
-        "Be-F",
+        "Be_F",
         "NTF",
-        "WST-F"
+        "WST_F"
     ],
     "mapping": [
         {
@@ -40,7 +40,7 @@
         },
         {
             "reportName": "复测血压(收缩压)",
-            "scientificName": "SBP-R"
+            "scientificName": "SBP_R"
         },
         {
             "reportName": "体重指数",
@@ -48,7 +48,7 @@
         },
         {
             "reportName": "复测血压(舒张压)",
-            "scientificName": "DBP-R"
+            "scientificName": "DBP_R"
         },
         {
             "reportName": "体检血压(收缩压)",
@@ -68,15 +68,15 @@
         },
         {
             "reportName": "复测血压2(舒张压)",
-            "scientificName": "DBP-R2"
+            "scientificName": "DBP_R2"
         },
         {
             "reportName": "复测血压2(收缩压)",
-            "scientificName": "SBP-R2"
+            "scientificName": "SBP_R2"
         },
         {
             "reportName": "腰围(男)",
-            "scientificName": "WST-M"
+            "scientificName": "WST_M"
         },
         {
             "reportName": "臀围",
@@ -88,11 +88,11 @@
         },
         {
             "reportName": "腰臀比",
-            "scientificName": "W/B"
+            "scientificName": "WdevB"
         },
         {
             "reportName": "腰臀比(男)",
-            "scientificName": "W/B"
+            "scientificName": "WdevB"
         },
         {
             "reportName": "体温",
@@ -128,7 +128,7 @@
         },
         {
             "reportName": "腹壁脂肪测定",
-            "scientificName": "Be-F"
+            "scientificName": "Be_F"
         },
         {
             "reportName": "营养体脂测定",
@@ -136,7 +136,7 @@
         },
         {
             "reportName": "腰围(女)",
-            "scientificName": "WST-F"
+            "scientificName": "WST_F"
         },
         {
             "reportName": "臀围(女)",
@@ -144,7 +144,7 @@
         },
         {
             "reportName": "腰臀比(女)",
-            "scientificName": "W/B"
+            "scientificName": "WdevB"
         }
     ]
 }

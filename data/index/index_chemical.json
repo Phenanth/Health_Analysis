@@ -1,36 +1,36 @@
 {
     "indexs": [
-        "T-BIL",
+        "T_BIL",
         "TP",
         "FPG",
-        "A/G",
+        "AdevG",
         "ALT",
         "AST",
-        "AST/ALT",
+        "ASTdevALT",
         "GGT",
         "ALP",
         "ALB",
         "GLB",
-        "D-BIL",
-        "I-BIL",
+        "D_BIL",
+        "I_BIL",
         "TCHOL",
         "TGIG",
-        "HDL-CH",
-        "LDL-CH",
+        "HDL_CH",
+        "LDL_CH",
         "Urea",
         "UA",
         "Crea",
-        "Apo-B",
-        "ApoAI/ApoB",
+        "Apo_B",
+        "ApoAIdevApoB",
         "ApoAI",
         "Hcy",
         "CK",
         "LDH",
-        "CK-MB",
+        "CK_MB",
         "hsCRP",
         "BUN",
-        "Cys-C",
-        "BN-P",
+        "Cys_C",
+        "BN_P",
         "HbA1C",
         "CIV",
         "LN",
@@ -46,36 +46,36 @@
         "K",
         "C3",
         "TBA",
-        "Lp(a)",
-        "FER-Che",
-        "Vtm-B12",
+        "Lp_a",
+        "FER_Che",
+        "Vtm_B12",
         "FOL",
         "P",
         "Ca",
         "Mg",
         "PRA",
-        "AT-Ⅰ",
-        "AT-Ⅱ",
+        "AT_i",
+        "AT_ii",
         "TRF",
-        "INS-Ab",
+        "INS_Ab",
         "ICA",
-        "GAD-Ab",
+        "GAD_Ab",
         "INS0",
-        "Tro-T",
+        "Tro_T",
         "MYO",
         "AMY",
-        "C-P",
-        "D-Dim",
+        "C_P",
+        "D_Dim",
         "TIBC",
         "Tfs",
-        "AFP-Che",
-        "CEA-Che",
+        "AFP_Che",
+        "CEA_Che",
         "IAA"
     ],
     "mapping": [
         {
             "reportName": "总胆红素(T-BIL)",
-            "scientificName": "T-BIL"
+            "scientificName": "T_BIL"
         },
         {
             "reportName": "总蛋白(TP)",
@@ -87,7 +87,7 @@
         },
         {
             "reportName": "白蛋白/球蛋白(A/G)",
-            "scientificName": "A/G"
+            "scientificName": "AdevG"
         },
         {
             "reportName": "丙氨酸氨基转移酶(ALT)",
@@ -99,7 +99,7 @@
         },
         {
             "reportName": "AST/ALT",
-            "scientificName": "AST/ALT"
+            "scientificName": "ASTdevALT"
         },
         {
             "reportName": "γ-谷氨酰转移酶（GGT）",
@@ -119,11 +119,11 @@
         },
         {
             "reportName": "直接胆红素(D-BIL)",
-            "scientificName": "D-BIL"
+            "scientificName": "D_BIL"
         },
         {
             "reportName": "间接胆红素(I-BIL)",
-            "scientificName": "I-BIL"
+            "scientificName": "I_BIL"
         },
         {
             "reportName": "总胆固醇(TCHOL)",
@@ -135,11 +135,11 @@
         },
         {
             "reportName": "高密度脂蛋白胆固醇(HDL-CH)",
-            "scientificName": "HDL-CH"
+            "scientificName": "HDL_CH"
         },
         {
             "reportName": "低密度脂蛋白胆固醇(LDL-CH)",
-            "scientificName": "LDL-CH"
+            "scientificName": "LDL_CH"
         },
         {
             "reportName": "尿素(Urea)",
@@ -163,7 +163,7 @@
         },
         {
             "reportName": "血清载脂蛋白B(Apo-B)",
-            "scientificName": "Apo-B"
+            "scientificName": "Apo_B"
         },
         {
             "reportName": "血清γ-谷氨酰基转移酶[GGT]",
@@ -171,7 +171,7 @@
         },
         {
             "reportName": "AST/ALT比值",
-            "scientificName": "AST/ALT"
+            "scientificName": "ASTdevALT"
         },
         {
             "reportName": "总胆固醇(TCHO)",
@@ -187,11 +187,11 @@
         },
         {
             "reportName": "血清直接胆红素[DBIL]",
-            "scientificName": "D-BIL"
+            "scientificName": "D_BIL"
         },
         {
             "reportName": "血清白球比[A/G]",
-            "scientificName": "A/G"
+            "scientificName": "AdevG"
         },
         {
             "reportName": "甘油三酯（TG）",
@@ -199,7 +199,7 @@
         },
         {
             "reportName": "低密度脂蛋白胆固醇（LDL-CHO）",
-            "scientificName": "LDL-CH"
+            "scientificName": "LDL_CH"
         },
         {
             "reportName": "血清尿酸[UA]",
@@ -207,11 +207,11 @@
         },
         {
             "reportName": "载脂蛋白A1/载脂蛋白B",
-            "scientificName": "ApoAI/ApoB"
+            "scientificName": "ApoAIdevApoB"
         },
         {
             "reportName": "血清总胆红素[T-BIL]",
-            "scientificName": "T-BIL"
+            "scientificName": "T_BIL"
         },
         {
             "reportName": "空腹葡萄糖",
@@ -223,7 +223,7 @@
         },
         {
             "reportName": "高密度脂蛋白胆固醇（HDL-CHO）",
-            "scientificName": "HDL-CH"
+            "scientificName": "HDL_CH"
         },
         {
             "reportName": "血清载脂蛋白AI(ApoAI)",
@@ -243,7 +243,7 @@
         },
         {
             "reportName": "血清间接胆红素[IBIL]",
-            "scientificName": "I-BIL"
+            "scientificName": "I_BIL"
         },
         {
             "reportName": "同型半胱氨酸(Hcy)",
@@ -259,7 +259,7 @@
         },
         {
             "reportName": "血清肌酸激酶同工酶(CK-MB)",
-            "scientificName": "CK-MB"
+            "scientificName": "CK_MB"
         },
         {
             "reportName": "超敏C反应蛋白（hsCRP）",
@@ -275,11 +275,11 @@
         },
         {
             "reportName": "血清胱抑素C",
-            "scientificName": "Cys-C"
+            "scientificName": "Cys_C"
         },
         {
             "reportName": "脑利钠肽",
-            "scientificName": "BN-P"
+            "scientificName": "BN_P"
         },
         {
             "reportName": "糖化血红蛋白[HbA1C]",
@@ -287,7 +287,7 @@
         },
         {
             "reportName": "血清直接胆红素(DBIL)",
-            "scientificName": "D-BIL"
+            "scientificName": "D_BIL"
         },
         {
             "reportName": "血清总蛋白(TP)",
@@ -299,7 +299,7 @@
         },
         {
             "reportName": "血清总胆红素(T-BIL)",
-            "scientificName": "T-BIL"
+            "scientificName": "T_BIL"
         },
         {
             "reportName": "血清白蛋白(ALB)",
@@ -307,7 +307,7 @@
         },
         {
             "reportName": "血清白球比(ALB/GLOB)",
-            "scientificName": "A/G"
+            "scientificName": "AdevG"
         },
         {
             "reportName": "血清肌酐(Cr)",
@@ -331,11 +331,11 @@
         },
         {
             "reportName": "血清高密度脂蛋白胆固醇(HDL-CHO)",
-            "scientificName": "HDL-CH"
+            "scientificName": "HDL_CH"
         },
         {
             "reportName": "血清间接胆红素(IBIL)",
-            "scientificName": "I-BIL"
+            "scientificName": "I_BIL"
         },
         {
             "reportName": "血清甘油三酯(TG)",
@@ -351,7 +351,7 @@
         },
         {
             "reportName": "血清低密度脂蛋白胆固醇(LDL-CHO)",
-            "scientificName": "LDL-CH"
+            "scientificName": "LDL_CH"
         },
         {
             "reportName": "超敏C反应蛋白(hs—CRP)",
@@ -363,7 +363,7 @@
         },
         {
             "reportName": "血清胱抑素C (Cys-C)",
-            "scientificName": "Cys-C"
+            "scientificName": "Cys_C"
         },
         {
             "reportName": "血清Ⅳ型胶原测定(CIV)",
@@ -411,7 +411,7 @@
         },
         {
             "reportName": "肌酸激酶同工酶(CK-MB)",
-            "scientificName": "CK-MB"
+            "scientificName": "CK_MB"
         },
         {
             "reportName": "补体C4",
@@ -459,19 +459,19 @@
         },
         {
             "reportName": "血清载脂蛋白B（Apo-B）",
-            "scientificName": "Apo-B"
+            "scientificName": "Apo_B"
         },
         {
             "reportName": "脂蛋白a[Lp(a)]",
-            "scientificName": "Lp(a)"
+            "scientificName": "Lp_a"
         },
         {
             "reportName": "铁蛋白",
-            "scientificName": "FER-Che"
+            "scientificName": "FER_Che"
         },
         {
             "reportName": "维生素B12",
-            "scientificName": "Vtm-B12"
+            "scientificName": "Vtm_B12"
         },
         {
             "reportName": "叶酸",
@@ -499,19 +499,19 @@
         },
         {
             "reportName": "血管紧张素Ⅰ测定(AT-Ⅰ)(立位)",
-            "scientificName": "AT-Ⅰ"
+            "scientificName": "AT_i"
         },
         {
             "reportName": "血管紧张素Ⅱ测定(AT-Ⅱ)(立位)",
-            "scientificName": "AT-Ⅱ"
+            "scientificName": "AT_ii"
         },
         {
             "reportName": "铁蛋白(FER)",
-            "scientificName": "FER-Che"
+            "scientificName": "FER_Che"
         },
         {
             "reportName": "维生素B12(VB12)",
-            "scientificName": "Vtm-B12"
+            "scientificName": "Vtm_B12"
         },
         {
             "reportName": "血清转铁蛋白(TRF)",
@@ -519,7 +519,7 @@
         },
         {
             "reportName": "胰岛素抗体测定(INS-Ab)",
-            "scientificName": "INS-Ab"
+            "scientificName": "INS_Ab"
         },
         {
             "reportName": "抗胰岛素细胞抗体(ICA)",
@@ -527,11 +527,11 @@
         },
         {
             "reportName": "抗谷氨酸脱羧酶抗体(GAD-Ab)",
-            "scientificName": "GAD-Ab"
+            "scientificName": "GAD_Ab"
         },
         {
             "reportName": "肌酸激酶同工酶（CK-MB）",
-            "scientificName": "CK-MB"
+            "scientificName": "CK_MB"
         },
         {
             "reportName": "空腹血糖（GLU）",
@@ -571,19 +571,19 @@
         },
         {
             "reportName": "白球比值",
-            "scientificName": "A/G"
+            "scientificName": "AdevG"
         },
         {
             "reportName": "总胆红素",
-            "scientificName": "T-BIL"
+            "scientificName": "T_BIL"
         },
         {
             "reportName": "直接胆红素",
-            "scientificName": "D-BIL"
+            "scientificName": "D_BIL"
         },
         {
             "reportName": "间接胆红素",
-            "scientificName": "I-BIL"
+            "scientificName": "I_BIL"
         },
         {
             "reportName": "免疫球蛋白A（IGA）",
@@ -603,7 +603,7 @@
         },
         {
             "reportName": "血清肌钙蛋白T",
-            "scientificName": "Tro-T"
+            "scientificName": "Tro_T"
         },
         {
             "reportName": "肌红蛋白(MYO)",
@@ -619,15 +619,15 @@
         },
         {
             "reportName": "C-肽定量",
-            "scientificName": "C-P"
+            "scientificName": "C_P"
         },
         {
             "reportName": "抗胰岛素抗体(INS-Ab)",
-            "scientificName": "INS-Ab"
+            "scientificName": "INS_Ab"
         },
         {
             "reportName": "血浆D-二聚体",
-            "scientificName": "D-Dim"
+            "scientificName": "D_Dim"
         },
         {
             "reportName": "总铁结合力(TIBC)",
@@ -659,7 +659,7 @@
         },
         {
             "reportName": "谷氨酸脱羧酶抗体",
-            "scientificName": "GAD-Ab"
+            "scientificName": "GAD_Ab"
         },
         {
             "reportName": "总胆固醇（CHO）",
@@ -671,15 +671,15 @@
         },
         {
             "reportName": "白球比(ALB/GLOB)",
-            "scientificName": "A/G"
+            "scientificName": "AdevG"
         },
         {
             "reportName": "直接胆红素(DBIL)",
-            "scientificName": "D-BIL"
+            "scientificName": "D_BIL"
         },
         {
             "reportName": "间接胆红素(IBIL)",
-            "scientificName": "I-BIL"
+            "scientificName": "I_BIL"
         },
         {
             "reportName": "胰岛素细胞抗体",
@@ -687,23 +687,23 @@
         },
         {
             "reportName": "肌钙蛋白T",
-            "scientificName": "Tro-T"
+            "scientificName": "Tro_T"
         },
         {
             "reportName": "D-二聚体",
-            "scientificName": "D-Dim"
+            "scientificName": "D_Dim"
         },
         {
             "reportName": "甲胎蛋白AFP(发光)",
-            "scientificName": "AFP-Che"
+            "scientificName": "AFP_Che"
         },
         {
             "reportName": "癌胚抗原CEA(发光)",
-            "scientificName": "CEA-Che"
+            "scientificName": "CEA_Che"
         },
         {
             "reportName": "ALT/AST比值",
-            "scientificName": "AST/ALT"
+            "scientificName": "ASTdevALT"
         },
         {
             "reportName": "总胆固醇(TC)",
@@ -715,11 +715,11 @@
         },
         {
             "reportName": "高密度脂蛋白胆固醇(HDL-CHO)",
-            "scientificName": "HDL-CH"
+            "scientificName": "HDL_CH"
         },
         {
             "reportName": "低密度脂蛋白胆固醇(LDL-CHO)",
-            "scientificName": "LDL-CH"
+            "scientificName": "LDL_CH"
         },
         {
             "reportName": "肌酐(Cr)",
@@ -731,7 +731,7 @@
         },
         {
             "reportName": "脂蛋白(a)",
-            "scientificName": "Lp(a)"
+            "scientificName": "Lp_a"
         },
         {
             "reportName": "胰岛素测定(空腹)",

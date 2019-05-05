@@ -138,6 +138,24 @@ SQL区别
 3. 在当前数据结构中添加对应标准名的数据项
 4. 对于不存在的数据列，在数据结构中将其赋值为空
 
+#### 数据库表修正语句
+
+修改字段长度：
+`alter table report_thyroid modify column THY_Detail varchar(400);`
+
+修改表编码：
+`alter table report_blood character set utf8;`
+
+修改列编码：
+`alter table report_heart modify column ECG varchar(10) character set utf8mb4 collate utf8mb4_unicode_ci;`
+
+#### report_heart
+
+由于该数据原本就并不标准，舍弃：
+```bash
+Data too long: ('c1278fe404334da1b53fc1bb37dea474', 'ac8d34b395b54720a04cd50b84718345', '0', '0', '0', '0', '0', '0', ' 窦性心律\n***正常心电图***', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0')
+```
+
 ### 数据汇总
 
 在对每个表入库后，需要将同一个病人的报告信息汇总到一张总表上

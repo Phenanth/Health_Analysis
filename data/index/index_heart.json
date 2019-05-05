@@ -1,9 +1,9 @@
 {
     "indexs": [
         "RHR",
-        "QRS-WC",
-        "P-RI",
-        "Q-TI",
+        "QRS_WC",
+        "P_RI",
+        "Q_TI",
         "QTc",
         "CEA",
         "ECG",
@@ -17,10 +17,10 @@
         "VEB",
         "SAB",
         "AB",
-        "U-W",
+        "U_W",
         "WPW",
         "ETC",
-        "A-V"
+        "A_V"
     ],
     "mapping": [
         {
@@ -29,15 +29,15 @@
         },
         {
             "reportName": "QRS时限",
-            "scientificName": "QRS-WC"
+            "scientificName": "QRS_WC"
         },
         {
             "reportName": "P-R间期",
-            "scientificName": "P-RI"
+            "scientificName": "P_RI"
         },
         {
             "reportName": "Q-T间期",
-            "scientificName": "Q-TI"
+            "scientificName": "Q_TI"
         },
         {
             "reportName": "QTc",
@@ -57,7 +57,7 @@
         },
         {
             "reportName": "P波",
-            "scientificName": "P-RI"
+            "scientificName": "P_RI"
         },
         {
             "reportName": "窦性心律",
@@ -65,7 +65,7 @@
         },
         {
             "reportName": "QRS波",
-            "scientificName": "QRS-WC"
+            "scientificName": "QRS_WC"
         },
         {
             "reportName": "心肌梗塞",
@@ -81,7 +81,7 @@
         },
         {
             "reportName": "Q—T间期",
-            "scientificName": "Q-TI"
+            "scientificName": "Q_TI"
         },
         {
             "reportName": "心电轴",
@@ -113,7 +113,7 @@
         },
         {
             "reportName": "U波",
-            "scientificName": "U-W"
+            "scientificName": "U_W"
         },
         {
             "reportName": "预激征候群",
@@ -125,7 +125,7 @@
         },
         {
             "reportName": "心房心室",
-            "scientificName": "A-V"
+            "scientificName": "A_V"
         }
     ]
 }

@@ -11,10 +11,10 @@ datahead_report = 'data_report_'
 
 items = ["blood", "chemical", "general", "heart", "thyroid", "tumour"]
 
-sql_create_table_head = "create table `"
-sql_create_table_tail = "` (reportId varchar(32)) ENGINE=InnoDB"
-sql_alter_table_head = "ALTER TABLE `"
-sql_add_primary_key_tail = "` ADD PRIMARY KEY (reportId)"
+sql_create_table_head = "create table `report_"
+sql_create_table_tail = "` (reportId varchar(32)) ENGINE=InnoDB;"
+sql_alter_table_head = "ALTER TABLE `report_"
+sql_add_primary_key_tail = "` ADD PRIMARY KEY (reportId);"
 
 sql_add_column_mid = "` ADD COLUMN "
 
@@ -91,7 +91,8 @@ for item in items:
 	sql_create_table = sql_create_table_head + item + sql_create_table_tail
 	sql_add_primary_key = sql_alter_table_head + item + sql_add_primary_key_tail
 
-	print(sql_create_table, sql_add_primary_key)
+	print(sql_create_table)
+	print(sql_add_primary_key)
 
 	# sql execute
 	try:
@@ -106,25 +107,26 @@ for item in items:
 
 				sql_add_column = sql_alter_table_head + item + sql_add_column_mid + index
 
-				for i in range(len(mapping)):
-					if index == mapping[i]["reportName"]:
-						index_official = mapping[i]["scientificName"]
+				# for i in range(len(mapping)):
+				# 	print(index, mapping[i]["reportName"])
+				# 	if index == mapping[i]["reportName"]:
+				# 		index_official = mapping[i]["scientificName"]
 
 				# 判断该列数据项内容是数值还是字符串形式
-				flag = judgeDataType(item, index_official, mapping)
+				flag = judgeDataType(item, index, mapping)
 				if flag == "decimal":
-					sql_add_column = sql_add_column + " decimal(8, 4)"
+					sql_add_column = sql_add_column + " decimal(8, 4);"
 				elif flag == "string":
 					if item != "thyroid":
-						sql_add_column = sql_add_column + " varchar(10)"
+						sql_add_column = sql_add_column + " varchar(10);"
 					else:
-						sql_add_column = sql_add_column + " varchar(150)"
+						sql_add_column = sql_add_column + " varchar(150);"
 
 				print(sql_add_column)
 				# cursor.execute(sql_add_column)
 
 
-			sql_add_column = sql_alter_table_head + item + sql_add_column_mid + "clientId varchar(32)"
+			sql_add_column = sql_alter_table_head + item + sql_add_column_mid + "clientId varchar(32);"
 			print(sql_add_column)
 			# cursor.execute(sql_add_column)
 

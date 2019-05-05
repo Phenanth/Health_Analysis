@@ -3,20 +3,20 @@
         "CEA",
         "AFP",
         "CA125",
-        "F-PSA",
+        "F_PSA",
         "CA199",
-        "T-PSA",
-        "F-PSA/T-PSA",
+        "T_PSA",
+        "F_PSAdevT_PSA",
         "CA153",
         "CYF211",
         "SCC",
         "CA242",
         "CA724",
         "FER",
-        "F17",
+        "G17",
         "PGII",
         "PGI",
-        "PGI/PGII",
+        "PGIdevPGII",
         "CA50",
         "NSE",
         "PSA",
@@ -24,17 +24,17 @@
         "TNF",
         "IFN",
         "ECS",
-        "AFP-R",
-        "CEA-R",
+        "AFP_R",
+        "CEA_R",
         "AFU",
         "ProGRP",
-        "β-HCG",
+        "b_HCG",
         "CT",
         "FIO",
         "UIBC",
         "NMP22",
         "HE4",
-        "EB-IgM"
+        "EB_IgM"
     ],
     "mapping": [
         {
@@ -55,7 +55,7 @@
         },
         {
             "reportName": "游离前列腺特异性抗原（F-PSA）",
-            "scientificName": "F-PSA"
+            "scientificName": "F_PSA"
         },
         {
             "reportName": "糖类抗原19-9(CA19-9)",
@@ -67,11 +67,11 @@
         },
         {
             "reportName": "总前列腺特异性抗原（T-PSA）",
-            "scientificName": "T-PSA"
+            "scientificName": "T_PSA"
         },
         {
-            "reportName": "F-PSA/T-PSA",
-            "scientificName": "F-PSA/T-PSA"
+            "reportName": "F_PSAdevT_PSA",
+            "scientificName": "F_PSA/T_PSA"
         },
         {
             "reportName": "糖类抗原15-3(CA15-3)",
@@ -103,7 +103,7 @@
         },
         {
             "reportName": "游离前列腺特异性抗原(F-PSA)(发光)",
-            "scientificName": "F-PSA"
+            "scientificName": "F_PSA"
         },
         {
             "reportName": "胃泌素-17",
@@ -119,7 +119,7 @@
         },
         {
             "reportName": "胃蛋白酶原I/胃蛋白酶原II测定",
-            "scientificName": "PGI/PGII"
+            "scientificName": "PGIdevPGII"
         },
         {
             "reportName": "甲胎蛋白定量(AFP)",
@@ -135,7 +135,7 @@
         },
         {
             "reportName": "胃蛋白酶原I/胃蛋白酶原II[PGI/PGII]",
-            "scientificName": "PGI/PGII"
+            "scientificName": "PGIdevPGII"
         },
         {
             "reportName": "铁蛋白",
@@ -167,7 +167,7 @@
         },
         {
             "reportName": "前列腺特异性抗原(T-PSA)(发光)",
-            "scientificName": "T-PSA"
+            "scientificName": "T_PSA"
         },
         {
             "reportName": "糖类抗原(CA125)(发光)",
@@ -215,11 +215,11 @@
         },
         {
             "reportName": "游离前列腺特异性抗原",
-            "scientificName": "F-PSA"
+            "scientificName": "F_PSA"
         },
         {
             "reportName": "总前列腺特异性抗原",
-            "scientificName": "T-PSA"
+            "scientificName": "T_PSA"
         },
         {
             "reportName": "前列腺特异性抗原",
@@ -255,11 +255,11 @@
         },
         {
             "reportName": "甲胎蛋白(AFP)(定性)",
-            "scientificName": "AFP-R"
+            "scientificName": "AFP_R"
         },
         {
             "reportName": "癌胚抗原(CEA)(定性)",
-            "scientificName": "CEA-R"
+            "scientificName": "CEA_R"
         },
         {
             "reportName": "糖链抗原15-3",
@@ -283,7 +283,7 @@
         },
         {
             "reportName": "PG-I/PG-Ⅱ",
-            "scientificName": "PGI/PGII"
+            "scientificName": "PGIdevPGII"
         },
         {
             "reportName": "胃蛋白酶原II(PG-II)",
@@ -311,11 +311,11 @@
         },
         {
             "reportName": "血清人绒毛膜促性腺激素(β-HCG）",
-            "scientificName": "β-HCG"
+            "scientificName": "b_HCG"
         },
         {
             "reportName": "人绒毛膜促性腺激素(β-HCG)",
-            "scientificName": "β-HCG"
+            "scientificName": "b_HCG"
         },
         {
             "reportName": "降钙素(CT)",
@@ -371,7 +371,7 @@
         },
         {
             "reportName": "EB病毒抗体IgM",
-            "scientificName": "EB-IgM"
+            "scientificName": "EB_IgM"
         },
         {
             "reportName": "糖类抗原CA50)",
