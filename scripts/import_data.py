@@ -15,11 +15,11 @@ DIVISION = 50
 
 items = [
 	# {"folder": 'blood', "sql": "insert into report_blood"}
-	# {"folder": 'chemical', "sql": "insert into report_chemical"}
-	# {"folder": 'general', "sql": "insert into report_general"}
-	# {"folder": 'heart', "sql": "insert into report_heart"}
-	# {"folder": 'thyroid', "sql": "insert into report_thyroid"}
-	{"folder": 'tumour', "sql": "insert into report_tumour"}
+	# {"folder": 'chemical', "sql": "insert into report_chemical"},
+	{"folder": 'general', "sql": "insert into report_general"},
+	{"folder": 'heart', "sql": "insert into report_heart"},
+	{"folder": 'thyroid', "sql": "insert into report_thyroid"},
+	{"folder": 'tumour', "sql": "insert into report_tumour"},
 ]
 
 connection = pymysql.connect(host='localhost', user='root', password='charlotte2', db='health', charset='gbk', cursorclass=pymysql.cursors.DictCursor)
@@ -309,8 +309,9 @@ def importReport(item, sql_insert_head):
 
 
 # ````````````````````````````````````````````````````````````````
-# 导入范围数据，未完成
+# 导入范围数据至list_static，未完成
 
+# 将一个数据项里的所有reportName转换为scientificName并返回
 def getIndexedKeys(data_item, item):
 	results = {}
 	try:
@@ -319,7 +320,7 @@ def getIndexedKeys(data_item, item):
 				if key != "reportId" and key != "clientId":
 
 					try:
-						count = cursor.execute("select scientificName from list_index where reportName=\"" + key + "\" and genre=\"" + item + "\"")
+						count = cursor.execute("select scientificName from list_index where reportName=\"" + key + "\" and genre=\"" + item + "\"") # 限制genre很重要，不然reportName会重名
 						try:
 							result = cursor.fetchall()
 							results[result[0]["scientificName"]] = key
@@ -336,14 +337,9 @@ def getIndexedKeys(data_item, item):
 
 	return results
 
-def importStatic(item):
-
-	sql_select = "select distinct scientificName from list_index where genre=\""
-	sql_insert = "insert into list_static (`scientificName`, `minValue`, `maxValue`, `genre`) values (%s, %s, %s, %s)"
+# 获取该分类下所有的index类别
+def getAllIndex(sql_select, item):
 	indexs = []
-	data_static = {}
-
-	# 获取该分类下所有的index类别
 	try:
 		with connection.cursor() as cursor:
 			try:
@@ -357,34 +353,112 @@ def importStatic(item):
 				cursor.close()
 
 	finally:
-		print(indexs)
+		# print(indexs)
 		pass
 
-	data_import = json.loads(readData(datapath + datamid_report + datahead_report + item + '_total.json'))
+	return indexs
 
+# 在全部数据项中寻找每个index第一次出现的数据位置并保存
+def getStaticPos(indexs, data_import, item):
 	pos = 0
+	data_static = {}
 	for i in range(len(indexs)):
 		j = pos
 		find = 0
 		while j < len(data_import):
-			if (j + 1) % 1000 == 0:
-				print(indexs[i], j+1 , "nd.")
+			# if (j + 1) % 1000 == 0:
+			# 	print(indexs[i], j+1 , "nd.")
 			keys = getIndexedKeys(data_import[j], item)
 
+			# 如果和需要寻找的Index匹配
 			if indexs[i] in keys:
-				pos = j
+				pos = j # 简单的剪枝，在这里找到的话就不再查找前面出现过的数据
 				find = 1
-				print(indexs[i], keys[indexs[i]])
+				# print(indexs[i], keys[indexs[i]])
 				data_static[indexs[i]] = [j, keys[indexs[i]]]
 				break
 			j = j + 1
+		# 普通应该不会出现没找到的情况
 		if find == 0:
 			data_static[indexs[i]] = [-1, "Not Found"]
 
-		print(data_static)
+	return data_static
+
+
+# 导入Static表的入口
+def importStatic(item):
+
+	sql_select = "select distinct scientificName from list_index where genre=\""
+	sql_insert = "insert into list_static (`scientificName`, `minValue`, `maxValue`, `genre`, `property`) values (%s, %s, %s, %s, %s)"
+
+	indexs = getAllIndex(sql_select, item)
+	data_import = json.loads(readData(datapath + datamid_report + datahead_report + item + '_total.json'))
+	
+	data_statics = getStaticPos(indexs, data_import, item)
+
+	# 处理value并导入数据
+	for k, v in data_statics.items():
+		pos = v[0]
+		name = v[1]
+		value = data_import[pos][name][1] # 需要处理的范围值
+		# print(pos, name, value)
+
+		propt = None
+		if value == "" or value == " ":
+			success = 1
+			minValue = 0
+			maxValue = 0
+		elif value[0:1] == '≤' or value[0:1] == '<':
+			success = 1
+			minValue = 0
+			maxValue = value[1:len(value)]
+		else:
+			success = 0
+			try:
+				ch1 = '-'
+				ch2 = '~'
+				p = value.index(ch1)
+			except ValueError:
+				try:
+					p = value.index(ch2)
+				except ValueError:
+					# 中文
+					success = 1
+					minValue = 0
+					maxValue = 0
+					propt = value
+				finally:
+					if not success:
+						success = 1
+						minValue = value[0:p]
+						maxValue = value[p+1:len(value)]
+			finally:
+				if not success:
+					success = 1
+					minValue = value[0:p]
+					maxValue = value[p+1:len(value)]
+
+		if success:
+			print(k, value)
+			data_static = (k, minValue, maxValue, item, propt)
+
+			try:
+				with connection.cursor() as cursor:
+					try:
+						cursor.execute(sql_insert, data_static)
+					except pymysql.err.IntegrityError:
+						continue
+					except pymysql.err.InternalError:
+						print('Value Error:', value, data_static)
+					finally:
+						pass
+			finally:
+				print("Insert:", k, data_static)
+				pass
+
+	connection.commit()
 
 # ````````````````````````````````````````````````````````````````
-
 
 # 函数在此得到执行
 # getKeys()

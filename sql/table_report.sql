@@ -139,9 +139,9 @@ ALTER TABLE `general` ADD COLUMN clientId varchar(32)
 create table `heart` (reportId varchar(32)) ENGINE=InnoDB;
 ALTER TABLE `heart` ADD PRIMARY KEY (reportId);
 ALTER TABLE `heart` ADD COLUMN RHR decimal(8, 4);
-ALTER TABLE `heart` ADD COLUMN QRS_WC decimal(8, 4);
-ALTER TABLE `heart` ADD COLUMN P_RI decimal(8, 4);
-ALTER TABLE `heart` ADD COLUMN Q_TI decimal(8, 4);
+ALTER TABLE `heart` ADD COLUMN QRS_WC varchar(10);
+ALTER TABLE `heart` ADD COLUMN P_RI varchar(10);
+ALTER TABLE `heart` ADD COLUMN Q_TI varchar(10);
 ALTER TABLE `heart` ADD COLUMN QTc decimal(8, 4);
 ALTER TABLE `heart` ADD COLUMN CEA decimal(8, 4);
 ALTER TABLE `heart` ADD COLUMN ECG varchar(10);
@@ -213,6 +213,11 @@ TRUNCATE report_heart;
 TRUNCATE report_thyroid;
 TRUNCATE report_tumour;
 
-alter table report_thyroid modify column THY_Detail varchar(400);
+alter table report_blood modify column PCT decimal(12, 6);
 
 alter table report_blood character set utf8;
+alter table report_chemical modify column ALB varchar(15) character set utf8mb4 collate utf8mb4_unicode_ci;
+
+select distinct scientificName, genre, minValue, maxValue, property from list_static, list_index
+where list_static.scientificName = list_index.scientificName group by scientificName;
+
