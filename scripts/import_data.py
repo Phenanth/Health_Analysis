@@ -1,6 +1,12 @@
 import json
 import pymysql
 
+"""
+将各个json文件的数据导入数据库的工具合集
+
+导入的算法还有优化的余地，但是在发现正确导入记录的优化判断条件之前，这个工具的使用应该已经告一段落了。
+"""
+
 datapath = '../data/'
 dataname_list = 'data_list_total.json'
 datahead_report = 'data_report_'
@@ -10,19 +16,27 @@ dataname_abnormal = 'data_abnormal.json'
 dataname_template = 'data_template.json'
 
 limit = 120
+# 中断点。由于导入效率很低设置这个方便从中途调试完的部分接着继续开始
 BREAKPOINT = -1
 DIVISION = 50
 
 items = [
-	# {"folder": 'blood', "sql": "insert into report_blood"}
-	# {"folder": 'chemical', "sql": "insert into report_chemical"},
-	{"folder": 'general', "sql": "insert into report_general"},
-	{"folder": 'heart', "sql": "insert into report_heart"},
-	{"folder": 'thyroid', "sql": "insert into report_thyroid"},
-	{"folder": 'tumour', "sql": "insert into report_tumour"},
+			# {"folder": 'blood', "sql1": "insert into report_blood"}
+			{"folder": 'chemical', "sql1": "insert into report_chemical"},
+			{"folder": 'general', "sql1": "insert into report_general"},
+			{"folder": 'heart', "sql1": "insert into report_heart"},
+			{"folder": 'thyroid', "sql1": "insert into report_thyroid"}
+			# {"folder": 'tumour', "sql1": "insert into report_tumour"},
 ]
 
-connection = pymysql.connect(host='localhost', user='root', password='charlotte2', db='health', charset='gbk', cursorclass=pymysql.cursors.DictCursor)
+connection = pymysql.connect(
+								host='localhost', 
+								user='root',
+								password='charlotte2', 
+								db='health', 
+								charset='gbk', 
+								cursorclass=pymysql.cursors.DictCursor
+							)
 
 # ````````````````````````````````````````````````````````````````
 
@@ -292,9 +306,11 @@ def importReport(item, sql_insert_head):
 							try:
 								cursor.execute(sql_insert, data_items[k])
 							except pymysql.err.InternalError:
-								print('Data error:', data_item[k])
+								# print('Data error:', data_item[k])
+								pass
 							except IndexError:
-								print('IndexError:', data_item[k])
+								# print('IndexError:', data_item[k])
+								pass
 					connection.commit()
 				except pymysql.err.IntegrityError:
 					pass
@@ -309,7 +325,7 @@ def importReport(item, sql_insert_head):
 
 
 # ````````````````````````````````````````````````````````````````
-# 导入范围数据至list_static，未完成
+# 导入范围数据至list_static，完成
 
 # 将一个数据项里的所有reportName转换为scientificName并返回
 def getIndexedKeys(data_item, item):
@@ -468,7 +484,9 @@ def importStatic(item):
 
 
 for i in range(len(items)):
-	#importReport(items[i]["folder"], items[i]["sql1"])
-	importStatic(items[i]["folder"])
+	# 导入report_[genre]表
+	importReport(items[i]["folder"], items[i]["sql1"])
+	# 导入list_static表
+	# importStatic(items[i]["folder"])
 
 connection.close()

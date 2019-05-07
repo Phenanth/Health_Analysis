@@ -90,6 +90,22 @@ CREATE TABLE `list_member` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Table structure for table `list_static`
+--
+
+DROP TABLE IF EXISTS `list_static`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `list_static` (
+  `scientificName` varchar(13) NOT NULL,
+  `minValue` decimal(12,6) NOT NULL,
+  `maxValue` decimal(12,6) NOT NULL,
+  `genre` varchar(10) NOT NULL,
+  `property` varchar(10) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
 -- Table structure for table `report_blood`
 --
 
@@ -130,6 +146,7 @@ CREATE TABLE `report_blood` (
   `Hb_F` decimal(8,4) DEFAULT NULL,
   `RDW` decimal(8,4) DEFAULT NULL,
   `clientId` varchar(32) CHARACTER SET latin1 DEFAULT NULL,
+  `numAbnormal` decimal(2,0) DEFAULT NULL,
   PRIMARY KEY (`reportId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -215,6 +232,7 @@ CREATE TABLE `report_chemical` (
   `CEA_Che` decimal(8,4) DEFAULT NULL,
   `IAA` varchar(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `clientId` varchar(32) CHARACTER SET latin1 DEFAULT NULL,
+  `numAbnormal` decimal(2,0) DEFAULT NULL,
   PRIMARY KEY (`reportId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -253,6 +271,7 @@ CREATE TABLE `report_general` (
   `NTF` varchar(10) CHARACTER SET latin1 DEFAULT NULL,
   `WST_F` decimal(8,4) DEFAULT NULL,
   `clientId` varchar(32) CHARACTER SET latin1 DEFAULT NULL,
+  `numAbnormal` decimal(2,0) DEFAULT NULL,
   PRIMARY KEY (`reportId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -288,6 +307,7 @@ CREATE TABLE `report_heart` (
   `ETC` varchar(10) CHARACTER SET latin1 DEFAULT NULL,
   `A_V` varchar(10) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `clientId` varchar(32) CHARACTER SET latin1 DEFAULT NULL,
+  `numAbnormal` decimal(2,0) DEFAULT NULL,
   PRIMARY KEY (`reportId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -303,6 +323,7 @@ CREATE TABLE `report_thyroid` (
   `reportId` varchar(32) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
   `THY_Detail` varchar(500) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `clientId` varchar(32) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `numAbnormal` decimal(2,0) DEFAULT NULL,
   PRIMARY KEY (`reportId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -352,6 +373,7 @@ CREATE TABLE `report_tumour` (
   `HE4` decimal(8,4) DEFAULT NULL,
   `EB_IgM` varchar(10) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `clientId` varchar(32) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `numAbnormal` decimal(2,0) DEFAULT NULL,
   PRIMARY KEY (`reportId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -365,4 +387,4 @@ CREATE TABLE `report_tumour` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-05-05 21:31:17
+-- Dump completed on 2019-05-07 20:23:18
