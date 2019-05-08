@@ -3,12 +3,21 @@ import pymysql
 
 connection = pymysql.connect(host='localhost', user='root', password='charlotte2', db='health', charset='gbk', cursorclass=pymysql.cursors.DictCursor)
 
-item = 'general'
+items = [
+			'blood',
+			'chemical',
+			'general',
+			'heart',
+			'thyroid',
+			'tumour'
+		]
 
 """
 统计计算report_[genre]表内数据的总异常项
 
 """
+
+# ````````````````````````````````````````````````````````
 
 
 # 通用，根据SQL语句获取一个表中特定条件的数据
@@ -42,8 +51,11 @@ def getStaticData(item, indexs):
 		
 		temp_static = getDataFromDb(item, sql_select_static)
 
-		obj = {'minValue': temp_static[0]['minValue'], 'maxValue': temp_static[0]['maxValue'], 'property': temp_static[0]['property']}
-		results[temp_static[0]['scientificName']] = obj
+		try:
+			obj = {'minValue': temp_static[0]['minValue'], 'maxValue': temp_static[0]['maxValue'], 'property': temp_static[0]['property']}
+			results[temp_static[0]['scientificName']] = obj
+		except IndexError:
+			print(indexs[i]["scientificName"], temp_static, sql_select_static)
 
 	return results
 
@@ -91,8 +103,6 @@ def formatting(value):
 			result = head + tail
 
 	return result
-
-
 
 # 判断数值是否正常
 def isNormal(value, minValue, maxValue, propt):
@@ -142,58 +152,66 @@ def isNormal(value, minValue, maxValue, propt):
 
 	return normal, success, needPrint
 
+# ````````````````````````````````````````````````````````
 
-sql_select_report = 'select * from report_' + item
-sql_select_index = 'select scientificName from list_index where genre=\"' + item + '\"'
+# 总入口
+def processCalculation(item):
 
-
-# 取出本表内所有列名
-indexs = getDataFromDb(item, sql_select_index)
-
-# 取出所有列标准范围
-data_static = getStaticData(item, indexs)
-
-# 取出数据表内所有行
-data_report = getDataFromDb(item, sql_select_report)
-
-count = 0
-
-print('Processing:', item)
+	sql_select_report = 'select * from report_' + item
+	sql_select_index = 'select scientificName from list_index where genre=\"' + item + '\"'
 
 
-# 对于每条报告记录，
-for report in data_report:
+	# 取出本表内所有列名
+	indexs = getDataFromDb(item, sql_select_index)
 
-	# 处理条数加一
-	count = count + 1
+	# 取出所有列标准范围
+	data_static = getStaticData(item, indexs)
 
-	nAbnormal = 0
-	reportId = report['reportId']
+	# 取出数据表内所有行
+	data_report = getDataFromDb(item, sql_select_report)
 
-	# 统计每列数值的异常总数
-	for key, value in data_static.items():
-		if key is not 'reportId' and key is not 'clientId':
-			normal, success, needPrint = isNormal(report[key], value['minValue'], value['maxValue'], value['property'])
 
-			if not success and needPrint:
-				print('Not success:', key, reportId, report[key], len(report[key]))
-				# pass
+	count = 0
 
-			if not normal and success:
-				# print('Abnormal:', report[key], value['minValue'], value['maxValue'], value['property'])
-				nAbnormal = nAbnormal + 1
+	print('Processing:', item)
 
-	sql_update_abnormal = 'update report_' + item + ' set numAbnormal = \"' + str(nAbnormal) + '\" where reportId = \"' + reportId + '\"' 
+	# 对于每条报告记录，
+	for report in data_report:
 
-	with connection.cursor() as cursor:
-		try:
-			pass
-			cursor.execute(sql_update_abnormal)
-		finally:
-			pass
+		# 处理条数加一
+		count = count + 1
 
-	if count % 500 == 0 and count != 0:
-		connection.commit()
-		print('Finished:', count, nAbnormal, reportId)
+		nAbnormal = 0
+		reportId = report['reportId']
+
+		# 统计每列数值的异常总数
+		for key, value in data_static.items():
+			if key is not 'reportId' and key is not 'clientId':
+				normal, success, needPrint = isNormal(report[key], value['minValue'], value['maxValue'], value['property'])
+
+				if not success and needPrint:
+					print('Not success:', key, reportId, report[key], len(report[key]))
+					# pass
+
+				if not normal and success:
+					# print('Abnormal:', report[key], value['minValue'], value['maxValue'], value['property'])
+					nAbnormal = nAbnormal + 1
+
+		sql_update_abnormal = 'update report_' + item + ' set numAbnormal = \"' + str(nAbnormal) + '\" where reportId = \"' + reportId + '\"' 
+
+		with connection.cursor() as cursor:
+			try:
+				pass
+				cursor.execute(sql_update_abnormal)
+			finally:
+				pass
+
+		if count % 500 == 0 and count != 0:
+			connection.commit()
+			print('Finished:', count, nAbnormal, reportId)
+
+
+for item in items:
+	processCalculation(item)
 
 connection.close()

@@ -221,3 +221,5 @@ alter table report_chemical modify column ALB varchar(15) character set utf8mb4 
 select distinct scientificName, genre, minValue, maxValue, property from list_static, list_index
 where list_static.scientificName = list_index.scientificName group by scientificName;
 
+alter table report_thyroid add column numAbnormal decimal(2);
+
