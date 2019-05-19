@@ -6,7 +6,4 @@ CREATE TABLE `list_static` (
   `genre` varchar(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-update list_static set maxValue = 23.99 where scientificName="BMI";
 
-
-update report_thyroid set numAbnormal = 0;

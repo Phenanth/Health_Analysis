@@ -108,7 +108,7 @@ mysql> select numAbnormal, count(numAbnormal) from report_chemical group by numA
 |          12 |                 16 |
 |          13 |                  2 |
 |          14 |                  1 |
-|          16 |                  1 | <- 这一条的测试数据应该是不准确的
+|          16 |                  1 | <- 这一条的测试数据应该是不准确的，汇总的时候会算入异常情况，直接丢掉
 +-------------+--------------------+
 16 rows in set (0.05 sec)
 
@@ -131,9 +131,9 @@ mysql> select numAbnormal, count(numAbnormal) from report_heart group by numAbno
 +-------------+--------------------+
 | numAbnormal | count(numAbnormal) |
 +-------------+--------------------+
-|           0 |              31129 |
-|           1 |              18418 |
-|           2 |               2769 |
+|           0 |              43313 |
+|           1 |               8981 |
+|           2 |                 22 |
 |           4 |                118 |
 |           5 |                483 |
 |           6 |                 29 |

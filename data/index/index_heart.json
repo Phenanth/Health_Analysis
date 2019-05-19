@@ -5,7 +5,7 @@
         "P_RI",
         "Q_TI",
         "QTc",
-        "CEA",
+        "CEA_Hrt",
         "ECG",
         "BBB",
         "SR",
@@ -45,7 +45,7 @@
         },
         {
             "reportName": "电轴",
-            "scientificName": "CEA"
+            "scientificName": "CEA_Hrt"
         },
         {
             "reportName": "心电图",
